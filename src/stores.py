@@ -60,8 +60,7 @@ class StoreSchedulingProblem:
         storeShiftsDict = self.getStoreShifts(schedule)
 
         # count the various violations:
-        # consecutiveShiftViolations = self.countConsecutiveShiftViolations(
-        #     storeShiftsDict)
+        consecutiveShiftViolations = self.countConsecutiveShiftViolations(storeShiftsDict)
         # shiftsPerWeekViolations = self.countShiftsPerWeekViolations(
         #     storeShiftsDict)[1]
         # storesPerShiftViolations = self.countStoresPerShiftViolations(
@@ -70,7 +69,7 @@ class StoreSchedulingProblem:
          #   storeShiftsDict)
         shiftDistanceViolations = self.countDistanceViolations(storeShiftsDict)
         # calculate the cost of the violations:
-        hardContstraintViolations = shiftDistanceViolations
+        hardContstraintViolations = shiftDistanceViolations + consecutiveShiftViolations
        # softContstraintViolations = shiftPreferenceViolations
 
         #return self.hardConstraintPenalty * hardContstraintViolations + softContstraintViolations
@@ -120,7 +119,7 @@ class StoreSchedulingProblem:
         for storeShifts in storeShiftsDict.values():
             # look for two cosecutive '1's:
             for shift1, shift2 in zip(storeShifts, storeShifts[1:]):
-                if shift1 == 1 and shift2 == 1:
+                if shift1 == 0 and shift2 == 0:
                     violations += 1
         return violations
 
@@ -203,12 +202,9 @@ class StoreSchedulingProblem:
               
               ))
         print()
-
-        #shiftPreferenceViolations = self.countShiftPreferenceViolations(
-        #    storeShiftsDict)
-        #print("Shift Preference Violations = ", shiftPreferenceViolations)
-        #print()
-
+        
+        print("Consecutive shift violations = ", self.countConsecutiveShiftViolations(storeShiftsDict))
+        print()
 
 
 # testing the class:
