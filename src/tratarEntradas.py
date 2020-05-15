@@ -6,10 +6,10 @@ R = 6373.0
 
 class Entrada(object):
     def __init__(self):
+        self.storeName = {}
         self.storeList()
-        points = self.extractPoints()
-        self.grafo = self.makeGraph(points)
-        print("Stores :", len(points))
+        self.points = self.extractPoints()
+        self.grafo = self.makeGraph(self.points)
 
     def extractPoints(self):
         points = {}
@@ -27,7 +27,8 @@ class Entrada(object):
             data = json.load(json_file)
             for places in data['results']:
                 stores.append(places['place_id'])
-        print(len(stores))
+                self.storeName[places['place_id']] = places['name']
+
         with open("stores.json", "w") as stores_file:
             data = json.dump(stores, stores_file)
 
