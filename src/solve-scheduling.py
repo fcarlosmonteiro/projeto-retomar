@@ -18,7 +18,7 @@ HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violati
 POPULATION_SIZE = 100
 P_CROSSOVER = 0.9  # probability for crossover
 P_MUTATION = 0.1   # probability for mutating an individual
-MAX_GENERATIONS = 50
+MAX_GENERATIONS = 200
 HALL_OF_FAME_SIZE = 30
 
 # set the random seed:
