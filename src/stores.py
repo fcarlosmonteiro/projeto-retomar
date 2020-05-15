@@ -2,7 +2,7 @@ import numpy as np
 import math
 import json
 from tratarEntradas import Entrada
-
+from export import Export
 
 class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
@@ -196,6 +196,8 @@ class StoreSchedulingProblem:
         print("Schedule for each store:")
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
+
+        Export(storeShiftsDict, self.entrada)        
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict
