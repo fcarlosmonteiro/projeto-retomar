@@ -16,7 +16,7 @@ def scheduleFormatterDictToJson(storeShiftsDict, shiftsAmount, daysAmount):
             }
             storesSchedule.append(storeSchedule)
 
-    if(daysAmount == 6:
+    if(daysAmount == 6):
         for store in storeShiftsDict:
             storeSchedule = {
                 'store': store,
