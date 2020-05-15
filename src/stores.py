@@ -197,7 +197,7 @@ class StoreSchedulingProblem:
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
 
-        Export(storeShiftsDict, self.entrada)        
+        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek)        
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict
