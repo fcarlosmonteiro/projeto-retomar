@@ -1,10 +1,12 @@
 import numpy as np
 import math
+import json
+from tratarEntradas import Entrada
+
 
 class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
     """
-
     def __init__(self, hardConstraintPenalty):
         """
         :param hardConstraintPenalty: the penalty factor for a hard-constraint violation
@@ -12,32 +14,35 @@ class StoreSchedulingProblem:
         self.hardConstraintPenalty = hardConstraintPenalty
 
         # list of stores:
-        self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+        self.entrada = Entrada()
+        with open('stores.json', 'r') as json_file:
+            self.stores = json.load(json_file)
+        # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
         # stores' respective shift preferences - morning, evening, night:
-        self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1], [0, 1], [1, 1]]
+        #self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1],
+        #                        [0, 1], [1, 1]]
 
         # min and max number of stores allowed for each shift - morning, evening, night:
         store_total = len(self.stores)
-        self.shiftMin = [math.ceil(70*store_total/100), math.ceil(70*store_total/100)]
-        self.shiftMax = [store_total,store_total]
+        self.shiftMin = [50,50]
+        self.shiftMax = [store_total, store_total]
 
         # max shifts per week allowed for each stores
-        self.maxShiftsPerWeek = 5
+        self.maxShiftsPerWeek = 10
 
         # number of weeks we create a schedule for:
         self.weeks = 1
 
         # useful values:
         self.shiftPerDay = len(self.shiftMin)
-        self.shiftsPerWeek = 7 * self.shiftPerDay
+        self.shiftsPerWeek = 5 * self.shiftPerDay
 
     def __len__(self):
         """
         :return: the number of shifts in the schedule
         """
         return len(self.stores) * self.shiftsPerWeek * self.weeks
-
 
     def getCost(self, schedule):
         """
@@ -48,22 +53,27 @@ class StoreSchedulingProblem:
         """
 
         if len(schedule) != self.__len__():
-            raise ValueError("size of schedule list should be equal to ", self.__len__())
+            raise ValueError("size of schedule list should be equal to ",
+                             self.__len__())
 
         # convert entire schedule into a dictionary with a separate schedule for each store:
         storeShiftsDict = self.getStoreShifts(schedule)
 
         # count the various violations:
         consecutiveShiftViolations = self.countConsecutiveShiftViolations(storeShiftsDict)
-        shiftsPerWeekViolations = self.countShiftsPerWeekViolations(storeShiftsDict)[1]
-        storesPerShiftViolations = self.countStoresPerShiftViolations(storeShiftsDict)[1]
-        shiftPreferenceViolations = self.countShiftPreferenceViolations(storeShiftsDict)
-
+        # shiftsPerWeekViolations = self.countShiftsPerWeekViolations(
+        #     storeShiftsDict)[1]
+        # storesPerShiftViolations = self.countStoresPerShiftViolations(
+        #     storeShiftsDict)[1]
+        #shiftPreferenceViolations = self.countShiftPreferenceViolations(
+         #   storeShiftsDict)
+        shiftDistanceViolations = self.countDistanceViolations(storeShiftsDict)
         # calculate the cost of the violations:
-        hardContstraintViolations = consecutiveShiftViolations + storesPerShiftViolations + shiftsPerWeekViolations
-        softContstraintViolations = shiftPreferenceViolations
+        hardContstraintViolations = shiftDistanceViolations + consecutiveShiftViolations
+       # softContstraintViolations = shiftPreferenceViolations
 
-        return self.hardConstraintPenalty * hardContstraintViolations + softContstraintViolations
+        #return self.hardConstraintPenalty * hardContstraintViolations + softContstraintViolations
+        return self.hardConstraintPenalty * hardContstraintViolations
 
     def getStoreShifts(self, schedule):
         """
@@ -76,12 +86,28 @@ class StoreSchedulingProblem:
         shiftIndex = 0
 
         for store in self.stores:
-            storeShiftsDict[store] = schedule[shiftIndex:shiftIndex + shiftsPerStore]
+            storeShiftsDict[store] = schedule[shiftIndex:shiftIndex +
+                                              shiftsPerStore]
             shiftIndex += shiftsPerStore
 
         return storeShiftsDict
 
-    
+    def countDistanceViolations(self, storeShiftsDict):
+        violations = 0
+        for i in range(0, 9):
+            for storeShifts in storeShiftsDict:
+                if storeShiftsDict[storeShifts][i]:
+                    violations += self.checkNeighboorhod(
+                        i, storeShiftsDict, storeShifts)
+        return violations
+
+    def checkNeighboorhod(self, index, storeShiftsDict, storeShifts):
+        violationCount = 0
+        for i in self.entrada.grafo[storeShifts]:
+            if storeShiftsDict[i[0]] and i[1] < 0.01:
+                violationCount += 1
+        return violationCount
+
     def countConsecutiveShiftViolations(self, storeShiftsDict):
         """
         Counts the consecutive shift violations in the schedule
@@ -93,7 +119,7 @@ class StoreSchedulingProblem:
         for storeShifts in storeShiftsDict.values():
             # look for two cosecutive '1's:
             for shift1, shift2 in zip(storeShifts, storeShifts[1:]):
-                if shift1 == 1 and shift2 == 1:
+                if shift1 == 0 and shift2 == 0:
                     violations += 1
         return violations
 
@@ -106,9 +132,11 @@ class StoreSchedulingProblem:
         violations = 0
         weeklyShiftsList = []
         # iterate over the shifts of each store:
-        for storeShifts in storeShiftsDict.values():  # all shifts of a single store
+        for storeShifts in storeShiftsDict.values(
+        ):  # all shifts of a single store
             # iterate over the shifts of each weeks:
-            for i in range(0, self.weeks * self.shiftsPerWeek, self.shiftsPerWeek):
+            for i in range(0, self.weeks * self.shiftsPerWeek,
+                           self.shiftsPerWeek):
                 # count all the '1's over the week:
                 weeklyShifts = sum(storeShifts[i:i + self.shiftsPerWeek])
                 weeklyShiftsList.append(weeklyShifts)
@@ -124,7 +152,9 @@ class StoreSchedulingProblem:
         :return: count of violations found
         """
         # sum the shifts over all store:
-        totalPerShiftList = [sum(shift) for shift in zip(*storeShiftsDict.values())]
+        totalPerShiftList = [
+            sum(shift) for shift in zip(*storeShiftsDict.values())
+        ]
 
         violations = 0
         # iterate over all shifts and count violations:
@@ -146,7 +176,8 @@ class StoreSchedulingProblem:
         violations = 0
         for storeIndex, shiftPreference in enumerate(self.shiftPreference):
             # duplicate the shift-preference over the days of the period
-            preference = shiftPreference * (self.shiftsPerWeek // self.shiftPerDay)
+            preference = shiftPreference * (self.shiftsPerWeek //
+                                            self.shiftPerDay)
             # iterate over the shifts and compare to preferences:
             shifts = storeShiftsDict[self.stores[storeIndex]]
             for pref, shift in zip(preference, shifts):
@@ -166,21 +197,13 @@ class StoreSchedulingProblem:
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
 
-        print("consecutive shift violations = ", self.countConsecutiveShiftViolations(storeShiftsDict))
+        print("Shifts Distance Violations = ",
+              self.countDistanceViolations(storeShiftsDict
+              
+              ))
         print()
-
-        weeklyShiftsList, violations = self.countShiftsPerWeekViolations(storeShiftsDict)
-        print("weekly Shifts = ", weeklyShiftsList)
-        print("Shifts Per Week Violations = ", violations)
-        print()
-
-        totalPerShiftList, violations = self.countStoresPerShiftViolations(storeShiftsDict)
-        print("Stores Per Shift = ", totalPerShiftList)
-        print("Stores Per Shift Violations = ", violations)
-        print()
-
-        shiftPreferenceViolations = self.countShiftPreferenceViolations(storeShiftsDict)
-        print("Shift Preference Violations = ", shiftPreferenceViolations)
+        
+        print("Consecutive shift violations = ", self.countConsecutiveShiftViolations(storeShiftsDict))
         print()
 
 
@@ -201,4 +224,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
