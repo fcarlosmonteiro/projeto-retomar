@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import elitism
-import nurses
+import stores
 
 # problem constants:
 HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violation
@@ -27,8 +27,8 @@ random.seed(RANDOM_SEED)
 
 toolbox = base.Toolbox()
 
-# create the nurse scheduling problem instance to be used:
-nsp = nurses.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY)
+# create the store scheduling problem instance to be used:
+nsp = stores.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY)
 
 # define a single objective, maximizing fitness strategy:
 creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
