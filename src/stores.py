@@ -1,8 +1,8 @@
 import numpy as np
 import math
 import json
-from tratarEntradas import Entrada
-
+from utils.entradas import Entrada
+from utils.export import Export
 
 class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
@@ -15,7 +15,7 @@ class StoreSchedulingProblem:
 
         # list of stores:
         self.entrada = Entrada()
-        with open('stores.json', 'r', encoding='utf-8') as json_file:
+        with open('utils/stores.json', 'r', encoding='utf-8') as json_file:
             self.stores = json.load(json_file)
         # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
@@ -196,6 +196,8 @@ class StoreSchedulingProblem:
         print("Schedule for each store:")
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
+
+        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek)        
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict
