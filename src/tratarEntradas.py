@@ -13,7 +13,7 @@ class Entrada(object):
 
     def extractPoints(self):
         points = {}
-        with open('nearby.json', 'r') as json_file:
+        with open('nearby.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             for places in data['results']:
                 location = places['geometry']['location']
@@ -23,7 +23,7 @@ class Entrada(object):
 
     def storeList(self):
         stores = []
-        with open('nearby.json', 'r') as json_file:
+        with open('nearby.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             for places in data['results']:
                 stores.append(places['place_id'])
