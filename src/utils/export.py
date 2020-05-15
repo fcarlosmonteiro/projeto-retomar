@@ -5,7 +5,7 @@ class Export(object):
     def __init__(self, storeShiftsDict, entrada, turnos):
         for i in range(0, turnos):
             strCSV = ""
-            with open(str(i) + '.csv', 'w', newline='') as csvfile:
+            with open("csv/"+str(i) + '.csv', 'w', newline='') as csvfile:
                 spamwriter = csv.writer(csvfile,
                                         delimiter=',',
                                         quotechar='|',
