@@ -1,7 +1,7 @@
 import numpy as np
-import math
 
-class StoreSchedulingProblem:
+
+class NurseSchedulingProblem:
     """This class encapsulates the Nurse Scheduling problem
     """
 
@@ -11,18 +11,17 @@ class StoreSchedulingProblem:
         """
         self.hardConstraintPenalty = hardConstraintPenalty
 
-        # list of stores:
-        self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+        # list of nurses:
+        self.nurses = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
-        # stores' respective shift preferences - morning, evening, night:
+        # nurses' respective shift preferences - morning, evening, night:
         self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1], [0, 1], [1, 1]]
 
-        # min and max number of stores allowed for each shift - morning, evening, night:
-        store_total = len(self.stores)
-        self.shiftMin = [math.ceil(70*store_total/100), math.ceil(70*store_total/100)]
-        self.shiftMax = [store_total,store_total]
+        # min and max number of nurses allowed for each shift - morning, evening, night:
+        self.shiftMin = [2, 2]
+        self.shiftMax = [3, 4]
 
-        # max shifts per week allowed for each stores
+        # max shifts per week allowed for each nurse
         self.maxShiftsPerWeek = 5
 
         # number of weeks we create a schedule for:
@@ -36,7 +35,7 @@ class StoreSchedulingProblem:
         """
         :return: the number of shifts in the schedule
         """
-        return len(self.stores) * self.shiftsPerWeek * self.weeks
+        return len(self.nurses) * self.shiftsPerWeek * self.weeks
 
 
     def getCost(self, schedule):
@@ -71,17 +70,16 @@ class StoreSchedulingProblem:
         :param schedule: a list of binary values describing the given schedule
         :return: a dictionary with each nurse as a key and the corresponding shifts as the value
         """
-        shiftsPerNurse = self.__len__() // len(self.stores)
+        shiftsPerNurse = self.__len__() // len(self.nurses)
         nurseShiftsDict = {}
         shiftIndex = 0
 
-        for nurse in self.stores:
+        for nurse in self.nurses:
             nurseShiftsDict[nurse] = schedule[shiftIndex:shiftIndex + shiftsPerNurse]
             shiftIndex += shiftsPerNurse
 
         return nurseShiftsDict
 
-    
     def countConsecutiveShiftViolations(self, nurseShiftsDict):
         """
         Counts the consecutive shift violations in the schedule
@@ -148,7 +146,7 @@ class StoreSchedulingProblem:
             # duplicate the shift-preference over the days of the period
             preference = shiftPreference * (self.shiftsPerWeek // self.shiftPerDay)
             # iterate over the shifts and compare to preferences:
-            shifts = nurseShiftsDict[self.stores[nurseIndex]]
+            shifts = nurseShiftsDict[self.nurses[nurseIndex]]
             for pref, shift in zip(preference, shifts):
                 if pref == 0 and shift == 1:
                     violations += 1
@@ -187,7 +185,7 @@ class StoreSchedulingProblem:
 # testing the class:
 def main():
     # create a problem instance:
-    nurses = StoreSchedulingProblem(10)
+    nurses = NurseSchedulingProblem(10)
 
     randomSolution = np.random.randint(2, size=len(nurses))
     print("Random Solution = ")
@@ -201,4 +199,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
