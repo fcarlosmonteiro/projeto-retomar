@@ -81,6 +81,12 @@ class StoreSchedulingProblem:
 
         return storeShiftsDict
 
+    def countDistanceViolations(self, storeShiftsDict):
+        for i in range(0,13):
+            for storeShifts in storeShiftsDict.values():
+                if storeShifts[i]:
+                    violations = violations + checkNeighboorhod(i, storeShiftsDict)
+        return violations
     
     def countConsecutiveShiftViolations(self, storeShiftsDict):
         """
@@ -182,6 +188,8 @@ class StoreSchedulingProblem:
         shiftPreferenceViolations = self.countShiftPreferenceViolations(storeShiftsDict)
         print("Shift Preference Violations = ", shiftPreferenceViolations)
         print()
+        
+        self.countDistanceViolations(storeShiftsDict)
 
 
 # testing the class:
