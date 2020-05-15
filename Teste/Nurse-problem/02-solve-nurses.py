@@ -15,10 +15,10 @@ import nurses
 HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violation
 
 # Genetic Algorithm constants:
-POPULATION_SIZE = 300
+POPULATION_SIZE = 100
 P_CROSSOVER = 0.9  # probability for crossover
 P_MUTATION = 0.1   # probability for mutating an individual
-MAX_GENERATIONS = 200
+MAX_GENERATIONS = 50
 HALL_OF_FAME_SIZE = 30
 
 # set the random seed:
@@ -28,7 +28,7 @@ random.seed(RANDOM_SEED)
 toolbox = base.Toolbox()
 
 # create the nurse scheduling problem instance to be used:
-nsp = nurses.NurseSchedulingProblem(HARD_CONSTRAINT_PENALTY)
+nsp = nurses.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY)
 
 # define a single objective, maximizing fitness strategy:
 creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
