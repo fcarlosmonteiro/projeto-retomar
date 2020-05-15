@@ -36,7 +36,7 @@ class Grafo(object):
         return len(self.adj)
 
     def __str__(self):
-        return '{}({})'.format(self.__class__.__name__, dict(self.adj))
+        return '{}=({})'.format(self.__class__.__name__, dict(self.adj))
 
     def __getitem__(self, v):
         return self.adj[v]

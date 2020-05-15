@@ -1,0 +1,2647 @@
+{
+   "html_attributions": [],
+   "next_page_token": "CqQCEwEAAAPdpnQorr15Q2MWI7Xy2MEhfuBma8lXnzhHKkIHUdSGsUDzdDIo0xkJz7gAJBBDi9t2MRw1GrWGsFMCwWdzxcfpprskIp4n83tHJ3PIVJNJs3Lx9rzAyCJIryrP3lEZN252p54Ndzk6-xm2U8gmqKmrZ0ZQDUtrT2lqfZSdwJlCx6piUIYIC79WBt8H96rYMbykzZdB9SeqapPJlW8qNQ4vgSQtPun535u__CetayH6ncN1xMYQG16dPvJ5QcUNrs6ux2UNjpDDsU4hTB9MrtEDaIQo4ABZnJYe4coyB0lCRRiC4EZZ_rE3S4KHc3w6yK8ttLfdW2Z7v4Cj0zkU7txcx74Osf7OaI3fTx-4bqV_aW7kXpEfnAi0LLESyLxVrBIQNokamimflmHRkxgi5QOMHBoUfAvM-ECrBZXfgXVAbkAs91ZJ5Do",
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": -25.7464549,
+               "lng": -53.0615734
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.72472,
+                  "lng": -53.0426775
+               },
+               "southwest": {
+                  "lat": -25.775529,
+                  "lng": -53.09072399999999
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "ec710efe5fb1854fe3f2c488525e1fc765678d04",
+         "name": "Dois Vizinhos",
+         "photos": [
+            {
+               "height": 3474,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106625189303749367451\"\u003eLuzia De Freitas\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAA_Pe3wqjJmeVNBwR6u-QdzzN26YNdAq0BwCjLuxqQc9isKv3jx5fYihli7goyAhjLH6_thcMGECNE3NWZWn0HaHiyMd_nEPwHlr4CQzDgyu3YO_VrzNSbk8gbKpG5-YFFEhC_G-ucyLqqFPvMbnXvHptQGhQsZyoqqMLTyfl3O7jc_PKoMJOeDw",
+               "width": 4632
+            }
+         ],
+         "place_id": "ChIJ3dKkQ-1H8JQRl0pRltZ5ccU",
+         "reference": "ChIJ3dKkQ-1H8JQRl0pRltZ5ccU",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7468653,
+               "lng": -53.053755
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7455327197085,
+                  "lng": -53.0525078197085
+               },
+               "southwest": {
+                  "lat": -25.7482306802915,
+                  "lng": -53.05520578029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "f788fd5cdf9e4ed38e1f35aca1faae46859bdebe",
+         "name": "Lojas Colombo",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1836,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111431229286335154791\"\u003ePaulo Korb\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAOk26q9vzmNvIiYh6XuE7gs4A_jUVS2RY64fUhgCL_77ACP1ilgWGyxo5rH9q8q9p02eJVhtPi9GGwDlQyuwCdI1GA-F2XMro-ZVOkA_xsTrbaRGTCstDDnWHL5xsgcTYEhA42M8coSmxldwigL36bmNPGhTOYrgP1EcMFjteYAQTSbwX7o0Mew",
+               "width": 3264
+            }
+         ],
+         "place_id": "ChIJ5R1EKu5H8JQRs3lvRK6E7O0",
+         "plus_code": {
+            "compound_code": "7W3W+7F Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+7F"
+         },
+         "rating": 4.4,
+         "reference": "ChIJ5R1EKu5H8JQRs3lvRK6E7O0",
+         "scope": "GOOGLE",
+         "types": [
+            "electronics_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 51,
+         "vicinity": "Rua Castro Alves, 18 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7464291,
+               "lng": -53.0593656
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7450819197085,
+                  "lng": -53.0580259197085
+               },
+               "southwest": {
+                  "lat": -25.7477798802915,
+                  "lng": -53.0607238802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "97db00a0cef0ea488b5455d3070b8a23903618f3",
+         "name": "Portal Two Neighbors",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJn_aIIo9H8JQRBbZ1I2fxSD0",
+         "plus_code": {
+            "compound_code": "7W3R+C7 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3R+C7"
+         },
+         "rating": 4.2,
+         "reference": "ChIJn_aIIo9H8JQRBbZ1I2fxSD0",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 49,
+         "vicinity": "Rua Bento Munhoz da Rocha Neto, 266 - 1º Andar - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.750473,
+               "lng": -53.0569046
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7490967197085,
+                  "lng": -53.05556241970849
+               },
+               "southwest": {
+                  "lat": -25.7517946802915,
+                  "lng": -53.05826038029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "5b2c87d2a8acc97bcef1af6bb7e76cdedac71c01",
+         "name": "Imobiliaria Cabredo",
+         "place_id": "ChIJM7IYxY9H8JQR7qblXbvsWJo",
+         "plus_code": {
+            "compound_code": "6WXV+R6 Centro Sul, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WXV+R6"
+         },
+         "rating": 3.9,
+         "reference": "ChIJM7IYxY9H8JQR7qblXbvsWJo",
+         "scope": "GOOGLE",
+         "types": [
+            "real_estate_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 39,
+         "vicinity": "Avenida Rio Grande do Sul, 467, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.750725,
+               "lng": -53.05821
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7493538197085,
+                  "lng": -53.0568662697085
+               },
+               "southwest": {
+                  "lat": -25.75205178029151,
+                  "lng": -53.0595642302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "f3bf69875699d75831c83513b5d9c801acbf918c",
+         "name": "Imobiliária Piccolli",
+         "place_id": "ChIJRYcmgpxH8JQR74YDIPiOIY8",
+         "plus_code": {
+            "compound_code": "6WXR+PP Centro Sul, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WXR+PP"
+         },
+         "rating": 3.8,
+         "reference": "ChIJRYcmgpxH8JQR74YDIPiOIY8",
+         "scope": "GOOGLE",
+         "types": [
+            "real_estate_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 14,
+         "vicinity": "Avenida Rio Grande do Sul, 605 - 01 - Centro Sul, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7493661,
+               "lng": -53.0525683
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7479645697085,
+                  "lng": -53.0513319197085
+               },
+               "southwest": {
+                  "lat": -25.7506625302915,
+                  "lng": -53.05402988029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "bd0ef3df6fb406c05be770ea979c4e6c068c1131",
+         "name": "Magazine Luiza",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJnePyE49H8JQRPxEcGWNKk2g",
+         "plus_code": {
+            "compound_code": "7W2W+7X Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W2W+7X"
+         },
+         "rating": 4.1,
+         "reference": "ChIJnePyE49H8JQRPxEcGWNKk2g",
+         "scope": "GOOGLE",
+         "types": [
+            "department_store",
+            "electronics_store",
+            "furniture_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 46,
+         "vicinity": "Travessa Doutor Arnaldo Busato, 115 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.750231,
+               "lng": -53.05488499999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74885206970849,
+                  "lng": -53.0535389197085
+               },
+               "southwest": {
+                  "lat": -25.7515500302915,
+                  "lng": -53.0562368802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "a2a1e3b3e5b6970066c4dece3de1476f195530d4",
+         "name": "Matheus Foto Color",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJ02HLoo9H8JQRikXEo1Sn0T0",
+         "plus_code": {
+            "compound_code": "6WXW+W2 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WXW+W2"
+         },
+         "rating": 4.5,
+         "reference": "ChIJ02HLoo9H8JQRikXEo1Sn0T0",
+         "scope": "GOOGLE",
+         "types": [
+            "electronics_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 67,
+         "vicinity": "Avenida Rio Grande do Sul, 283, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7496722,
+               "lng": -53.05362479999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74849691970849,
+                  "lng": -53.0522661697085
+               },
+               "southwest": {
+                  "lat": -25.7511948802915,
+                  "lng": -53.05496413029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id": "8fc44eebfd846b289642aa4e28aa85c3aa941521",
+         "name": "Prefeitura Municipal de Dois Vizinhos",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 645,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118002550475377678410\"\u003eDavi Jorge\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAod8Me8YeQppzYdLyKeEBvD3AycQ5F0aEcwVVRtGX0jJ4nab7wQkpf-_A3F9wny4PS39NFk0iC5HviZ1iK6syjxPK4feEYGgtz1VsXG9lOYLYjEwl6Eh6NmxvpUPP2fq_EhAs1Do_sfKhGad3oWuC-GfIGhQI2_JlOE_1YI6ZM7F-vKEx7CAXFA",
+               "width": 1485
+            }
+         ],
+         "place_id": "ChIJlZ-CPNxH8JQRg8d9eUo0i_U",
+         "plus_code": {
+            "compound_code": "7W2W+4H Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W2W+4H"
+         },
+         "rating": 4,
+         "reference": "ChIJlZ-CPNxH8JQRg8d9eUo0i_U",
+         "scope": "GOOGLE",
+         "types": [
+            "city_hall",
+            "local_government_office",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 11,
+         "vicinity": "Avenida Rio Grande do Sul, 130 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7456425,
+               "lng": -53.0564738
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7442756197085,
+                  "lng": -53.0550316697085
+               },
+               "southwest": {
+                  "lat": -25.74697358029151,
+                  "lng": -53.0577296302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+         "id": "8198714580761ca6f9dd1a468391bb0f33dfca12",
+         "name": "Banco do Brasil",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJIV-s5JVH8JQRTkP1BWyutmY",
+         "plus_code": {
+            "compound_code": "7W3V+PC Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+PC"
+         },
+         "rating": 3.3,
+         "reference": "ChIJIV-s5JVH8JQRTkP1BWyutmY",
+         "scope": "GOOGLE",
+         "types": [
+            "bank",
+            "atm",
+            "finance",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 17,
+         "vicinity": "Rua João Dalpasquale, 277 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7466446,
+               "lng": -53.0546309
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7452436197085,
+                  "lng": -53.0532243697085
+               },
+               "southwest": {
+                  "lat": -25.7479415802915,
+                  "lng": -53.05592233029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "1623247b2a2a7d2427555de0c87a92aefa705bcc",
+         "name": "O Boticário",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJU6bb641H8JQRZPRus1kzqCY",
+         "plus_code": {
+            "compound_code": "7W3W+84 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+84"
+         },
+         "rating": 4.7,
+         "reference": "ChIJU6bb641H8JQRZPRus1kzqCY",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "clothing_store",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 53,
+         "vicinity": "Rua Vinte e Oito de Novembro, 98a - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.746801,
+               "lng": -53.055542
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7454168697085,
+                  "lng": -53.0542015697085
+               },
+               "southwest": {
+                  "lat": -25.7481148302915,
+                  "lng": -53.0568995302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "93616c78ecd35aa442445db7687d53bc5a328b99",
+         "name": "Laboratório Aldes - Dois Vizinhos",
+         "place_id": "ChIJXzhACo5H8JQR4p3Q_IlRaqg",
+         "plus_code": {
+            "compound_code": "7W3V+7Q Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+7Q"
+         },
+         "rating": 4.7,
+         "reference": "ChIJXzhACo5H8JQR4p3Q_IlRaqg",
+         "scope": "GOOGLE",
+         "types": [
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 3,
+         "vicinity": "Brazil"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7422754,
+               "lng": -53.05787509999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7409680197085,
+                  "lng": -53.05651906970849
+               },
+               "southwest": {
+                  "lat": -25.7436659802915,
+                  "lng": -53.05921703029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "4f00ce282c4af8939679bc959ed2454f2a277355",
+         "name": "Newspaper Beltrao",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJl5EbSo1H8JQR2zg6ti_-l6c",
+         "plus_code": {
+            "compound_code": "7W5R+3R Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5R+3R"
+         },
+         "rating": 4.8,
+         "reference": "ChIJl5EbSo1H8JQR2zg6ti_-l6c",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 4,
+         "vicinity": "Rua do Comércio, 654, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.742385,
+               "lng": -53.0666618
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74104716970849,
+                  "lng": -53.0653714697085
+               },
+               "southwest": {
+                  "lat": -25.7437451302915,
+                  "lng": -53.06806943029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "4ae6c34f680056e01f119f543a7b6509ce895705",
+         "name": "Leandro Sementes",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJRSP7tOpH8JQRMYtguGzjVcQ",
+         "plus_code": {
+            "compound_code": "7W5M+28 São Francisco de Assis, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5M+28"
+         },
+         "rating": 4.9,
+         "reference": "ChIJRSP7tOpH8JQRMYtguGzjVcQ",
+         "scope": "GOOGLE",
+         "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 11,
+         "vicinity": "Rua Presidente Juscelino Kubitscheck, 656 - São Francisco de Assis, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7423109,
+               "lng": -53.0602526
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7409469697085,
+                  "lng": -53.0587685697085
+               },
+               "southwest": {
+                  "lat": -25.7436449302915,
+                  "lng": -53.06146653029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id": "05031d0615f768887d06dd6299edd1e34e5c4851",
+         "name": "Pizzaria Capriccio",
+         "opening_hours": {
+            "open_now": false
+         },
+         "photos": [
+            {
+               "height": 2322,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105323063641552411406\"\u003epizzas capriccio\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAABtxZLz7S1uQ6vVq3j4aHCfVa-9_cCEiOsyVSG0FbBGjdKeBF6bj-o7KnUizpXL4RBDWFtCruSSi3NalV2YnpXonvxJkev_rStfDf_n4mSSNJaXVQpa1ZdQejWIv0r9VbEhDFXuv0cDIA4pDxbquid7eGGhSxagZ9qQPHedRjpG5mUO_7HijZNA",
+               "width": 4128
+            }
+         ],
+         "place_id": "ChIJNeeE6exH8JQR3wQt-ATeHMw",
+         "plus_code": {
+            "compound_code": "7W5Q+3V Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5Q+3V"
+         },
+         "price_level": 2,
+         "rating": 4.4,
+         "reference": "ChIJNeeE6exH8JQR3wQt-ATeHMw",
+         "scope": "GOOGLE",
+         "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 292,
+         "vicinity": "Rua João pagnoncelli, 177 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7524294,
+               "lng": -53.0605982
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7510618197085,
+                  "lng": -53.0591373197085
+               },
+               "southwest": {
+                  "lat": -25.7537597802915,
+                  "lng": -53.0618352802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "0c12f2f8263021aee2f9881b12ff4c0dad3a09da",
+         "name": "Chevrolet Vale do Iguaçu",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2592,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107724224944855199968\"\u003eJoão foxy 3 coterli\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAYeodRnq-OP5Z6T74IUuv1IkgOQ_x1-VvIFay1fkJWrqO-_q9GWwUkr8dtIlRXNcgNgf__xlIvVNLMplzbn513EdB9yvWiWXS7n8oYpDsqlQYl2ZfPm7L3XMfX41Q_jHFEhD9KUPs858YTatxVuHPThAhGhTpsO_Iar-DHWPBpGZQ__uyq34ZPA",
+               "width": 4608
+            }
+         ],
+         "place_id": "ChIJe7fnHZ1H8JQR9f7LAFDFjMw",
+         "plus_code": {
+            "compound_code": "6WXQ+2Q Centro Sul, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WXQ+2Q"
+         },
+         "rating": 4.4,
+         "reference": "ChIJe7fnHZ1H8JQR9f7LAFDFjMw",
+         "scope": "GOOGLE",
+         "types": [
+            "car_dealer",
+            "car_repair",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 103,
+         "vicinity": "Avenida Presidente Kenedy, 120 - Centro Sul, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.745998,
+               "lng": -53.0553
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7446016197085,
+                  "lng": -53.0539162197085
+               },
+               "southwest": {
+                  "lat": -25.7472995802915,
+                  "lng": -53.0566141802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "3d91492e34df9775ae202d5215d8ec5d63d5eb68",
+         "name": "CERTTUS LTDA",
+         "place_id": "ChIJx2FYjI1H8JQR_VNt4vbIp5M",
+         "plus_code": {
+            "compound_code": "7W3V+JV Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+JV"
+         },
+         "rating": 5,
+         "reference": "ChIJx2FYjI1H8JQR_VNt4vbIp5M",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 2,
+         "vicinity": "Rua Vinte e Oito de Novembro, 16 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7462601,
+               "lng": -53.0560309
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7449204697085,
+                  "lng": -53.05473076970851
+               },
+               "southwest": {
+                  "lat": -25.7476184302915,
+                  "lng": -53.0574287302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "eb210af951935db153137fe8a4a3e52e5cb524f5",
+         "name": "Centro de Integração Empresa-Escola do Paraná - Dois Vizinhos",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJIV-s5JVH8JQR8EkQnXCQKp0",
+         "plus_code": {
+            "compound_code": "7W3V+FH Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+FH"
+         },
+         "rating": 5,
+         "reference": "ChIJIV-s5JVH8JQR8EkQnXCQKp0",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 3,
+         "vicinity": "Rua João Dalpasquale, 210 - 05 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.745191,
+               "lng": -53.0562324
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7438563197085,
+                  "lng": -53.0549579697085
+               },
+               "southwest": {
+                  "lat": -25.7465542802915,
+                  "lng": -53.0576559302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "54abb3f1394afca970c0dbff9662146db777b92a",
+         "name": "Rainha Noivas Confecções",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 325,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116688604591212282003\"\u003eRainha Noivas Confecções\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAA0g8Owh9pkqpesaWfHt6ndz4Djup3-FSc_4gLinSx9klyCTaQtqtT6uufXhAiW8-A3RyvKmck1Vz8O1T1giPHukTukzjlDUWRfx1iSb7dqPuL_uDd8HwAypwcvLP71-NyEhA38cka1aVhjO6q4vjNZx8nGhQVSVo4ejK8wl5hWtpoAFNUEn5oLA",
+               "width": 854
+            }
+         ],
+         "place_id": "ChIJIV-s5JVH8JQR_dtiKEGIA3s",
+         "plus_code": {
+            "compound_code": "7W3V+WG Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+WG"
+         },
+         "rating": 5,
+         "reference": "ChIJIV-s5JVH8JQR_dtiKEGIA3s",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "clothing_store",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua João Dalpasquale, 320 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7465315,
+               "lng": -53.0543349
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7452255197085,
+                  "lng": -53.05303351970851
+               },
+               "southwest": {
+                  "lat": -25.7479234802915,
+                  "lng": -53.0557314802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "95ce94b35d3cd6c65e80a052448ffb0f9d9b5e12",
+         "name": "Pampa Remates",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2128,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101804193950198941987\"\u003eCANAL PAMPA\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAr0mh8V8ypH_5OvQLZtCmIPPtBtnlAlsmfFDYOMT02gem8nTY_KefLcVZmkdrd8Dp4XBoiAFQEoANStOjWWGQa2YzVXNaH-4yP0svdEShdiR7FsYaG6FLCKKJo8zNKzJ4EhBp5A-ppAmRB79YhbZaqWcTGhSNhjzLhuhzvPxvjA8NC0xUj2jHpg",
+               "width": 2118
+            }
+         ],
+         "place_id": "ChIJ86iH7I1H8JQRFwssU23mZRE",
+         "plus_code": {
+            "compound_code": "7W3W+97 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+97"
+         },
+         "rating": 5,
+         "reference": "ChIJ86iH7I1H8JQRFwssU23mZRE",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua Venceslau Braz, 853 - Centro, Dois Vizinhos"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -25.7479123,
+               "lng": -53.0552973
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7436801,
+                  "lng": -53.0512929
+               },
+               "southwest": {
+                  "lat": -25.7511498,
+                  "lng": -53.0597278
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "3b1abf348e0cea3abef4ef3b3b2e3b5a3986a4fd",
+         "name": "Centro",
+         "place_id": "ChIJpc6GQY5H8JQRvUaTESb2Z7o",
+         "reference": "ChIJpc6GQY5H8JQRvUaTESb2Z7o",
+         "scope": "GOOGLE",
+         "types": [
+            "sublocality_level_1",
+            "sublocality",
+            "political"
+         ],
+         "vicinity": "Centro"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7422137,
+               "lng": -53.05514819999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7408534197085,
+                  "lng": -53.0537370197085
+               },
+               "southwest": {
+                  "lat": -25.7435513802915,
+                  "lng": -53.0564349802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "a7835dc43914f01bad56cc9420b0221df8e0fcd1",
+         "name": "Realize Imóveis - Venda, Locação e Avaliação",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1152,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103585845381581787689\"\u003eRealize Imóveis - Venda, Locação e Avaliação\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAANGzycZ-4v_Ldo3h1Tvo5gduUE9ujq_6k05wYhR3kg-I2CKa7dwQvjdj-Qvwghz1GebP3FejPKynF-NjHas0fpy5YOex93LACUfXVANJn7-zzPuDitSQqtw8l_543EndgEhCnDdE8d3km0Nykdj_24g2jGhTjf0VlzbRWYzIvmNPVv1exgo3L2A",
+               "width": 2042
+            }
+         ],
+         "place_id": "ChIJBaYOYvJH8JQRwsIvat67E4Q",
+         "plus_code": {
+            "compound_code": "7W5V+4W Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5V+4W"
+         },
+         "rating": 4.8,
+         "reference": "ChIJBaYOYvJH8JQRwsIvat67E4Q",
+         "scope": "GOOGLE",
+         "types": [
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 6,
+         "vicinity": "Rua Castro Alves, 543 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.743437,
+               "lng": -53.055542
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7421119197085,
+                  "lng": -53.0543136197085
+               },
+               "southwest": {
+                  "lat": -25.7448098802915,
+                  "lng": -53.05701158029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "19bce89096bf4f2caa77d8b156d9bea866fa9675",
+         "name": "Livraria e Papelaria Lápis de Cor",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1200,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106521866983948654354\"\u003eLivraria e Papelaria Lápis de Cor\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAN7JpsmqmCwGEsY9Nj9YmLAts-VqpohgGWjkUJM_UoLptfOdYwxxaT3yaqWKQVqLIXjOporufipMEA1GEkDcff4hcsliQWiH2y0FQOD65by1LToItXiMekc0GdhXfBAeAEhD9bPRwva2uRi-5uRDbkrGTGhRkuwqkh_hceMfI2luGzavpy3Wq7A",
+               "width": 1600
+            }
+         ],
+         "place_id": "ChIJBW_OoppH8JQROh9CBoC2oDg",
+         "plus_code": {
+            "compound_code": "7W4V+JQ Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+JQ"
+         },
+         "rating": 4.7,
+         "reference": "ChIJBW_OoppH8JQROh9CBoC2oDg",
+         "scope": "GOOGLE",
+         "types": [
+            "book_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 57,
+         "vicinity": "Rua Sete de Setembro, 262, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7434667,
+               "lng": -53.0563752
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7420242197085,
+                  "lng": -53.0550448197085
+               },
+               "southwest": {
+                  "lat": -25.7447221802915,
+                  "lng": -53.0577427802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "67058b2660c8c1ab641b4cacb269dfe05ed9e7d2",
+         "name": "Platô Arquitetura e Engenharia",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1080,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108212394688396485332\"\u003ePlatô Arquitetura e Engenharia\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAKlLZRnFfwx0vrIOvkG8PznqIbZnb7-i_IOuNvt9-GXge5z-OsOyIxu6gFT1i4J7WHNZZAYdGJocVZ3j-kH7H345wHbtKNkrtKmBlHq13Oia_OwrjOczKStLBBdGX35AtEhDqjxvH0tHMX3ZQTK4ribS_GhR8LDiteLMo8pYukqz-2TzpuNjTeA",
+               "width": 1920
+            }
+         ],
+         "place_id": "ChIJI9TB6etH8JQRc9Ibd8DqXVU",
+         "plus_code": {
+            "compound_code": "7W4V+JC Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+JC"
+         },
+         "rating": 4.8,
+         "reference": "ChIJI9TB6etH8JQRc9Ibd8DqXVU",
+         "scope": "GOOGLE",
+         "types": [
+            "general_contractor",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 16,
+         "vicinity": "Rua Prudente de Morais, 517 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7473538,
+               "lng": -53.0535035
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7460289197085,
+                  "lng": -53.0521811697085
+               },
+               "southwest": {
+                  "lat": -25.7487268802915,
+                  "lng": -53.0548791302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "d2ee5df0fc7164f6cae21dd31ab465ef5190968f",
+         "name": "Coutope Calçados",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJB6BxeI5H8JQR8ViaONW__Ns",
+         "plus_code": {
+            "compound_code": "7W3W+3H Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+3H"
+         },
+         "rating": 4.2,
+         "reference": "ChIJB6BxeI5H8JQR8ViaONW__Ns",
+         "scope": "GOOGLE",
+         "types": [
+            "shoe_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 10,
+         "vicinity": "Rua Vinte e Oito de Novembro, 245, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7411657,
+               "lng": -53.0575035
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7398034197085,
+                  "lng": -53.0560801697085
+               },
+               "southwest": {
+                  "lat": -25.7425013802915,
+                  "lng": -53.05877813029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "01149b86837494c3c816d8d16d5e3dc257a77540",
+         "name": "Floricultura Girassol Sander.",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJQRNgJ75H8JQRV0iqTb2Nuro",
+         "plus_code": {
+            "compound_code": "7W5R+GX Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5R+GX"
+         },
+         "rating": 4.8,
+         "reference": "ChIJQRNgJ75H8JQRV0iqTb2Nuro",
+         "scope": "GOOGLE",
+         "types": [
+            "florist",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 11,
+         "vicinity": "Rua Ines Pinzon, 635, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7412874,
+               "lng": -53.0659219
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.73994981970849,
+                  "lng": -53.0646344697085
+               },
+               "southwest": {
+                  "lat": -25.7426477802915,
+                  "lng": -53.06733243029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "d6a83e88528889ee88aae9be48b8ee78f5a16aa1",
+         "name": "Olitur Turismo",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 720,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113855004250220922466\"\u003eCarlos Diehl\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAnsQEbCWSTbhQ43lL1ekSJQCIuIyujz_NtJ0MBUHC2q2nB5QLp6HhcdQMgnbfI3GSEScUmstd9mFu-c8DLEzyOZt7iJ47gfK8HOD6uJmdIKQg8jcOXNKS-rxEzX_pybU-EhBcSLBcknHVinbH_W20srRTGhSI-A7dR4EcpgyKSP2j0_9f6bXBkA",
+               "width": 1280
+            }
+         ],
+         "place_id": "ChIJCwEAvOtH8JQRlHqYYH0OfDw",
+         "plus_code": {
+            "compound_code": "7W5M+FJ São Francisco de Assis, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5M+FJ"
+         },
+         "rating": 4.5,
+         "reference": "ChIJCwEAvOtH8JQRlHqYYH0OfDw",
+         "scope": "GOOGLE",
+         "types": [
+            "travel_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 29,
+         "vicinity": "Rua Presidente Washington Luís, 740 - São Francisco de Assis, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7474407,
+               "lng": -53.05234069999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74606736970849,
+                  "lng": -53.0509540197085
+               },
+               "southwest": {
+                  "lat": -25.7487653302915,
+                  "lng": -53.0536519802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "6e6a5fb8b6cac3299a4db5836cd45577a96d88d6",
+         "name": "Artepres Gráfica e Editora",
+         "photos": [
+            {
+               "height": 467,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100122601852376260799\"\u003eFlávio Antonio Galeazzi\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAyQYDlsoF1l9Bfc-o3H_gnby4J7Qd5z8E8xYs0xUIGd5BNrNeTq-GY8LZX06OTttJ_GJTcvwUDxjB65ymegG0UVKpgqzoZ0-ks3LdWihRwfqGok9-71-H9OCtkB6Cz45zEhAgc-BYAD0aPC7ve28pBgqHGhS66K6gR3KLPsfxYfG-UvnM6VW0SQ",
+               "width": 700
+            }
+         ],
+         "place_id": "ChIJQRNgJ75H8JQRfvZRW_ULphE",
+         "plus_code": {
+            "compound_code": "7W3X+23 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3X+23"
+         },
+         "rating": 3.4,
+         "reference": "ChIJQRNgJ75H8JQRfvZRW_ULphE",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 8,
+         "vicinity": "Rua Guilherme Guzzo, 155, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7533025,
+               "lng": -53.0604713
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7519256697085,
+                  "lng": -53.05897746970849
+               },
+               "southwest": {
+                  "lat": -25.7546236302915,
+                  "lng": -53.06167543029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "e72ab40ec7e68d45020652b98c46bf0a0895fc71",
+         "name": "Machadinho Pneus Auto Center",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 3096,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107480331896021030015\"\u003eloucuras MATHEUS Ávila Balzer\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAA26X7WJnbbakSo37aGXgfGWkhCYmCVOpeKsmtjc1q72Mqi8ds2UEuAfpi6rxQEERdx2LEb_BxTnFSsSYZk5ia5CYGQ1ZXRB5GlVCeGpXLHPUEeHRH4uDmgOs72Atn0m9xEhATIPgN0FvehofMEbuBJbKFGhQS-uz4U_HOGjRKYBuKpKysL6QUQQ",
+               "width": 4128
+            }
+         ],
+         "place_id": "ChIJC8RinJBH8JQRW_4rFgaXHBg",
+         "plus_code": {
+            "compound_code": "6WWQ+MR Centro Sul, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WWQ+MR"
+         },
+         "rating": 4.7,
+         "reference": "ChIJC8RinJBH8JQRW_4rFgaXHBg",
+         "scope": "GOOGLE",
+         "types": [
+            "car_repair",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 83,
+         "vicinity": "Avenida Presidente Kenedy, 228, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7511699,
+               "lng": -53.06132179999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7497977197085,
+                  "lng": -53.0599788697085
+               },
+               "southwest": {
+                  "lat": -25.7524956802915,
+                  "lng": -53.0626768302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "eabd5dc484caf854510f1855e6cbcaf63cabd980",
+         "name": "EMATER-Empresa Paranaense de Assistência Técnica e Extensão Rural",
+         "place_id": "ChIJV1yV4JBH8JQRefEppaiJZ7M",
+         "plus_code": {
+            "compound_code": "6WXQ+GF Dois Vizinhos, State of Paraná, Brazil",
+            "global_code": "58686WXQ+GF"
+         },
+         "rating": 4.8,
+         "reference": "ChIJV1yV4JBH8JQRefEppaiJZ7M",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 5,
+         "vicinity": "Avenida Rio Grande do Sul, 924, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7422753,
+               "lng": -53.05787480000001
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7409679697085,
+                  "lng": -53.0565187697085
+               },
+               "southwest": {
+                  "lat": -25.7436659302915,
+                  "lng": -53.0592167302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "37bd1d45672d8eec3d162e91ca10b7f07f574ee4",
+         "name": "Rádio Vizinhança",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1960,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116272492855491397572\"\u003eCharles Fardo\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAntdgoie4R6t3C1y59UAflIYCK7boOCR6Ua9sL5HYu4fRYP6WX973k-H0LvSwDUloNKb3cdPZ6iPW5YEv7PbS1W1UxljDfWwDHZ9-EXPQprSEBsd4jywuH-KyEXYaFWzFEhDiO-fViKF0w75aaIs5A7-cGhSb77RBp-8IBQf3-0dzS0UkjGqgBQ",
+               "width": 4032
+            }
+         ],
+         "place_id": "ChIJl5EbSo1H8JQRJ6l3cJysIdY",
+         "plus_code": {
+            "compound_code": "7W5R+3V Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5R+3V"
+         },
+         "rating": 4.5,
+         "reference": "ChIJl5EbSo1H8JQRJ6l3cJysIdY",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 24,
+         "vicinity": "Rua do Comércio, 654, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7467894,
+               "lng": -53.0545137
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7453785197085,
+                  "lng": -53.0530961697085
+               },
+               "southwest": {
+                  "lat": -25.7480764802915,
+                  "lng": -53.0557941302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "1d613a70a087e924f7eff72f180a29c850744ce6",
+         "name": "Coutopé Calçados Center",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2336,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112823464969882150235\"\u003eRicardo MELO Araujo\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAzJLD4PFmalZGyAIqh3UD1tmyfBigugWBYm7symvRU7oeiWD9iBxbDiOknGtX9pDkBr4e4pMlPLt5bOzT7l5C1VmzXLrLB9WTeBLzrd4uKxy3lmlemKNNTCbGFcIlIfB0EhDiMkOYbFjEjmtZiMkX16yNGhQ8d22FsMuib967bMtVqsAQ5ZzVow",
+               "width": 4160
+            }
+         ],
+         "place_id": "ChIJZVAheo5H8JQRsTEKRiWfSCw",
+         "plus_code": {
+            "compound_code": "7W3W+75 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+75"
+         },
+         "rating": 4,
+         "reference": "ChIJZVAheo5H8JQRsTEKRiWfSCw",
+         "scope": "GOOGLE",
+         "types": [
+            "shoe_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 14,
+         "vicinity": "Rua Vinte e Oito de Novembro, 126, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7439456,
+               "lng": -53.0558436
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7425802697085,
+                  "lng": -53.0544121197085
+               },
+               "southwest": {
+                  "lat": -25.7452782302915,
+                  "lng": -53.0571100802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "941db8908250977cf49ae602344e1d42fa3cec85",
+         "name": "Tomasson Home Center",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 585,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108958801726966279936\"\u003eJULIANA VELASCO\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAkEVjs-hKiKI4fx9rF38LLtGddySV0Pa5P_ZDLvc6IYsEgmzKNi7LamBYbkPtfcKYyp8Swfd5ELquOd1aXWMZzLphE2vD7fteZCSPKS3LHxZHLGh4fRndr3rSNZj8quOKEhAQxD_idAmgJOgqpl-L41LRGhS8Bla1Iy7GmQpqceb32K-xb2Yu3A",
+               "width": 1040
+            }
+         ],
+         "place_id": "ChIJQ8GBlY1H8JQRRc3EQM9wCOg",
+         "plus_code": {
+            "compound_code": "7W4V+CM Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+CM"
+         },
+         "rating": 4.3,
+         "reference": "ChIJQ8GBlY1H8JQRRc3EQM9wCOg",
+         "scope": "GOOGLE",
+         "types": [
+            "furniture_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 29,
+         "vicinity": "Rua Sete de Setembro, 207 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7436184,
+               "lng": -53.0555598
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7422874197085,
+                  "lng": -53.0543017697085
+               },
+               "southwest": {
+                  "lat": -25.7449853802915,
+                  "lng": -53.0569997302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "d11831b3c9d82f04538b940990fdce2a4fe975af",
+         "name": "Gazeta de Dois Vizinhos",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJa8i_241H8JQRVwUbbGEAZMw",
+         "plus_code": {
+            "compound_code": "7W4V+HQ Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+HQ"
+         },
+         "rating": 5,
+         "reference": "ChIJa8i_241H8JQRVwUbbGEAZMw",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua Sete de Setembro, 246 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7422753,
+               "lng": -53.05787480000001
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7409679697085,
+                  "lng": -53.0565187697085
+               },
+               "southwest": {
+                  "lat": -25.7436659302915,
+                  "lng": -53.0592167302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "7210b5a4a20194acd766dda89ee658d4b9a80a92",
+         "name": "Rádio Educadora de Dois Vizinhos",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 3888,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108659026912890059559\"\u003eRádio Educadora de Dois Vizinhos\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAZTayVXTxjGL-XRRXodshRwQ_L8HFwVMjMYfq1FLTZEhZ7NyO4s5EllC39eetPMh0rJi6Qq32okHZ-fUCDghPJXffHVc2rttbRofsg633DZouGm9SazZClJ9tf-GF3RM6EhCDIShK2IulVRMoM6mFuzE3GhSyY4aunfaNeEXpDWgicCbXVn8Pgg",
+               "width": 5184
+            }
+         ],
+         "place_id": "ChIJl5EbSo1H8JQRY7MKLBxKpp0",
+         "plus_code": {
+            "compound_code": "7W5R+3V Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5R+3V"
+         },
+         "rating": 4.5,
+         "reference": "ChIJl5EbSo1H8JQRY7MKLBxKpp0",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 61,
+         "vicinity": "Rua do Comércio, 654, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.743444,
+               "lng": -53.055691
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74210466970849,
+                  "lng": -53.05439071970849
+               },
+               "southwest": {
+                  "lat": -25.7448026302915,
+                  "lng": -53.05708868029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "61c073890978331e86e77dedc7ebb80529f36c1f",
+         "name": "PeBlue - Pijama Infantil",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2405,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118207932617797352922\"\u003ePeBlue - Pijama Infantil\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAMAD7SH020mhIQ6pv_8JmT96d-U8rz4wLAPBhjPPqUWGibdjsI4wuYZbjyTldVutPrMsxlWN1-qxYxnJar8nZOwrWAVDFEsPFh1zldppK5QRKKxVRirQxoY4KICkuZ9k1EhD78R1UcQQx7QlYmPF7Bu32GhTP3hyXgTVQuEBDC8mWKN9GA6Sk9w",
+               "width": 1600
+            }
+         ],
+         "place_id": "ChIJ55vvB-5H8JQRmBSQ6rfsnUg",
+         "plus_code": {
+            "compound_code": "7W4V+JP Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+JP"
+         },
+         "rating": 5,
+         "reference": "ChIJ55vvB-5H8JQRmBSQ6rfsnUg",
+         "scope": "GOOGLE",
+         "types": [
+            "clothing_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua Sete de Setembro, 246 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.74381219999999,
+               "lng": -53.0611817
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7424600697085,
+                  "lng": -53.0598169697085
+               },
+               "southwest": {
+                  "lat": -25.7451580302915,
+                  "lng": -53.0625149302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "8c8f39b5762f44941135208864a5f29c105ceae7",
+         "name": "Banda Detroit",
+         "place_id": "ChIJY69c2t7W7JQR2TS2-TEkUZg",
+         "plus_code": {
+            "compound_code": "7W4Q+FG Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4Q+FG"
+         },
+         "rating": 4.8,
+         "reference": "ChIJY69c2t7W7JQR2TS2-TEkUZg",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 4,
+         "vicinity": "Rua Presidente Costa e Silva, 642 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.747355,
+               "lng": -53.0537625
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7459714697085,
+                  "lng": -53.0523753197085
+               },
+               "southwest": {
+                  "lat": -25.7486694302915,
+                  "lng": -53.0550732802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "ce5f82f960563dec1f71abdba59d6a41f53bdbe5",
+         "name": "Neuro Materiais de Construção",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 3456,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102948402488889773186\"\u003eNeuro Materiais de Construção\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAhsU6GOKRa776KypKM7iW4OB774OKU0JfdL00MlnEGlts1XziPgLd52snm9cZ50ixJGre6GZuRtmN5pZB7J7qP6bAGy0aSrUGfjtuJTC0v4RkCW4uCnCvWXnmZSBkvVVnEhC0BDesEymDDPPcWTV-CrVUGhTZy2KEuCjmeuwR9Ss-8uFghfM8DA",
+               "width": 5184
+            }
+         ],
+         "place_id": "ChIJcSY02I1H8JQRv9wQzAxyT_o",
+         "plus_code": {
+            "compound_code": "7W3W+3F Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+3F"
+         },
+         "rating": 4.8,
+         "reference": "ChIJcSY02I1H8JQRv9wQzAxyT_o",
+         "scope": "GOOGLE",
+         "types": [
+            "general_contractor",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 6,
+         "vicinity": "Rua Vinte e Oito de Novembro, 222, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7488189,
+               "lng": -53.0602409
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74756216970849,
+                  "lng": -53.0590272197085
+               },
+               "southwest": {
+                  "lat": -25.7502601302915,
+                  "lng": -53.0617251802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "21b9423d354f07845c50a6ae7136d56b7f343b4f",
+         "name": "Cultural Center Art and Life",
+         "photos": [
+            {
+               "height": 2340,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104267503523659501585\"\u003erosana Peter\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAURuhiaw90fy6LzHUAvP9mDGBAc5Su8xz0FzVZkxX7gWjd6NufEMpgwjBDV7-zZrKT2d7d97wYhlY7YwCl4KPEWbz6d7vbsMEjONisOoHJYtCgm7PyfWpl1-Bv5mipjQ_EhDfkCg1pItnV6yr7yRvSpr1GhTIpbf1LUG5Cwbnto8-j_6j6HbCJA",
+               "width": 4160
+            }
+         ],
+         "place_id": "ChIJQRNgJ75H8JQRDGN7HJBggyw",
+         "plus_code": {
+            "compound_code": "7W2Q+FW Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W2Q+FW"
+         },
+         "rating": 4.5,
+         "reference": "ChIJQRNgJ75H8JQRDGN7HJBggyw",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 354,
+         "vicinity": "Avenida Prefeito Dedi B. Montagner, 760 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7553428,
+               "lng": -53.059791
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7539842197085,
+                  "lng": -53.0583908197085
+               },
+               "southwest": {
+                  "lat": -25.7566821802915,
+                  "lng": -53.06108878029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "3acdc8e68b464f7aac57c99515f32952bcb3aabf",
+         "name": "Somar Pneus Centro Automotivo",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1280,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109038008865527491370\"\u003eSomar Pneus Centro Automotivo\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAzWh6BQ8RXdy2ylWAZrIMNboj24Rcgeo_3UO35ZFdXHFwt8MmypVvItIWvJpvnDOZNjP30O-QeAGMT-4Gf5UfriRCvyWMTWJ7eZSSxeSIJeZmVJIM2oMruEKYBGnmoX3uEhBFbO8uKPHtQOf2OkcJ6mzIGhT8MZl6KPBqVjRifUDS9_g24K-0Ig",
+               "width": 960
+            }
+         ],
+         "place_id": "ChIJtz4BZ5pH8JQRjXLZSdhTm-A",
+         "plus_code": {
+            "compound_code": "6WVR+V3 Centro Sul, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WVR+V3"
+         },
+         "rating": 4.6,
+         "reference": "ChIJtz4BZ5pH8JQRjXLZSdhTm-A",
+         "scope": "GOOGLE",
+         "types": [
+            "car_repair",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 37,
+         "vicinity": "Avenida Presidente Kenedy, 470 - Centro Sul, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7434772,
+               "lng": -53.0546093
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7421392197085,
+                  "lng": -53.0533216697085
+               },
+               "southwest": {
+                  "lat": -25.7448371802915,
+                  "lng": -53.05601963029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "ce92ce2f2f173f608fb6c37d51981f982e930f34",
+         "name": "Pet Shop Beauty Dog",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJT8fDDfJH8JQR-iHNcy3uW88",
+         "plus_code": {
+            "compound_code": "7W4W+J5 Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4W+J5"
+         },
+         "rating": 5,
+         "reference": "ChIJT8fDDfJH8JQR-iHNcy3uW88",
+         "scope": "GOOGLE",
+         "types": [
+            "pet_store",
+            "veterinary_care",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua Castro Alves, 382 - Sala 01, Dois Vizinhos"
+      },
+
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7452359,
+               "lng": -53.05622259999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7439934697085,
+                  "lng": -53.05491006970849
+               },
+               "southwest": {
+                  "lat": -25.7466914302915,
+                  "lng": -53.05760803029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "3c0b02a4fefcde24bf3e6d6a5f38cf1701488515",
+         "name": "Escritório Delta de Contabilidade",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2340,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114668510125850572651\"\u003eEscritório Delta de Contabilidade\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAATz_mjNLWQtIi71WkQeavitN_rUSKXQGncDvAr_13kEcnSWkcH1XTWFjevxY-C_Qz72tu74tDHn10TzLpE2dvkLN2OjwmKpcjeSJ60AgE2McceZu8NczyxN9nMqlBE7liEhCGGO9MvbEKFcuC7GC9GaojGhS5ohvtdDJuDw3vu585Ed4g35EPng",
+               "width": 4160
+            }
+         ],
+         "place_id": "ChIJn_x2dpJH8JQRzziEsei--HU",
+         "plus_code": {
+            "compound_code": "7W3V+WG Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+WG"
+         },
+         "rating": 3.5,
+         "reference": "ChIJn_x2dpJH8JQRzziEsei--HU",
+         "scope": "GOOGLE",
+         "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 2,
+         "vicinity": "Rua Marechal Floriano Peixoto, 52 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7436164,
+               "lng": -53.0558363
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7422593697085,
+                  "lng": -53.0544466197085
+               },
+               "southwest": {
+                  "lat": -25.74495733029151,
+                  "lng": -53.0571445802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "8161821eef02f9c545662e47e904c1738fca102d",
+         "name": "Farmácia Santo Antônio FARMAUTIL",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 508,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112301049065545267842\"\u003eAna Vassolowski\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAA9575tP4DcFwujioKKjNbla0qccsz9dY9zkthV_Zqp2Ulx9QrK4Obw8bjN1-Xwb-pAd_jGaa56JWnRyYFcX2nxp1eC57jpqSIJpQeTLFpq6ZK-XXoFwOBf6lHFmUutfjMEhA0hFtgiSCJGmMuP9IiUYI4GhS-hQJakoN4P_Fp8G2TaH7-R3VdUg",
+               "width": 720
+            }
+         ],
+         "place_id": "ChIJ6ybHwY1H8JQRwcmv_pofbLY",
+         "plus_code": {
+            "compound_code": "7W4V+HM Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+HM"
+         },
+         "rating": 5,
+         "reference": "ChIJ6ybHwY1H8JQRwcmv_pofbLY",
+         "scope": "GOOGLE",
+         "types": [
+            "drugstore",
+            "pharmacy",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 2,
+         "vicinity": "Rua Sete de Setembro, 262 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7465639,
+               "lng": -53.054308
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7452558697085,
+                  "lng": -53.0530043697085
+               },
+               "southwest": {
+                  "lat": -25.7479538302915,
+                  "lng": -53.0557023302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "d49860b0c408735862d35dc167c06a14676596be",
+         "name": "Tele Dois Equipamentos Telefonicos LTDA.",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJO9ZoeI5H8JQRG-zpZT9lzIk",
+         "plus_code": {
+            "compound_code": "7W3W+97 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3W+97"
+         },
+         "rating": 5,
+         "reference": "ChIJO9ZoeI5H8JQRG-zpZT9lzIk",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "28 de Novembro, N°77, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7477364,
+               "lng": -53.0528832
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74645521970849,
+                  "lng": -53.05160921970849
+               },
+               "southwest": {
+                  "lat": -25.7491531802915,
+                  "lng": -53.05430718029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "24f692977dcf3fdb071b1b6e807faac3de8349da",
+         "name": "Carola Modas",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1280,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105715649926993354586\"\u003e360 World\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAA-VgKO3fYAseGqYi2-jiIjnHhU5_eiXVfR_UXfZ-sWVufW9t1kkEx8TWIFB6G8xVyku0ohxRYwt-VfAz9Fw4M0cHkm2_gEExDiKEb2COqJnxO15e8dVbYKZDD4RCIEJU1EhBj1NjscIeJWixV5NsDh_m5GhRRKlvhC5yDrP7NRz1p9a2zjcng_g",
+               "width": 959
+            }
+         ],
+         "place_id": "ChIJdWoXfY5H8JQRaRxRGl8f3V4",
+         "plus_code": {
+            "compound_code": "7W2W+WR Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W2W+WR"
+         },
+         "rating": 4.8,
+         "reference": "ChIJdWoXfY5H8JQRaRxRGl8f3V4",
+         "scope": "GOOGLE",
+         "types": [
+            "clothing_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 6,
+         "vicinity": "Rua Vinte e Oito de Novembro, 311 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.74587,
+               "lng": -53.055682
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7444525197085,
+                  "lng": -53.05429771970849
+               },
+               "southwest": {
+                  "lat": -25.7471504802915,
+                  "lng": -53.05699568029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "8b867a94d24f7f1c149767fc9a12b3e44ebaa1c7",
+         "name": "DEZ Telecom",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2322,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114494999873890405830\"\u003eMaicon Varela\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAVkSvL9fmdpPjPZxvdYTo2GIfpv-UB6s60cOpeuUgvEA2p_8qURbnrJtWMQv8f44XsmT59V7d26kkdc3zvVSYIB2eGJHEGusl2DK0cp0z66OOA8JbWaafBNUCt5JjpdELEhDSj7MFkgWWOBN8eGrtqjyTGhTWSlnnc2JXbJIvhxRu30y35G_UWg",
+               "width": 4128
+            }
+         ],
+         "place_id": "ChIJt64bjY1H8JQRSBYEgR0goj0",
+         "plus_code": {
+            "compound_code": "7W3V+MP Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+MP"
+         },
+         "rating": 3.7,
+         "reference": "ChIJt64bjY1H8JQRSBYEgR0goj0",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 110,
+         "vicinity": "Rua Marechal Floriano Peixoto, 45, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.745815,
+               "lng": -53.05551
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7444628697085,
+                  "lng": -53.0541593197085
+               },
+               "southwest": {
+                  "lat": -25.7471608302915,
+                  "lng": -53.0568572802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "eb62dffb4e1824f97be839cf3c2712742aa43010",
+         "name": "WEBi Solutions - Soluções para Internet",
+         "opening_hours": {
+            "open_now": false
+         },
+         "place_id": "ChIJgw9u6Y1H8JQRXWRati5yuCk",
+         "plus_code": {
+            "compound_code": "7W3V+MQ Dois Vizinhos, State of Paraná, Brazil",
+            "global_code": "58687W3V+MQ"
+         },
+         "reference": "ChIJgw9u6Y1H8JQRXWRati5yuCk",
+         "scope": "GOOGLE",
+         "types": [
+            "electronics_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "vicinity": "Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7410845,
+               "lng": -53.05745969999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7397265197085,
+                  "lng": -53.05606761970849
+               },
+               "southwest": {
+                  "lat": -25.7424244802915,
+                  "lng": -53.05876558029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id": "357a6ada1b7b7d4bc83a67882f445cbd849c1961",
+         "name": "Associação Municipal de Suinocultores",
+         "place_id": "ChIJQRNgJ75H8JQRtNGP4toOPjw",
+         "plus_code": {
+            "compound_code": "7W5V+H2 Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5V+H2"
+         },
+         "reference": "ChIJQRNgJ75H8JQRtNGP4toOPjw",
+         "scope": "GOOGLE",
+         "types": [
+            "city_hall",
+            "local_government_office",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "Rua Pref Didi B Montagner, 173, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7485247,
+               "lng": -53.05976709999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7473283697085,
+                  "lng": -53.05837906970849
+               },
+               "southwest": {
+                  "lat": -25.7500263302915,
+                  "lng": -53.06107703029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id": "6dcd4d7a84c3f07ad88668082b914445a83a4480",
+         "name": "Fórum de Dois Vizinhos",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1440,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104883158184674511084\"\u003eFlavio Doneda\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAASk1ebXkaseqmCHXDx1LHA4IFi3xVswwWQmKgBkrqZTBCutx3GtcP07HjpedPN9cXu_62AvymTtaUHpczs3e7ULYO1zRC15M-oizVzTze_EWs5DqWa9kpr85bZCLXdusTEhAYsfUhivUq96Nywp9z6TTsGhQw8PkaQ_tTWJ1F4jntMDFwjmhbSg",
+               "width": 2560
+            }
+         ],
+         "place_id": "ChIJVTUsb5FH8JQRYne6jOXipYE",
+         "plus_code": {
+            "compound_code": "7W2R+H3 Centro, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W2R+H3"
+         },
+         "rating": 5,
+         "reference": "ChIJVTUsb5FH8JQRYne6jOXipYE",
+         "scope": "GOOGLE",
+         "types": [
+            "courthouse",
+            "local_government_office",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 5,
+         "vicinity": "Avenida Prefeito Dedi B. Montagner, 680 - Centro, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7421835,
+               "lng": -53.0569151
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7408409697085,
+                  "lng": -53.0555649697085
+               },
+               "southwest": {
+                  "lat": -25.7435389302915,
+                  "lng": -53.0582629302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "493f9205446f67e3f3936454625a34e94e08add3",
+         "name": "Sudotec",
+         "place_id": "ChIJa8i_241H8JQRw7ATVujakCA",
+         "plus_code": {
+            "compound_code": "7W5V+46 Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5V+46"
+         },
+         "rating": 4.8,
+         "reference": "ChIJa8i_241H8JQRw7ATVujakCA",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 8,
+         "vicinity": "Rua Vinte e Oito de Novembro, 189, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7465534,
+               "lng": -53.05592710000001
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7452171197085,
+                  "lng": -53.0546432697085
+               },
+               "southwest": {
+                  "lat": -25.7479150802915,
+                  "lng": -53.0573412302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "94ec9e619688726b1aba85c0bc4fe594849e445c",
+         "name": "REGIONAL CORRETORA DE SEGUROS",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 4032,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108301245862318576610\"\u003eREGIONAL CORRETORA DE SEGUROS\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAGCFM07jXLoaGZvrmUg1zlo00esIm_gvIi_1qv2WRE9UGAPeUF84f8saDr-oi2SS4lx_HkI07vIGCTiUpmkn0d0pNdQGrYBBB1Zs8w7WHU9WzhfeJ2u9djtngt2fZ4YWgEhAiR9OQWDGPmmYT0LD2gDOAGhTw4x7WWrZlEvNbTuTfwZXJUprcJw",
+               "width": 3024
+            }
+         ],
+         "place_id": "ChIJ84pe441H8JQRlSvr1XK0ads",
+         "plus_code": {
+            "compound_code": "7W3V+9J Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W3V+9J"
+         },
+         "rating": 4,
+         "reference": "ChIJ84pe441H8JQRlSvr1XK0ads",
+         "scope": "GOOGLE",
+         "types": [
+            "insurance_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 4,
+         "vicinity": "Rua João Dalpasquale, 210 - Sala 6 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7434655,
+               "lng": -53.0545836
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74212996970849,
+                  "lng": -53.0533095697085
+               },
+               "southwest": {
+                  "lat": -25.7448279302915,
+                  "lng": -53.0560075302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "b75f8e28bfc1a4e397ed53ab5c654e1d6622a3c1",
+         "name": "Construtora Renak",
+         "place_id": "ChIJicjsDfJH8JQRKJzuKu6E2HE",
+         "plus_code": {
+            "compound_code": "7W4W+J5 Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4W+J5"
+         },
+         "reference": "ChIJicjsDfJH8JQRKJzuKu6E2HE",
+         "scope": "GOOGLE",
+         "types": [
+            "general_contractor",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "Rua Castro Alves, 383, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7433871,
+               "lng": -53.05590889999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74202846970849,
+                  "lng": -53.0545113197085
+               },
+               "southwest": {
+                  "lat": -25.7447264302915,
+                  "lng": -53.0572092802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id": "ac0257b136a6e169d90f42cc9dc410a9748c3b44",
+         "name": "Latreille e Companhia Ltda",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 1152,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105062909000080439031\"\u003eWDC br\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAPOznl9RjvExqB0vaSWxX0SDCZaMIJwmiRJsnEOYrumvy7JjRM-Eb1t4X4ZzZD0ZVY_JcLAGkStA1JuCsFIxwyFgXNdndum8V7jEcrjsnm4ALDNgwukYHPBQoljxWBEcKEhDxbUfxEuV6zrWAuaQqkDJuGhTxDwWJ-oQ0OyK_Go6525ALP-NDDg",
+               "width": 2048
+            }
+         ],
+         "place_id": "ChIJMwRh_e1H8JQRM_reN4XKPKc",
+         "plus_code": {
+            "compound_code": "7W4V+JJ Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+JJ"
+         },
+         "rating": 4.2,
+         "reference": "ChIJMwRh_e1H8JQRM_reN4XKPKc",
+         "scope": "GOOGLE",
+         "types": [
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total": 20,
+         "vicinity": "Rua Sete de Setembro, 267, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7449776,
+               "lng": -53.0600012
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7436701697085,
+                  "lng": -53.0586453197085
+               },
+               "southwest": {
+                  "lat": -25.7463681302915,
+                  "lng": -53.0613432802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "37e0d374bd7fe0be7680724459c4b61b7b9e6d7f",
+         "name": "CliniBem - Dra Jovânia Maria Carletto - Dermatologista",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJKY7_fI5H8JQRnTPPr-ODiLY",
+         "plus_code": {
+            "compound_code": "7W4Q+2X São Francisco de Assis, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4Q+2X"
+         },
+         "reference": "ChIJKY7_fI5H8JQRnTPPr-ODiLY",
+         "scope": "GOOGLE",
+         "types": [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "Rua Venceslau Braz, 900 - São Francisco de Assis, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7439018,
+               "lng": -53.0533606
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7424854697085,
+                  "lng": -53.0520244197085
+               },
+               "southwest": {
+                  "lat": -25.7451834302915,
+                  "lng": -53.0547223802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "13068568e1eb077620a7fa7a5b9e08fa27464658",
+         "name": "Oliart Comunicação Visual Ltda ME",
+         "opening_hours": {
+            "open_now": true
+         },
+         "place_id": "ChIJtVxvWYxH8JQRWRgrFsZvB_4",
+         "plus_code": {
+            "compound_code": "7W4W+CM Bairro Das Torres, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4W+CM"
+         },
+         "rating": 4.2,
+         "reference": "ChIJtVxvWYxH8JQRWRgrFsZvB_4",
+         "scope": "GOOGLE",
+         "types": [
+            "painter",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 11,
+         "vicinity": "Rua Venceslau Braz, 257, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.743298,
+               "lng": -53.05695960000001
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74194251970849,
+                  "lng": -53.05557536970851
+               },
+               "southwest": {
+                  "lat": -25.7446404802915,
+                  "lng": -53.05827333029151
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "a77bc6b4f3f504dc69fc7020c206ad7ecfa81a20",
+         "name": "Vivan Corretora de Seguros - Marcos Vivan",
+         "photos": [
+            {
+               "height": 2480,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110461772712186600876\"\u003eRafael Daga\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAAODpU6fNoL0MnCe_CRGQ-27u2o7pturBzyIsRG-Fi6ysp_J1RZ8bWvYoeiGMIiHUNt1xa-YhCoNpSTfq-mG8oYY-FzsKsOMNulckVe1mSATpK3jWm0FwRMJ007gT3gSIdEhD6TlNUVgu6ymDqaFc59CLOGhRrvRIkTr1PowQ2Ittlb0SXc9MQFA",
+               "width": 2480
+            }
+         ],
+         "place_id": "ChIJIV-s5JVH8JQR5lK8YDTs1E4",
+         "plus_code": {
+            "compound_code": "7W4V+M6 Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+M6"
+         },
+         "rating": 5,
+         "reference": "ChIJIV-s5JVH8JQR5lK8YDTs1E4",
+         "scope": "GOOGLE",
+         "types": [
+            "insurance_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua João Dalpasquale, 547, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7550869,
+               "lng": -53.05766389999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.75372561970849,
+                  "lng": -53.05624861970851
+               },
+               "southwest": {
+                  "lat": -25.7564235802915,
+                  "lng": -53.0589465802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id": "23915757fd130b9f7d6dbad32adda03e83eef3dd",
+         "name": "DMV - State Traffic Department",
+         "opening_hours": {
+            "open_now": false
+         },
+         "photos": [
+            {
+               "height": 648,
+               "html_attributions": [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107138624044602750445\"\u003eAnacleto Basso\u003c/a\u003e"
+               ],
+               "photo_reference": "CmRaAAAACUeg24WqBkqtw2dD4khw1erMfrRDel0hP-VBgX5hr6vgUyP_IZqbOBBm3u78Asil0vauxP0tEWyleM7XakGNqAcoGC4pjhP7Bnw0QBf6zhmbYnpctzyM2tEDgt3hlUILEhCPZ5BTd42TrP6hoF7ufgs2GhRtjjKIhToiCCIfvYkq5UqA0EQLXw",
+               "width": 1152
+            }
+         ],
+         "place_id": "ChIJ99jW25pH8JQRmQ1AYYLX1q4",
+         "plus_code": {
+            "compound_code": "6WVR+XW Centro Sul, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58686WVR+XW"
+         },
+         "rating": 3.4,
+         "reference": "ChIJ99jW25pH8JQRmQ1AYYLX1q4",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 5,
+         "vicinity": "Rua Salgado Filho, 474, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7424572,
+               "lng": -53.0558936
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7411234197085,
+                  "lng": -53.0546156697085
+               },
+               "southwest": {
+                  "lat": -25.74382138029151,
+                  "lng": -53.0573136302915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "abd5de7450d9ac0206ddade910d975b8f6bd5998",
+         "name": "Vilas Boas Seguros",
+         "place_id": "ChIJxxDk8-1H8JQR63Z28Wo9Xhw",
+         "plus_code": {
+            "compound_code": "7W5V+2J Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W5V+2J"
+         },
+         "rating": 3,
+         "reference": "ChIJxxDk8-1H8JQR63Z28Wo9Xhw",
+         "scope": "GOOGLE",
+         "types": [
+            "insurance_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 2,
+         "vicinity": "Rua Sete de Setembro, 372 - Sala 01 - Centro Norte, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7411742,
+               "lng": -53.0575224
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7398077197085,
+                  "lng": -53.0560896197085
+               },
+               "southwest": {
+                  "lat": -25.7425056802915,
+                  "lng": -53.05878758029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "f28bdc6569dc4610beef320cd1413e501c240d17",
+         "name": "Sindicato Rural de Engenheiro Beltrão",
+         "place_id": "ChIJQRNgJ75H8JQR1KWw3BMgfEs",
+         "reference": "ChIJQRNgJ75H8JQR1KWw3BMgfEs",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "TRAV VEREADOR ENEDIRSOUZA DE LIMA 95, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7433316,
+               "lng": -53.05704919999999
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.7420061697085,
+                  "lng": -53.05569456970849
+               },
+               "southwest": {
+                  "lat": -25.7447041302915,
+                  "lng": -53.05839253029149
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "af87fa4efd35e68167d8611f726813e047763f9c",
+         "name": "Associação de Mulheres de Dois Vizinhos e Rede",
+         "place_id": "ChIJF2ZjaI1H8JQRSpamTSp9CgQ",
+         "plus_code": {
+            "compound_code": "7W4V+M5 Centro Norte, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4V+M5"
+         },
+         "rating": 5,
+         "reference": "ChIJF2ZjaI1H8JQRSpamTSp9CgQ",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 1,
+         "vicinity": "Rua Prudente de Morais, 570, Dois Vizinhos"
+      },
+      {
+         "business_status": "OPERATIONAL",
+         "geometry": {
+            "location": {
+               "lat": -25.7438616,
+               "lng": -53.0541365
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -25.74252971970849,
+                  "lng": -53.0527826197085
+               },
+               "southwest": {
+                  "lat": -25.7452276802915,
+                  "lng": -53.0554805802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "8608f5361f343db21e74a2650bbb416883a1a5e7",
+         "name": "Carikol",
+         "place_id": "ChIJYwRVVIxH8JQRBNMGB5L_PxU",
+         "plus_code": {
+            "compound_code": "7W4W+F8 Bairro Das Torres, Dois Vizinhos - State of Paraná, Brazil",
+            "global_code": "58687W4W+F8"
+         },
+         "rating": 5,
+         "reference": "ChIJYwRVVIxH8JQRBNMGB5L_PxU",
+         "scope": "GOOGLE",
+         "types": [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 6,
+         "vicinity": "Rua Venceslau Braz, 322, Dois Vizinhos"
+      }
+   ],
+   "status": "OK"
+}
