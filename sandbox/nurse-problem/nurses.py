@@ -1,5 +1,5 @@
 import numpy as np
-import math
+
 
 class NurseSchedulingProblem:
     """This class encapsulates the Nurse Scheduling problem
@@ -13,15 +13,13 @@ class NurseSchedulingProblem:
 
         # list of nurses:
         self.nurses = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
-        self.distances = [0, 5, 5, 2, 8, 2, 3, 1]
 
         # nurses' respective shift preferences - morning, evening, night:
         self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1], [0, 1], [1, 1]]
 
         # min and max number of nurses allowed for each shift - morning, evening, night:
-        store_total = len(self.nurses)
-        self.shiftMin = [math.ceil(70*store_total/100), math.ceil(70*store_total/100)]
-        self.shiftMax = [store_total,store_total]
+        self.shiftMin = [2, 2]
+        self.shiftMax = [3, 4]
 
         # max shifts per week allowed for each nurse
         self.maxShiftsPerWeek = 5
@@ -82,7 +80,6 @@ class NurseSchedulingProblem:
 
         return nurseShiftsDict
 
-    
     def countConsecutiveShiftViolations(self, nurseShiftsDict):
         """
         Counts the consecutive shift violations in the schedule
@@ -202,4 +199,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
