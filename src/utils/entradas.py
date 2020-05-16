@@ -2,16 +2,40 @@ import json
 import math
 from collections import defaultdict
 R = 6373.0
-
-
+initialLat = -22.925382
+initialLong = -43.180547
 class Entrada(object):
     def __init__(self):
         self.storeName = {}
-        self.storeList()
+        
         self.points = self.extractPoints()
         self.types = self.extractTypes()
-        self.grafo = self.makeGraph(self.points)
+        self.q1 = {}
+        self.q2 = {}
+        self.q3 = {}
+        self.q4 = {}
+        self.diverderCorners(self.points)
+        self.storeList(self.q4)
+        print("q4: ", len(self.q4))
+        self.grafo = self.makeGraph(self.q4)
         print(len(self.points))
+
+
+    def diverderCorners(self, points):
+        for point in points: 
+            if points[point]["lat"] > initialLat and points[point]["lng"] < initialLong:
+                self.q1[point] =  points[point]
+            
+            elif points[point]["lat"] > initialLat and points[point]["lng"] > initialLong:
+                self.q2[point] =  points[point]
+
+            elif points[point]["lat"] < initialLat and points[point]["lng"] < initialLong:
+                self.q3[point] =  points[point]
+
+            elif points[point]["lat"] < initialLat and points[point]["lng"] > initialLong:
+                self.q4[point] =  points[point]
+
+
 
     def extractPoints(self):
         points = {}
@@ -33,13 +57,16 @@ class Entrada(object):
                 types[id] = typesList
         return types
 
-    def storeList(self):
+    def storeList(self, points):
         stores = []
         with open('nearby.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
-            for places in data['results']:
-                stores.append(places['place_id'])
-                self.storeName[places['place_id']] = places['name']
+            results = data['results']
+            for places in points:
+                stores.append(places)
+                for i in results:
+                    if places == i["place_id"]:
+                        self.storeName[places] = i['name']
 
         with open("stores.json", "w") as stores_file:
             data = json.dump(stores, stores_file)
@@ -110,3 +137,4 @@ class Grafo(object):
 
     def __getitem__(self, v):
         return self.adj[v]
+ent = Entrada()
