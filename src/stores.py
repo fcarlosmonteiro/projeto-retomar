@@ -7,6 +7,7 @@ from tratarEntradas import Entrada
 class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
     """
+
     def __init__(self, hardConstraintPenalty):
         """
         :param hardConstraintPenalty: the penalty factor for a hard-constraint violation
@@ -20,12 +21,12 @@ class StoreSchedulingProblem:
         # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
         # stores' respective shift preferences - morning, evening, night:
-        #self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1],
+        # self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1],
         #                        [0, 1], [1, 1]]
 
         # min and max number of stores allowed for each shift - morning, evening, night:
         store_total = len(self.stores)
-        self.shiftMin = [50,50]
+        self.shiftMin = [50, 50]
         self.shiftMax = [store_total, store_total]
 
         # max shifts per week allowed for each stores
@@ -60,19 +61,20 @@ class StoreSchedulingProblem:
         storeShiftsDict = self.getStoreShifts(schedule)
 
         # count the various violations:
-        consecutiveShiftViolations = self.countConsecutiveShiftViolations(storeShiftsDict)
+        consecutiveShiftViolations = self.countConsecutiveShiftViolations(
+            storeShiftsDict)
         # shiftsPerWeekViolations = self.countShiftsPerWeekViolations(
         #     storeShiftsDict)[1]
         # storesPerShiftViolations = self.countStoresPerShiftViolations(
         #     storeShiftsDict)[1]
-        #shiftPreferenceViolations = self.countShiftPreferenceViolations(
-         #   storeShiftsDict)
+        # shiftPreferenceViolations = self.countShiftPreferenceViolations(
+        #   storeShiftsDict)
         shiftDistanceViolations = self.countDistanceViolations(storeShiftsDict)
         # calculate the cost of the violations:
         hardContstraintViolations = shiftDistanceViolations + consecutiveShiftViolations
        # softContstraintViolations = shiftPreferenceViolations
 
-        #return self.hardConstraintPenalty * hardContstraintViolations + softContstraintViolations
+        # return self.hardConstraintPenalty * hardContstraintViolations + softContstraintViolations
         return self.hardConstraintPenalty * hardContstraintViolations
 
     def getStoreShifts(self, schedule):
@@ -97,14 +99,15 @@ class StoreSchedulingProblem:
         for i in range(0, 9):
             for storeShifts in storeShiftsDict:
                 if storeShiftsDict[storeShifts][i]:
-                    violations += self.checkNeighboorhod(
+                    violations += self.checkNeighborhood(
                         i, storeShiftsDict, storeShifts)
         return violations
 
-    def checkNeighboorhod(self, index, storeShiftsDict, storeShifts):
+    def checkNeighborhood(self, index, storeShiftsDict, storeShifts):
         violationCount = 0
         for i in self.entrada.grafo[storeShifts]:
-            if storeShiftsDict[i[0]] and i[1] < 0.01:
+            if storeShiftsDict[i[0]][index] != 0 and i[1] < 0.01:
+                print('A distância entre ' + i[0] + ' e ' + storeShifts + ' não satisfez a constraint.')
                 violationCount += 1
         return violationCount
 
@@ -159,7 +162,8 @@ class StoreSchedulingProblem:
         violations = 0
         # iterate over all shifts and count violations:
         for shiftIndex, numOfStores in enumerate(totalPerShiftList):
-            dailyShiftIndex = shiftIndex % self.shiftPerDay  # -> 0, 1, or 2 for the 3 shifts per day
+            # -> 0, 1, or 2 for the 3 shifts per day
+            dailyShiftIndex = shiftIndex % self.shiftPerDay
             if (numOfStores > self.shiftMax[dailyShiftIndex]):
                 violations += numOfStores - self.shiftMax[dailyShiftIndex]
             elif (numOfStores < self.shiftMin[dailyShiftIndex]):
@@ -199,11 +203,12 @@ class StoreSchedulingProblem:
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict
-              
-              ))
+
+                                           ))
         print()
-        
-        print("Consecutive shift violations = ", self.countConsecutiveShiftViolations(storeShiftsDict))
+
+        print("Consecutive shift violations = ",
+              self.countConsecutiveShiftViolations(storeShiftsDict))
         print()
 
 

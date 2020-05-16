@@ -9,7 +9,7 @@ class Entrada(object):
         self.storeList()
         points = self.extractPoints()
         self.grafo = self.makeGraph(points)
-        print("Stores :", len(points))
+        print("Stores:", len(points))
 
     def extractPoints(self):
         points = {}
