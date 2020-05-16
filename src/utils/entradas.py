@@ -5,35 +5,36 @@ R = 6373.0
 initialLat = -22.925382
 initialLong = -43.180547
 class Entrada(object):
-    def __init__(self):
+    def __init__(self, quandrante = 0):
         self.storeName = {}
         
         self.points = self.extractPoints()
         self.types = self.extractTypes()
-        self.q1 = {}
-        self.q2 = {}
-        self.q3 = {}
-        self.q4 = {}
+        self.quadrantes =[]
+        self.quadrantes.append({})
+        self.quadrantes.append({})
+        self.quadrantes.append({})
+        self.quadrantes.append({})
         self.diverderCorners(self.points)
-        self.storeList(self.q4)
-        print("q4: ", len(self.q4))
-        self.grafo = self.makeGraph(self.q4)
+        self.storeList(self.quadrantes[quandrante])
+        print("Quadrante:", quandrante,"Quantidade:", len(self.quadrantes[quandrante]))
+        self.grafo = self.makeGraph(self.quadrantes[quandrante])
         print(len(self.points))
 
 
     def diverderCorners(self, points):
         for point in points: 
             if points[point]["lat"] > initialLat and points[point]["lng"] < initialLong:
-                self.q1[point] =  points[point]
+                self.quadrantes[0][point] =  points[point]
             
             elif points[point]["lat"] > initialLat and points[point]["lng"] > initialLong:
-                self.q2[point] =  points[point]
+                self.quadrantes[1][point] =  points[point]
 
             elif points[point]["lat"] < initialLat and points[point]["lng"] < initialLong:
-                self.q3[point] =  points[point]
+                self.quadrantes[2][point] =  points[point]
 
             elif points[point]["lat"] < initialLat and points[point]["lng"] > initialLong:
-                self.q4[point] =  points[point]
+                self.quadrantes[3][point] =  points[point]
 
 
 
