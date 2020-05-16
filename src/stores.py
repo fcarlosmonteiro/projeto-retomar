@@ -4,6 +4,7 @@ import json
 from utils.entradas import Entrada
 from utils.export import Export
 
+
 class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
     """
@@ -19,6 +20,9 @@ class StoreSchedulingProblem:
         with open('stores.json', 'r', encoding='utf-8') as json_file:
             self.stores = json.load(json_file)
         # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+
+        with open('utils/essentialTypes.json', 'r', encoding='utf-8') as json_file:
+            self.essentialTypes = json.load(json_file)
 
         # stores' respective shift preferences - morning, evening, night:
         # self.shiftPreference = [[1, 0], [1, 1], [0, 0], [0, 1], [0, 0], [1, 1],
@@ -88,8 +92,14 @@ class StoreSchedulingProblem:
         shiftIndex = 0
 
         for store in self.stores:
-            storeShiftsDict[store] = schedule[shiftIndex:shiftIndex +
-                                              shiftsPerStore]
+            isEssential = self.isEssential(self.entrada.types[store])
+
+            if isEssential:
+                storeShiftsDict[store] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            else:
+                storeShiftsDict[store] = schedule[shiftIndex:shiftIndex +
+                                                  shiftsPerStore]
+
             shiftIndex += shiftsPerStore
 
         return storeShiftsDict
@@ -98,16 +108,18 @@ class StoreSchedulingProblem:
         violations = 0
         for i in range(0, 9):
             for storeShifts in storeShiftsDict:
-                if storeShiftsDict[storeShifts][i]:
-                    violations += self.checkNeighborhood(
-                        i, storeShiftsDict, storeShifts)
+
+                isEssential = self.isEssential(self.entrada.types[storeShifts])
+                if not isEssential:
+                    if storeShiftsDict[storeShifts][i]:
+                        violations += self.checkNeighborhood(
+                            i, storeShiftsDict, storeShifts)
         return violations
 
     def checkNeighborhood(self, index, storeShiftsDict, storeShifts):
         violationCount = 0
         for i in self.entrada.grafo[storeShifts]:
             if storeShiftsDict[i[0]][index] != 0 and i[1] < 0.01:
-                print('A distância entre ' + i[0] + ' e ' + storeShifts + ' não satisfez a constraint.')
                 violationCount += 1
         return violationCount
 
@@ -119,11 +131,14 @@ class StoreSchedulingProblem:
         """
         violations = 0
         # iterate over the shifts of each store:
-        for storeShifts in storeShiftsDict.values():
-            # look for two cosecutive '1's:
-            for shift1, shift2 in zip(storeShifts, storeShifts[1:]):
-                if shift1 == 0 and shift2 == 0:
-                    violations += 1
+        for storeShifts in storeShiftsDict:
+
+            isEssential = self.isEssential(self.entrada.types[storeShifts])
+            if not isEssential:
+                # look for two cosecutive '1's:
+                for shift1, shift2 in zip(storeShiftsDict[storeShifts], storeShiftsDict[storeShifts][1:]):
+                    if shift1 == 0 and shift2 == 0:
+                        violations += 1
         return violations
 
     def countShiftsPerWeekViolations(self, storeShiftsDict):
@@ -201,7 +216,7 @@ class StoreSchedulingProblem:
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
 
-        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek)        
+        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek)
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict
@@ -212,6 +227,15 @@ class StoreSchedulingProblem:
         print("Consecutive shift violations = ",
               self.countConsecutiveShiftViolations(storeShiftsDict))
         print()
+
+    def isEssential(self, storeTypes):
+        intersection = [
+            value for value in storeTypes if value in self.essentialTypes['types']]
+
+        if len(intersection) > 0:
+            return True
+        else:
+            return False
 
 
 # testing the class:
