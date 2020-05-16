@@ -80,7 +80,7 @@ def main():
                                                       ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
 
     # print best solution found:
-    #best = hof.items[0]
+    best = hof.items[0]
     #print("-- Best Individual = ", best)
     print("-- Best Fitness = ", best.fitness.values[0])
     print()
