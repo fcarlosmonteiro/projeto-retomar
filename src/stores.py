@@ -9,14 +9,15 @@ class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
     """
 
-    def __init__(self, hardConstraintPenalty):
+    def __init__(self, hardConstraintPenalty, quarteirao=0):
         """
         :param hardConstraintPenalty: the penalty factor for a hard-constraint violation
         """
         self.hardConstraintPenalty = hardConstraintPenalty
+        self.quarteirao = quarteirao
 
         # list of stores:
-        self.entrada = Entrada()
+        self.entrada = Entrada(self.quarteirao)
         with open('stores.json', 'r', encoding='utf-8') as json_file:
             self.stores = json.load(json_file)
         # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
@@ -216,7 +217,7 @@ class StoreSchedulingProblem:
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
 
-        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek)
+        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek,self.quarteirao)
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict
