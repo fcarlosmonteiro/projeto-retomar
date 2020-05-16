@@ -12,7 +12,7 @@ import elitism
 import stores
 
 # problem constants:
-HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violation
+HARD_CONSTRAINT_PENALTY = 20  # the penalty factor for a hard-constraint violation
 
 # Genetic Algorithm constants:
 POPULATION_SIZE = 300

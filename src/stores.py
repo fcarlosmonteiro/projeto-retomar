@@ -241,7 +241,7 @@ class StoreSchedulingProblem:
 # testing the class:
 def main():
     # create a problem instance:
-    stores = StoreSchedulingProblem(10)
+    stores = StoreSchedulingProblem(20)
 
     randomSolution = np.random.randint(2, size=len(stores))
     print("Random Solution = ")
