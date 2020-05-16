@@ -58,7 +58,6 @@ class Entrada(object):
         return Grafo(arrestas)
 
 
-
 class Grafo(object):
     def __init__(self, arestas, direcionado=False):
         """Inicializa as estruturas base do grafo."""

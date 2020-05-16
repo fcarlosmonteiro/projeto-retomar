@@ -40,10 +40,12 @@ creator.create("Individual", list, fitness=creator.FitnessMin)
 toolbox.register("zeroOrOne", random.randint, 0, 1)
 
 # create the individual operator to fill up an Individual instance:
-toolbox.register("individualCreator", tools.initRepeat, creator.Individual, toolbox.zeroOrOne, len(nsp))
+toolbox.register("individualCreator", tools.initRepeat,
+                 creator.Individual, toolbox.zeroOrOne, len(nsp))
 
 # create the population operator to generate a list of individuals:
-toolbox.register("populationCreator", tools.initRepeat, list, toolbox.individualCreator)
+toolbox.register("populationCreator", tools.initRepeat,
+                 list, toolbox.individualCreator)
 
 
 # fitness calculation
@@ -75,7 +77,7 @@ def main():
 
     # perform the Genetic Algorithm flow with hof feature added:
     population, logbook = elitism.eaSimpleWithElitism(population, toolbox, cxpb=P_CROSSOVER, mutpb=P_MUTATION,
-                                              ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
+                                                      ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
 
     # print best solution found:
     best = hof.items[0]
