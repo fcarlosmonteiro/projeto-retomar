@@ -15,14 +15,14 @@ import stores
 HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violation
 
 # Genetic Algorithm constants:
-POPULATION_SIZE = 100
+POPULATION_SIZE = 300
 P_CROSSOVER = 0.9  # probability for crossover
-P_MUTATION = 0.1   # probability for mutating an individual
-MAX_GENERATIONS = 200
+P_MUTATION = 0.3   # probability for mutating an individual
+MAX_GENERATIONS = 500
 HALL_OF_FAME_SIZE = 30
 
 # set the random seed:
-RANDOM_SEED = 42
+RANDOM_SEED = 10
 random.seed(RANDOM_SEED)
 
 toolbox = base.Toolbox()
@@ -80,8 +80,8 @@ def main():
                                                       ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
 
     # print best solution found:
-    best = hof.items[0]
-    print("-- Best Individual = ", best)
+    #best = hof.items[0]
+    #print("-- Best Individual = ", best)
     print("-- Best Fitness = ", best.fitness.values[0])
     print()
     print("-- Schedule = ")
