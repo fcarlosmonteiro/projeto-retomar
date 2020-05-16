@@ -10,6 +10,7 @@ class Entrada(object):
         self.storeList()
         self.points = self.extractPoints()
         self.grafo = self.makeGraph(self.points)
+        print(len(self.points))
 
     def extractPoints(self):
         points = {}
