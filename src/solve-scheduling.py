@@ -12,13 +12,13 @@ import elitism
 import stores
 
 # problem constants:
-HARD_CONSTRAINT_PENALTY = 20  # the penalty factor for a hard-constraint violation
+HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violation
 
 # Genetic Algorithm constants:
 POPULATION_SIZE = 300
 P_CROSSOVER = 0.9  # probability for crossover
 P_MUTATION = 0.3   # probability for mutating an individual
-MAX_GENERATIONS = 500
+MAX_GENERATIONS = 1000
 HALL_OF_FAME_SIZE = 30
 
 # set the random seed:
@@ -56,7 +56,7 @@ def getCost(individual):
 toolbox.register("evaluate", getCost)
 
 # genetic operators:
-toolbox.register("select", tools.selTournament, tournsize=2)
+toolbox.register("select", tools.selTournament, tournsize=5)
 toolbox.register("mate", tools.cxTwoPoint)
 toolbox.register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
 

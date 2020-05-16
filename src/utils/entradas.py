@@ -15,9 +15,9 @@ class Entrada(object):
         self.q3 = {}
         self.q4 = {}
         self.diverderCorners(self.points)
-        self.storeList(self.q4)
-        print("q4: ", len(self.q4))
-        self.grafo = self.makeGraph(self.q4)
+        self.storeList(self.q3)
+        print("q3: ", len(self.q3))
+        self.grafo = self.makeGraph(self.q3)
         print(len(self.points))
 
 
