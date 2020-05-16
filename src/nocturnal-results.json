@@ -1,0 +1,3148 @@
+{
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9276961,
+                    "lng": -43.18368279999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.92638096970849,
+                        "lng": -43.1823057197085
+                    },
+                    "southwest": {
+                        "lat": -22.9290789302915,
+                        "lng": -43.18500368029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "4e43039360ede24966a0139cc62068047dc37cdb",
+            "name": "The Maze",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 810,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102570478113240575582\">The Maze</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAJBhMWFaVhMDczQxjkn3kA8PNYXkzOwn-MZ26omn-CsjD_5nNVfMUqQPDwPK2ODyBoBZFYxd-zKWzj45qNWTfTwh9W4IzJz0oMxbSG6SxqqBlp5WIbSpCgSS1gJZPGsPbEhAxbwATHTNsW-UEwvy8qY0nGhTrdtY4JwmcNOCFcKIPaDMAlMCl9Q",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJuZ1Ic4N_mQARIx6FfT_KSqg",
+            "plus_code": {
+                "compound_code": "3RC8+WG Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RC8+WG"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJuZ1Ic4N_mQARIx6FfT_KSqg",
+            "scope": "GOOGLE",
+            "types": [
+                "art_gallery",
+                "night_club",
+                "lodging",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 699,
+            "vicinity": "Rua Tavares Bastos, 414 - casa 66 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.934439,
+                    "lng": -43.180392
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9330890697085,
+                        "lng": -43.17904091970851
+                    },
+                    "southwest": {
+                        "lat": -22.9357870302915,
+                        "lng": -43.1817388802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "33bb653ebcd98baaa449fe7fb9620da433552a5b",
+            "name": "Salvatore Caf\u00e9",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4608,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108872082243512985611\">Henrique Diniz</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAETu7U3QULWMjMDtA2sKqHL0HqFnwulOj272vZsxfblInsyARX2A9o1H4MovqgroPFbPOt2_h0RgWdokiWkDzRqtEU8RD6eE46G6bzsmkkoBVrDUnNMQE0tM7q1UUZIb5EhC0CGr8M71myAvLfCYOgFcNGhTMSRXoLJF2z3o6G9kDR7P45nrBBQ",
+                    "width": 3456
+                }
+            ],
+            "place_id": "ChIJw0PoW49_mQARc0Pkxk-Y_9E",
+            "plus_code": {
+                "compound_code": "3R89+6R Laranjeiras, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R89+6R"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJw0PoW49_mQARc0Pkxk-Y_9E",
+            "scope": "GOOGLE",
+            "types": [
+                "art_gallery",
+                "electronics_store",
+                "home_goods_store",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 192,
+            "vicinity": "Rua Senador Corr\u00eaa, 32 - loja d - Laranjeiras, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.91249509999999,
+                    "lng": -43.1801922
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.91111631970849,
+                        "lng": -43.1790731697085
+                    },
+                    "southwest": {
+                        "lat": -22.9138142802915,
+                        "lng": -43.1817711302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "3b9a7ee48bece4cfb3fe14e59bf7c02ba43723d7",
+            "name": "Parada da Lapa",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114482937757870654737\">VideoPontoCom Rio</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAlHL2HRI4K0WIK8JVPLQ7sAtEYU3WkywT4siXvowPro737A7CakR455NgS37h5rh1q2yc8akjxy8-hBE7g2Xc4wK0ktzAzoTPC64fy9Mi5FQ48WJna9kHD4ATOSPiTLzvEhCYC9SXIZ4aR92D3zmB3jK0GhRjAVvpVEfbX7kvQaAbCNuoGL--bw",
+                    "width": 4928
+                }
+            ],
+            "place_id": "ChIJlfIqiGR_mQARX2lGSHt0vU4",
+            "plus_code": {
+                "compound_code": "3RQ9+2W Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RQ9+2W"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJlfIqiGR_mQARX2lGSHt0vU4",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 526,
+            "vicinity": "Rua dos Arcos, 24 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.913226,
+                    "lng": -43.181989
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9118084197085,
+                        "lng": -43.1806459197085
+                    },
+                    "southwest": {
+                        "lat": -22.9145063802915,
+                        "lng": -43.1833438802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "6a299f99290d79014be608bd0623bfa67d2443da",
+            "name": "Bar Carioca da Gema",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 962,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116209695474665527739\">Carioca da Gema</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAlSszyhUqEiojAFpi5LmOKm19ofqRE3LUEOjLcJbjyz1z0XFItZe_1HB6owta6poVNgLbYkeTePo3acYbqH8SfbcvgHX3qsLNcAM-eL1BFbvpuJDrSKYlvx677fR1JAIDEhAGVd_Xr56uqiROd6lN01ZLGhSg87XeJDy2KJLSgLJoFLFWxZx9Ig",
+                    "width": 2197
+                }
+            ],
+            "place_id": "ChIJX8bjH2V_mQARyXxUXZYaAZc",
+            "plus_code": {
+                "compound_code": "3RP9+P6 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+P6"
+            },
+            "price_level": 2,
+            "rating": 4.6,
+            "reference": "ChIJX8bjH2V_mQARyXxUXZYaAZc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2222,
+            "vicinity": "Avenida Mem de S\u00e1, 79 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9210826,
+                    "lng": -43.1868838
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9196639197085,
+                        "lng": -43.1856464197085
+                    },
+                    "southwest": {
+                        "lat": -22.9223618802915,
+                        "lng": -43.1883443802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "d071b160b83b54023dd69551fcd63931773c36e8",
+            "name": "Bar do Mineiro",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106819143484107683876\">Vinicius Bom</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAx2gJ7T7rScg67_-4RKzs73IZXA28WUkY4SYi-_YBJUEkaUwS1KmYeDoJDFacY4qCKc68s1ZvLI9-rTyTUS8OuGVblu2RSaynB_noSc6vAK8_bQIDZdgs3jFjIBsPozI1EhDnBXCwAuwqJjQ7fvAkw15GGhQQTMn3xYKtxV2MiDhSuO7LH7ApRA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJQ2ZmNXZ_mQARORFUopsZ9lI",
+            "plus_code": {
+                "compound_code": "3RH7+H6 Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH7+H6"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJQ2ZmNXZ_mQARORFUopsZ9lI",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1812,
+            "vicinity": "Rua Paschoal Carlos Magno, 99 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.913047,
+                    "lng": -43.1811313
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9117925197085,
+                        "lng": -43.1798038697085
+                    },
+                    "southwest": {
+                        "lat": -22.91449048029151,
+                        "lng": -43.1825018302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "bc02a6c337334a278008f649c3974644ae45b88f",
+            "name": "Choperia Brazooka",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 480,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116256915813551547825\">Choperia Brazooka</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAqJUf41lSuQ1tRd6P1Q33vcqEdLm4GvkyWhJLSSQdSSuhQgQ079KwZ0Mew2dKydexf10VODsyMFvcFg9SzuzpQNkncR90WoU4iub1cAnvmfENCCgB0AKfSjnTDjOh6adGEhBzZYHqiPB4WcwJdPIWSvV-GhQsa0ITRppYso2OfRKOnj9Q5rqx7g",
+                    "width": 720
+                }
+            ],
+            "place_id": "ChIJX3PS7mR_mQARMz_k_PKAXOc",
+            "plus_code": {
+                "compound_code": "3RP9+QG Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+QG"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJX3PS7mR_mQARMz_k_PKAXOc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 572,
+            "vicinity": "Avenida Mem de S\u00e1, 70 - Centro, Lapa"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.93391769999999,
+                    "lng": -43.17745
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.93257351970849,
+                        "lng": -43.1760334197085
+                    },
+                    "southwest": {
+                        "lat": -22.9352714802915,
+                        "lng": -43.1787313802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "436a19ad74c90c66b3bf6e2a0292be02b233dcc4",
+            "name": "Caf\u00e9 Lamas",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1365,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114326007716204883291\">Otto Nassar</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAZfnFJxOxTp0TZeupfjqWjjq-YAslCOsOrRU-oQGq7pNcYauTKJZpjIYppMvSEwBwOUdK8o88m_Yt44G1pGFZHUe7mR-uno6nbe_zJrhyyAmhGoPCkvsIyiKuua6JJZE2EhC7eoBpjWQ9rgxUH8jqGN_LGhQTYnHLdVqfApzx1CVUWMqdTW5afg",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJF3PBNYZ_mQARMBaTHrBOp90",
+            "plus_code": {
+                "compound_code": "3R8F+C2 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R8F+C2"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJF3PBNYZ_mQARMBaTHrBOp90",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3016,
+            "vicinity": "Rua Marqu\u00eas de Abrantes, 18a - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9160517,
+                    "lng": -43.1770979
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9146572697085,
+                        "lng": -43.1757351197085
+                    },
+                    "southwest": {
+                        "lat": -22.9173552302915,
+                        "lng": -43.1784330802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "3b31302197fe4eb1a7955c26a797a5890bc6bc89",
+            "name": "Beco do Rato",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2948,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108725513056927567799\">Vankar Rhal</a>"
+                    ],
+                    "photo_reference": "CmRZAAAAtCnVY2Ix13Addw9ebJ6-nU1S3X2OAhJiDm1OmE4J4EurYG5qbk_E1f3ie5Qhhip8f2AafFv5vaSv5hr5JO-4pgcqMifQVQKqaxQadmnvaz4aYxSCBCx-Izrpw2uGRaYPEhA5yEqGzIVj4M10wSUl4DoiGhTPlPmQNC6L_SwI82F0bVedQOrANw",
+                    "width": 2948
+                }
+            ],
+            "place_id": "ChIJvZil1WJ_mQARG_qLwxnhhv8",
+            "plus_code": {
+                "compound_code": "3RMF+H5 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RMF+H5"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJvZil1WJ_mQARG_qLwxnhhv8",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2456,
+            "vicinity": "Rua Joaquim Silva, 11, Lapa"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9340054,
+                    "lng": -43.1759478
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9326619197085,
+                        "lng": -43.1746562697085
+                    },
+                    "southwest": {
+                        "lat": -22.9353598802915,
+                        "lng": -43.1773542302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "22b0dec615db004213162aa5cdf792ed51852504",
+            "name": "Restaurante e Bar Garota do Flamengo",
+            "photos": [
+                {
+                    "height": 4608,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106239561420094361981\">Restaurante e Bar Garota do Flamengo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAwvrtpcCAl7Bb_ST24JDBCc1h9pFjiOXYotjsNhkfY9S3Nx6YMlFDEScLOFP8Ey-dpOyd1eIUFshxw9bVxGntAoiDhRqjsjjhIu78c4DS62RwMF3Rw1EShdEzVq4zFYEaEhC1_mciJEKBO2LAsKOeByg7GhSzHYI9lqStJx9E47Ar9n2CPCIyWA",
+                    "width": 6912
+                }
+            ],
+            "place_id": "ChIJmyBIk4d_mQARTdcNDrwQLuc",
+            "plus_code": {
+                "compound_code": "3R8F+9J Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R8F+9J"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJmyBIk4d_mQARTdcNDrwQLuc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1255,
+            "vicinity": "Rua Senador Vergueiro, 41a - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9357272,
+                    "lng": -43.1773932
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9343958697085,
+                        "lng": -43.1759438697085
+                    },
+                    "southwest": {
+                        "lat": -22.9370938302915,
+                        "lng": -43.1786418302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "a1a9307e5c92a80730a2e450b3f50cf42c3e4422",
+            "name": "Armaz\u00e9m do Chopp",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100478562089814806967\">Bruno Magalh\u00e3es</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA83JrJUCnXpBWo5sGGlTbGWQ9Oakyq9UW8t5Vx4kAMRHRLuXMb_dirMaEYXKBc24uvTzDdvct7EOeGsRzojVdRq6EMK89SDW5yWKeBtmJ4J8eSYHV03wSM1D62dAEHG8YEhCQ8XVOgnhwEdxPp6EeHh8YGhROVANMWrS6VoaEI2L7tiTOOZs9Yw",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJ3_u9gIh_mQARl4yAsTgfInQ",
+            "plus_code": {
+                "compound_code": "3R7F+P2 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R7F+P2"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJ3_u9gIh_mQARl4yAsTgfInQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "bar",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 894,
+            "vicinity": "Rua Marqu\u00eas de Abrantes, 66 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9145918,
+                    "lng": -43.1782322
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9131784697085,
+                        "lng": -43.17681571970849
+                    },
+                    "southwest": {
+                        "lat": -22.9158764302915,
+                        "lng": -43.17951368029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "a3b4aeddaf0cdb267b405683242310c6c0912b16",
+            "name": "Bar Ernesto",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 768,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106154359353671151887\">Bar Ernesto</a>"
+                    ],
+                    "photo_reference": "CmRaAAAABO8vEqCny4IEzRy7Dku54CWz7YgxbqVTpvUfZ6f3b8AMJQBDLF55jqKTguxh_4vOYIoRBwpC6h3c6CMMMlYQrv3HzkwXyW5G9-sHpXI8jKTss5WfPn2Z38xdPtH1n_vyEhARJE8iJwY5NUAB_km7-JnUGhR-EDeaa9JOa7Jh-aLocGCr75myBw",
+                    "width": 1024
+                }
+            ],
+            "place_id": "ChIJuQ_D2Hx_mQARSqTewaFSHJg",
+            "plus_code": {
+                "compound_code": "3RPC+5P Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RPC+5P"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJuQ_D2Hx_mQARSqTewaFSHJg",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 807,
+            "vicinity": "Rua da Lapa, 41, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9276961,
+                    "lng": -43.18368279999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.92638096970849,
+                        "lng": -43.1823057197085
+                    },
+                    "southwest": {
+                        "lat": -22.9290789302915,
+                        "lng": -43.18500368029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "4e43039360ede24966a0139cc62068047dc37cdb",
+            "name": "The Maze",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 810,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102570478113240575582\">The Maze</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAWvadTs-O_5PXHEp3pGboSy75zJfvWlv8yiqVjHkhJOwKA-CA56y_9ctxDRxHF4oSpvwQCUaRxg7jcDUFgcqUNPIDJfYdcMoourxVbWvjBYG9pQTNbxA0YiwcMHeWaEW8EhC3P4GzEz7oXVni20PBWPIvGhSA4n6T3WHVxSZTsr1EG_iK0bb1Kg",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJuZ1Ic4N_mQARIx6FfT_KSqg",
+            "plus_code": {
+                "compound_code": "3RC8+WG Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RC8+WG"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJuZ1Ic4N_mQARIx6FfT_KSqg",
+            "scope": "GOOGLE",
+            "types": [
+                "art_gallery",
+                "night_club",
+                "lodging",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 699,
+            "vicinity": "Rua Tavares Bastos, 414 - casa 66 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.916809,
+                    "lng": -43.177799
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9154708197085,
+                        "lng": -43.1764994197085
+                    },
+                    "southwest": {
+                        "lat": -22.91816878029151,
+                        "lng": -43.1791973802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "384c17b7fa399ac817b00450f8bbb82d76ee7625",
+            "name": "TribOz - Brazil-Australia Cultural Center",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2322,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109140985469183544675\">Aglaise Silva e Souza</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAtUV53alaDOk0x-IzEqH9MwjBylrwCWC8pKhlBvkLw-Sy93JtDKaHU5y-ymA88dMs_E3ePJdk72rR6ZVHjx9kFwDMKcCTwYjL-_DtOpurIqgIsJ7ZETdc8S3fnqHxFfQpEhDBS5GAeVa1LFD-cycGZ4eAGhRAF1Tamah7B1qXBFBHGdBKOmwfig",
+                    "width": 4128
+                }
+            ],
+            "place_id": "ChIJk7B4xHx_mQARTGOONP9JkGc",
+            "plus_code": {
+                "compound_code": "3RMC+7V Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RMC+7V"
+            },
+            "price_level": 2,
+            "rating": 4.7,
+            "reference": "ChIJk7B4xHx_mQARTGOONP9JkGc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 308,
+            "vicinity": "Rua Conde de Lages, 19 - Centro, Lapa"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.921918,
+                    "lng": -43.187616
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9205518197085,
+                        "lng": -43.1862801697085
+                    },
+                    "southwest": {
+                        "lat": -22.9232497802915,
+                        "lng": -43.1889781302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "fb2781ce62e9c894d151d80e6042989cc2abae58",
+            "name": "Barman Tom Servi\u00e7o de Open Bar para festas e eventos",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJf6UJu55_mQARqKu_Wmw7FVY",
+            "plus_code": {
+                "compound_code": "3RH6+6X Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH6+6X"
+            },
+            "rating": 5,
+            "reference": "ChIJf6UJu55_mQARqKu_Wmw7FVY",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Rua Almirante Alexandrino, 1458 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9213177,
+                    "lng": -43.1895081
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9199541697085,
+                        "lng": -43.1881374697085
+                    },
+                    "southwest": {
+                        "lat": -22.9226521302915,
+                        "lng": -43.1908354302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "9c1442e97b34f5dc9bf3b6468e79170f922f4dd0",
+            "name": "Armaz\u00e9m S\u00e3o Thiago",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108920460779910635378\">Nazareno Scarfati</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAslrgP48f8rL1e629a56d-rXKTxhaJmJffXzKMX-H9KuHJOtpHXh15Bcv3yMiehmFwJv4cfxGClUSpOiYs30qp1Ilhms46WQwZPsHyYteom20azwHzVvpb5dU7AvqU6ktEhCj4QhEJFRoJgh5lsehVrumGhS3b4zpdPtSc_y7B0iovKTeYw5oww",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJlc4k_3V_mQAR4et2TXgawm4",
+            "plus_code": {
+                "compound_code": "3RH6+F5 Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH6+F5"
+            },
+            "price_level": 2,
+            "rating": 4.6,
+            "reference": "ChIJlc4k_3V_mQAR4et2TXgawm4",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 942,
+            "vicinity": "Rua \u00c1urea, 26 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9247404,
+                    "lng": -43.1729425
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9234233697085,
+                        "lng": -43.1715798197085
+                    },
+                    "southwest": {
+                        "lat": -22.9261213302915,
+                        "lng": -43.1742777802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "7fcea786fa0ae829b9e9ee3b460ccd398698d52a",
+            "name": "Emp\u00f3rio Santa F\u00e9",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101850518955608723358\">Ronaldo Fernandes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAj3EhKYTZMFeKgg8rRjDPAiK0J2SeGfgtZ79kLMcCDuReXUMs-6LCDF85qN0SdBvZta8OMcZgXEYvIyycYrn0E3pw6tTc4QHEvoKXW2Cwf8rD-KxUwbG3Z3sI-JWNzgocEhCefSr11lV8nRLmmsTBusxPGhQAZooC8rb7ddpHfjjDVHf_GPfojQ",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "plus_code": {
+                "compound_code": "3RGG+4R Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RGG+4R"
+            },
+            "price_level": 3,
+            "rating": 4.3,
+            "reference": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 510,
+            "vicinity": "Praia do Flamengo, 2 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9129285,
+                    "lng": -43.18195699999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9116597197085,
+                        "lng": -43.18062541970849
+                    },
+                    "southwest": {
+                        "lat": -22.9143576802915,
+                        "lng": -43.18332338029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "288835a551a83f16e6854ad486f8c44dda063c90",
+            "name": "Restaurante Bar Brasil",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1057,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112558871407894045266\">Bruno Mendes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA5DGVsVrh1jCTKhhz5TARuUcHsszf4QXiBvmL5YhQKtK5rUxxBPzcQECCL_mtdco__2lCIw_JSu3r8jrYQrstTS2yXTu9_fz2xFU9LzMWrPGrOt6_4Ctz2Nrv2AwYrduNEhCooRBJISBdrM5QerYKkZWIGhT4ZojzlInKS4GtTLQKsFCzUVm97A",
+                    "width": 1079
+                }
+            ],
+            "place_id": "ChIJh0Q2HmV_mQARCJ2UNbdrx2w",
+            "plus_code": {
+                "compound_code": "3RP9+R6 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+R6"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJh0Q2HmV_mQARCJ2UNbdrx2w",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1084,
+            "vicinity": "Avenida Mem de S\u00e1, 90 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9214795,
+                    "lng": -43.18542559999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9201470697085,
+                        "lng": -43.1840630197085
+                    },
+                    "southwest": {
+                        "lat": -22.9228450302915,
+                        "lng": -43.1867609802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "524c0c633a3673a6eb54871311d246a3b5c4d03b",
+            "name": "Marc\u00f4 Bar e Restaurante",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3648,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108501301472484099770\">Sven Uwe Posth</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4opxPPsAGG4dS51NkbwmJqPAmYEUwl907IBP2GBVdCf6X2wH1pHwdwby2XjE_iyXIlotRcnmPzblU2ggW_vhC61i6-tMsppOkLBzwKXOFKVv_AdHxwoz2FufmYdvOjq4EhD_SwIalzWrSZSyl6dPjUOMGhRXQaIPH3mYW2E9QIOJVd7Jx1AMUg",
+                    "width": 2736
+                }
+            ],
+            "place_id": "ChIJh5rtlHd_mQAR9KEab7UGHas",
+            "plus_code": {
+                "compound_code": "3RH7+CR Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH7+CR"
+            },
+            "price_level": 2,
+            "rating": 3.9,
+            "reference": "ChIJh5rtlHd_mQAR9KEab7UGHas",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 191,
+            "vicinity": "Rua Almirante Alexandrino, 412 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9316667,
+                    "lng": -43.1791667
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9303199697085,
+                        "lng": -43.1778639697085
+                    },
+                    "southwest": {
+                        "lat": -22.93301793029151,
+                        "lng": -43.1805619302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "efda82d23166e278decf9ec496c0ad97a52d8a05",
+            "name": "Brasa Grill House",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3096,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113958211145730944841\">Antonio Azevedo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAAF9U68snXgFVlThppCmqMx3ZQLwcJPMoStNiYufX73RsuGj9S_I0qdkmPviAfGkEyR6WVsl2wk0x-5dKavDjcgoFP9urrLAi4C7mmnYODYe6D3NVhOrZh1pZit8vanPVEhC4j2UZrANOJa-wYqPnfc0tGhSowuyQBEIgXslyA9QBJxYOXD_j_g",
+                    "width": 4128
+                }
+            ],
+            "place_id": "ChIJ0a-jgoZ_mQARGcFfuvaGOqo",
+            "plus_code": {
+                "compound_code": "3R9C+88 Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R9C+88"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJ0a-jgoZ_mQARGcFfuvaGOqo",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1389,
+            "vicinity": "Rua Ministro Tavares de Lira, 43 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9213695,
+                    "lng": -43.1862946
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.92003106970849,
+                        "lng": -43.18495006970849
+                    },
+                    "southwest": {
+                        "lat": -22.9227290302915,
+                        "lng": -43.18764803029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "313d62ee2afc85f071388216828ff8bd582366e4",
+            "name": "Portella Bar e Restaurante - Santa Teresa / RJ",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115251469658018644803\">J\u00e1yana Nachbal do V. Medeiros</a>"
+                    ],
+                    "photo_reference": "CmRZAAAArLS_fxDOI3UGTk8TMYhggMJ_bP7t4cgnn5UoZozZMSyjO7-OTtOCzN_IS9FxenqZYKpU4Ex7w_odGRClhZW7aG7LdZASNGg-QaQ5G2KkiVezQBrcWJf30hBmeNS4T6qqEhCa6WdhyAxEQO26QPyFg8DCGhTKf2umPbpHClOCI-Zk5q6f4VaNzQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ03zyx3d_mQARHm0-p7Rw8FE",
+            "plus_code": {
+                "compound_code": "3RH7+FF Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH7+FF"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJ03zyx3d_mQARHm0-p7Rw8FE",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 475,
+            "vicinity": "Rua Paschoal Carlos Magno, 139 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.935133,
+                    "lng": -43.17443849999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9337949697085,
+                        "lng": -43.17306471970849
+                    },
+                    "southwest": {
+                        "lat": -22.9364929302915,
+                        "lng": -43.17576268029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "97ec5ba6b20922a132e23c022ce437e0ec390e7a",
+            "name": "Boteco Belmonte",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111890049674567192836\">Sirley Filho</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAhpcAWwD01cXa3GbHCs_To1zIThoEwE5L8SXfNP7MrGcNDwQXThltU4ogxBwUTJQP5zeioxsEJuX2d66f2PHHeBZg0QhuVY8GAatQIDbr6JEvPIHoYDRZUiasojMoIp9REhDpz_q4GHwU3cuazFokh-BbGhQ3TuFHJuvwdHDm7F4lme8bPCrWjw",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJJZjxHiiAmQARwBskYTYe9YA",
+            "plus_code": {
+                "compound_code": "3R7G+W6 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R7G+W6"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJJZjxHiiAmQARwBskYTYe9YA",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2300,
+            "vicinity": "Praia do Flamengo, 300 - Loja B - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9288503,
+                    "lng": -43.17428
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9275154697085,
+                        "lng": -43.1728749197085
+                    },
+                    "southwest": {
+                        "lat": -22.9302134302915,
+                        "lng": -43.1755728802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "1b93c84b4878d0940e0fce0dc37ba58e4a13649e",
+            "name": "Boteco da Praia",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2340,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112824104060164132747\">Louren\u00e7o Neto</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAiIbv5kdeY2ZZW7t69i8oOj-dlLjMJjnWjicA5ok7uGFEbXkPwhFMPiGju6fitrJDmEITHvEPW68ezio7DZ_DuT6hEwEx4Ow7yn53NYagSOBo43geonGzNlhV3Q1RP68uEhA2rD3dI0iJfu__59b2K5dCGhQiZPyMuUz3FLyk4Z_zkjvAfCnO4A",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJnTNyfSqAmQARKsHGLqRLr2A",
+            "plus_code": {
+                "compound_code": "3RCG+F7 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCG+F7"
+            },
+            "price_level": 2,
+            "rating": 3.9,
+            "reference": "ChIJnTNyfSqAmQARKsHGLqRLr2A",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 543,
+            "vicinity": "Praia do Flamengo, 122 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.930645,
+                    "lng": -43.179477
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9292599697085,
+                        "lng": -43.1780099197085
+                    },
+                    "southwest": {
+                        "lat": -22.9319579302915,
+                        "lng": -43.1807078802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "b27298eb0d505abdb4d8addfe8b174e34dfc3d1f",
+            "name": "Restaurante Esta\u00e7\u00e3o Largo do Machado 184",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116012488329126544676\">Restaurante Esta\u00e7\u00e3o Largo do Machado 184</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAshiSPLOxAm4eifgFoViyTyh6re3_aSM0iZJJDKGiEc3x0Q8gtwEtdAKx7LnMFQxFdUucjgtmuJ5YOwO0e0RR7dudGToa-_btHkiiSKwPobF6YxW_XdDzw_aWgcSiVs7gEhAhzpewHXCM78du06ln7sMxGhTnGq_TF6I1msm1uPAm4NFP11W7Iw",
+                    "width": 620
+                }
+            ],
+            "place_id": "ChIJd3REUiqAmQAR5V8smiHM8kM",
+            "plus_code": {
+                "compound_code": "3R9C+P6 Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R9C+P6"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJd3REUiqAmQAR5V8smiHM8kM",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 810,
+            "vicinity": "Rua Bento Lisboa, 184 - Loja K - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.928006,
+                    "lng": -43.175478
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9266222197085,
+                        "lng": -43.1741169197085
+                    },
+                    "southwest": {
+                        "lat": -22.9293201802915,
+                        "lng": -43.1768148802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+            "id": "cb4ecf9c3856ca8f30b66a1e6896a9a360c05d35",
+            "name": "Armaz\u00e9m Carmelo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 640,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107966906425777009791\">Armaz\u00e9m Carmelo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAp_TMNp9WDV8wfI9LwTQjUqD_ODB3ZVUY5BE9mjB9CdYZM_Lz5xbfRPAavOitYonzIDmzWuH7LQ95YN8RoxP0Df5zjJSIk6uB6lnWLt4XCx735lslpYEGtbyCt1YD-qPnEhA9qu_DKrcKasxd0UxouzCBGhRzhAUuNVpgzHyiOlrTG1PnrOEuvg",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "plus_code": {
+                "compound_code": "3RCF+QR Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCF+QR"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "meal_delivery",
+                "meal_takeaway",
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 682,
+            "vicinity": "Rua Corr\u00eaa Dutra, 39 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9312149,
+                    "lng": -43.178445
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9298128197085,
+                        "lng": -43.17711711970849
+                    },
+                    "southwest": {
+                        "lat": -22.9325107802915,
+                        "lng": -43.17981508029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "e7c8fbb70b4488fc9e5307b6f26d3da83a55d5c9",
+            "name": "Casa do P\u00e3o de Queijo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2343,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109208907502943580358\">Carlos Carvalho</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAfgQiZQESACe9OFVTbeMHhWEeNEHWEydaPKbaUQtzpFRJDlV6SbXABxE8f4sdFHE1InESk83Ksdx0I9fR5cQ25AHvVxgGFtcp5nDFxlLPuAgRRuPzvbdSiG6f2OYaFJnMEhBispuPIrbulKnDxT7Z4WEhGhSKMVO_DUKkYCAUznbuxAF7DwOnmg",
+                    "width": 4577
+                }
+            ],
+            "place_id": "ChIJtbmb1Pb6mwARttyGPtRZ250",
+            "plus_code": {
+                "compound_code": "3R9C+GJ Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R9C+GJ"
+            },
+            "price_level": 2,
+            "rating": 3.8,
+            "reference": "ChIJtbmb1Pb6mwARttyGPtRZ250",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "cafe",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "Largo do Machado, 19 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9283368,
+                    "lng": -43.1743499
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9269549197085,
+                        "lng": -43.17298926970849
+                    },
+                    "southwest": {
+                        "lat": -22.92965288029151,
+                        "lng": -43.17568723029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "6e3ef33354b074377414854a6bde2b2f31211b95",
+            "name": "Caf\u00e9 e Bar Rio Caim\u00e3",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJAZ9ekCqAmQARaGPxtvpRvL0",
+            "plus_code": {
+                "compound_code": "3RCG+M7 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCG+M7"
+            },
+            "rating": 4,
+            "reference": "ChIJAZ9ekCqAmQARaGPxtvpRvL0",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "cafe",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 16,
+            "vicinity": "Rua Corr\u00eaa Dutra, 9 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9363968,
+                    "lng": -43.1745004
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9350181697085,
+                        "lng": -43.1729984697085
+                    },
+                    "southwest": {
+                        "lat": -22.93771613029151,
+                        "lng": -43.1756964302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "0413481e0a7965078219914a09b9ec67d99373f4",
+            "name": "Casa de Arte e Cultura Julieta de Serpa",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1181,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104632862009270685663\">Casa de Arte e Cultura Julieta de Serpa</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA0lKusMyWfcU5BXYjQNkO-vjBQrwgW-fvt4AKIrKTPZa056e1fXzwyelQ2fd2js-gFi_IwBLyHHxl1tcKYZ7eCBQGJU-9IIWIpbdNDdDiX6obzSkXtg3AKIln8OJRZHDxEhBKJaaPIz6do3z3WlqxBIfmGhRJQGi_BWkLfSODbCkL-i2NNwWBlA",
+                    "width": 1772
+                }
+            ],
+            "place_id": "ChIJPwN6_CeAmQARue91_VKI_yE",
+            "plus_code": {
+                "compound_code": "3R7G+C5 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R7G+C5"
+            },
+            "rating": 4.7,
+            "reference": "ChIJPwN6_CeAmQARue91_VKI_yE",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 935,
+            "vicinity": "Praia do Flamengo, 340 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9192057,
+                    "lng": -43.17737549999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9178936197085,
+                        "lng": -43.17601671970849
+                    },
+                    "southwest": {
+                        "lat": -22.9205915802915,
+                        "lng": -43.17871468029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "270cea0a39a47e5db0baed3e376e7bee099d18b4",
+            "name": "Caf\u00e9 e Bar Vistamar",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115121908646602112056\">Felipe Alves</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAEaNg75wkX-89drdpxkM0qYWwlWoudbCTgmf4KQeYBgnXej8aOQxsFPqrPKwGeqAHedYCDuH-GOFs5gfxsWoREeICaJs_xl_bkkL0g7qxgs-6gx7JVxflRUvAp-FWKNW-EhDf-SRjuvmO6HgvaPtGGNqnGhRxXYOKs5UBjujb_WGeZ4w7Cqo9_g",
+                    "width": 3840
+                }
+            ],
+            "place_id": "ChIJY23Tsn1_mQARcsfAm3teU4s",
+            "plus_code": {
+                "compound_code": "3RJF+82 Gl\u00f3ria, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RJF+82"
+            },
+            "price_level": 1,
+            "rating": 4.3,
+            "reference": "ChIJY23Tsn1_mQARcsfAm3teU4s",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "cafe",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 19,
+            "vicinity": "Rua C\u00e2ndido Mendes, 16B - Gl\u00f3ria, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9127759,
+                    "lng": -43.1853746
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9114946197085,
+                        "lng": -43.1840005697085
+                    },
+                    "southwest": {
+                        "lat": -22.91419258029151,
+                        "lng": -43.1866985302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "cb4d743225cd2e9d7343446bfb9e80b5e49511d7",
+            "name": "Ganjah Coffeeshop Lapa",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4128,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116610992251168444097\">Pedro Souza</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAUf1UApECy4A-DrgV5nhgnqVtha5-AtzfhRuY6qcpp5kfOnwTygqzWo0RMQUzgI3US6_Qdo1ooYa4YOh9_zjwE0eBqwkGcWtBDcS9nJrrdson3Yvw9NX7lZa3soyBM41IEhBjByQj5Ih9LbWQeXs-KztiGhQbVSZYADDtvjIoV6TzaTIwZdwh1w",
+                    "width": 3096
+                }
+            ],
+            "place_id": "ChIJK-lw5W9_mQARpY5kwNVp0V0",
+            "plus_code": {
+                "compound_code": "3RP7+VV Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP7+VV"
+            },
+            "rating": 4.7,
+            "reference": "ChIJK-lw5W9_mQARpY5kwNVp0V0",
+            "scope": "GOOGLE",
+            "types": [
+                "convenience_store",
+                "bar",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 65,
+            "vicinity": "Rua do Rezende, 82 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9247404,
+                    "lng": -43.1729425
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9234233697085,
+                        "lng": -43.1715798197085
+                    },
+                    "southwest": {
+                        "lat": -22.9261213302915,
+                        "lng": -43.1742777802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "7fcea786fa0ae829b9e9ee3b460ccd398698d52a",
+            "name": "Emp\u00f3rio Santa F\u00e9",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101850518955608723358\">Ronaldo Fernandes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAK7DN3E2x6gpwGzORgijw8hj9thlXCQ8t7CM2WYdoIK16u0sCp1R8t3PUKNfBIrgZ02wXi5vHEbtzPygHuRWe7HCI-KzORAAFLmW4o1meXsoVIYg2X8lOxbY0qqwSxI4ZEhCXXMQEF2o4h8WAcUP4oDoaGhTjFgsOjfkdYBaapUv3RKfTqa-UYw",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "plus_code": {
+                "compound_code": "3RGG+4R Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RGG+4R"
+            },
+            "price_level": 3,
+            "rating": 4.3,
+            "reference": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 510,
+            "vicinity": "Praia do Flamengo, 2 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9286017,
+                    "lng": -43.1776548
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.92729266970849,
+                        "lng": -43.17631661970849
+                    },
+                    "southwest": {
+                        "lat": -22.9299906302915,
+                        "lng": -43.17901458029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "21704466100ab872225d13bb417639661357e41c",
+            "name": "VinoArt",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105141358202658924102\">VinoArt</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAAIN2YlURn1FN8dWCPwrcfJuFZudUyznOfJ4l4kA5lWOtZYw4tYzEc-vSnfG-mpS9n2kIFptv4INsrR_oD4d6uPtvYHC7GCM7ogsJvEVbny_D-1QE-WswRSnqoRTexuEPEhCHqQ6znyFOqq3McQclgNS6GhR4-bw-umWalzaZ5JtcjM7r6IVzsQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJD02nA4F_mQARrqataV8Y5NQ",
+            "plus_code": {
+                "compound_code": "3RCC+HW Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCC+HW"
+            },
+            "price_level": 2,
+            "rating": 4.8,
+            "reference": "ChIJD02nA4F_mQARrqataV8Y5NQ",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 93,
+            "vicinity": "Rua Artur Bernardes, 14 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.928006,
+                    "lng": -43.175478
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9266222197085,
+                        "lng": -43.1741169197085
+                    },
+                    "southwest": {
+                        "lat": -22.9293201802915,
+                        "lng": -43.1768148802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+            "id": "cb4ecf9c3856ca8f30b66a1e6896a9a360c05d35",
+            "name": "Armaz\u00e9m Carmelo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 640,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107966906425777009791\">Armaz\u00e9m Carmelo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAogz66REmiml6QuYVdEwBZ-ANYUkhs8PC83aL3khvDk5trlyCvDIWxDe1ktzJhMFrfEqbwVZAGe_FH7-5Z04K40XmSGBcNPNXggKCiMGBDfw8iLKWoMdQILuDaUaCZ4OQEhCMAvzYrFcIGaV68vwRfhVFGhTfxF07pJUF7oyB4Tzi7aof9kWfQw",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "plus_code": {
+                "compound_code": "3RCF+QR Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCF+QR"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "meal_delivery",
+                "meal_takeaway",
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 682,
+            "vicinity": "Rua Corr\u00eaa Dutra, 39 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9320147,
+                    "lng": -43.1803165
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9305306697085,
+                        "lng": -43.1790201197085
+                    },
+                    "southwest": {
+                        "lat": -22.9332286302915,
+                        "lng": -43.1817180802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "67c909b46bdc9061182ddc89fee97df86da5dcfb",
+            "name": "Santo Emp\u00f3rio",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 596,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104771018257587465117\">Santo Emp\u00f3rio</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4Yr3b1hAtgY9O7QCjwIqs3G5DiLGkWbtPY091Cq9u7Y7dt-ZHf956yRGnGMt_1illQxktwozrFZ1QqJkyke9tyH03N4gVfOjSMMuhtCgc5kf_SO6oDYqgU210BZXG6qFEhCigvFtPskLfB2I6PK3X2n0GhSv9uF9SIbfCjxjcB8xk4-1p1i8ig",
+                    "width": 900
+                }
+            ],
+            "place_id": "ChIJC1-HzoV_mQARlwWcHV98kYs",
+            "plus_code": {
+                "compound_code": "3R99+5V Laranjeiras, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R99+5V"
+            },
+            "price_level": 2,
+            "rating": 4.8,
+            "reference": "ChIJC1-HzoV_mQARlwWcHV98kYs",
+            "scope": "GOOGLE",
+            "types": [
+                "grocery_or_supermarket",
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 67,
+            "vicinity": "Rua das Laranjeiras, 29 - loja 228 - Laranjeiras, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9334623,
+                    "lng": -43.1769099
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9320497697085,
+                        "lng": -43.17552951970849
+                    },
+                    "southwest": {
+                        "lat": -22.9347477302915,
+                        "lng": -43.17822748029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "e969bd63fd838b3e4d7b717484cdfe310f772646",
+            "name": "Shop Mestre-Cervejeiro.com Rio de Janeiro - Flamengo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2592,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112044268716804816588\">Nicolau Faulhaber</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAXl-4Ue_r2NEEl6_5cQnYWZg_q75laEznXMFN2l9nr4jxJfQb9VS9qobWU3YAvNsXvjjNvBbyFjR6wAc8CTCEmpExgC79ZxMAyxoxVjxQTxXKko2q4mVU2N3gZHkb0mM5EhAipG8QymBz5lCTBa1rjuuXGhTK_yqSznzFpkp2QfU-ZyhH80lTFw",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJ_f-Esod_mQAR2SH8NRQS9L0",
+            "plus_code": {
+                "compound_code": "3R8F+J6 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R8F+J6"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ_f-Esod_mQAR2SH8NRQS9L0",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 284,
+            "vicinity": "Rua Senador Vergueiro, 2 - Loja A - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9354534,
+                    "lng": -43.1838521
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9341269697085,
+                        "lng": -43.1825945697085
+                    },
+                    "southwest": {
+                        "lat": -22.9368249302915,
+                        "lng": -43.1852925302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "f50b8e586265bb2bcbaeb30ac258f2fb8446b765",
+            "name": "Beba Hush",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJ01ncLY5_mQARAnAT_5oHyKM",
+            "plus_code": {
+                "compound_code": "3R78+RF Laranjeiras, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R78+RF"
+            },
+            "rating": 4.1,
+            "reference": "ChIJ01ncLY5_mQARAnAT_5oHyKM",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 21,
+            "vicinity": "Rua Pinheiro Machado, 75 - Laranjeiras, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9140892,
+                    "lng": -43.1789824
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9127125697085,
+                        "lng": -43.1776588197085
+                    },
+                    "southwest": {
+                        "lat": -22.9154105302915,
+                        "lng": -43.1803567802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+            "id": "2f442e29fd92bf2ab449225d9f7896f1bdd20fe9",
+            "name": "Parada Legal",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJiYeuZ2N_mQARZA_xkak7mls",
+            "plus_code": {
+                "compound_code": "3RPC+9C Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RPC+9C"
+            },
+            "rating": 3,
+            "reference": "ChIJiYeuZ2N_mQARZA_xkak7mls",
+            "scope": "GOOGLE",
+            "types": [
+                "liquor_store",
+                "bar",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "Travessa do Mosqueira, 13 - loja 3 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.924668,
+                    "lng": -43.17738
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9233621697085,
+                        "lng": -43.1760061697085
+                    },
+                    "southwest": {
+                        "lat": -22.9260601302915,
+                        "lng": -43.1787041302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "d0db0152131d488d2b562605b55d14f9caa18572",
+            "name": "Cantina Da Nonna Catete",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 720,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103817492697304682415\">Cantina Da Nonna Catete</a>"
+                    ],
+                    "photo_reference": "CmRaAAAACCf6ggTs5kGYLt1l5MprzaQBFse9bJsMQ0nL5E0b334XksZ6fs22SO-DUyc8kIV10040Kxt676tsxK6-U_PEWoGwoL4Owx5n9wVF2rf8_QqHQ7GjL_Y5NGtWjhAUBY_lEhCE4RynzS1Y-qzxDaEuwYvJGhRC0gsY8KfOs0JCGuthhiJfU-8ugA",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJwZW8dn9_mQAR3yTg5qM2niY",
+            "plus_code": {
+                "compound_code": "3RGF+42 Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RGF+42"
+            },
+            "price_level": 1,
+            "rating": 4.3,
+            "reference": "ChIJwZW8dn9_mQAR3yTg5qM2niY",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "meal_takeaway",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 651,
+            "vicinity": "Rua Andrade Pertence, 18 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.928006,
+                    "lng": -43.175478
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9266222197085,
+                        "lng": -43.1741169197085
+                    },
+                    "southwest": {
+                        "lat": -22.9293201802915,
+                        "lng": -43.1768148802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+            "id": "cb4ecf9c3856ca8f30b66a1e6896a9a360c05d35",
+            "name": "Armaz\u00e9m Carmelo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 640,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107966906425777009791\">Armaz\u00e9m Carmelo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA5lVg76Cniif6c6whcAlA2XizSscCgrsrxgIYtFkoIpOKZ49kH77snOxByazLikEUlzX_5Rz41821dzT8eje3NWXed-ioNkNyhd1mkHmzXAkMNRadIGF1QiN8uiEA3M3pEhBPrXMLPfwQ0bv5VntiP4FVGhQTiLFlwuCLdkV2kAgbjwI_5eA4ew",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "plus_code": {
+                "compound_code": "3RCF+QR Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCF+QR"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "meal_delivery",
+                "meal_takeaway",
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 682,
+            "vicinity": "Rua Corr\u00eaa Dutra, 39 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9213695,
+                    "lng": -43.1862946
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.92003106970849,
+                        "lng": -43.18495006970849
+                    },
+                    "southwest": {
+                        "lat": -22.9227290302915,
+                        "lng": -43.18764803029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "313d62ee2afc85f071388216828ff8bd582366e4",
+            "name": "Portella Bar e Restaurante - Santa Teresa / RJ",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115251469658018644803\">J\u00e1yana Nachbal do V. Medeiros</a>"
+                    ],
+                    "photo_reference": "CmRZAAAACwxJb6lgFtKMN9ZSG-uzDbh7q-O8VFN5gc6cVpjblQkJr6g7f4Utt8JNK_xfQNdqdi7Zipdy-qapQn3P_dY2Au7I-p2tZ8FraBOm3KOsEwbl7t1-8BLjuazqty_swYZ8EhAex2VVoG1mglgjt7RvRE2iGhSjYJDOrQhgK_dbuljXuKlX_W0EwA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ03zyx3d_mQARHm0-p7Rw8FE",
+            "plus_code": {
+                "compound_code": "3RH7+FF Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH7+FF"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJ03zyx3d_mQARHm0-p7Rw8FE",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 475,
+            "vicinity": "Rua Paschoal Carlos Magno, 139 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.924668,
+                    "lng": -43.17738
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9233621697085,
+                        "lng": -43.1760061697085
+                    },
+                    "southwest": {
+                        "lat": -22.9260601302915,
+                        "lng": -43.1787041302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "d0db0152131d488d2b562605b55d14f9caa18572",
+            "name": "Cantina Da Nonna Catete",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 720,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103817492697304682415\">Cantina Da Nonna Catete</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA3j8ZNl65OIoLDVCMM4g_5Tw80LmqICwowjCeBK1sc0U6xYIXXEVq_mYe0FCZNgrg3eCRnP6bMMLImO8lYmSGNIOejEMIUD_s3yWFSWrINF0Eeq9SVPzlCrMaY_IjtLE6EhAalubTQzki_Z56rtvRRn72GhTCrrSKHR4Tve7bRXLoHU0Tt8ki0g",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJwZW8dn9_mQAR3yTg5qM2niY",
+            "plus_code": {
+                "compound_code": "3RGF+42 Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RGF+42"
+            },
+            "price_level": 1,
+            "rating": 4.3,
+            "reference": "ChIJwZW8dn9_mQAR3yTg5qM2niY",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "meal_takeaway",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 651,
+            "vicinity": "Rua Andrade Pertence, 18 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.928006,
+                    "lng": -43.175478
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9266222197085,
+                        "lng": -43.1741169197085
+                    },
+                    "southwest": {
+                        "lat": -22.9293201802915,
+                        "lng": -43.1768148802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+            "id": "cb4ecf9c3856ca8f30b66a1e6896a9a360c05d35",
+            "name": "Armaz\u00e9m Carmelo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 640,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107966906425777009791\">Armaz\u00e9m Carmelo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAZxS4MyFFD-sn-nx7vS5yBvUJ-8OlckrZKQrWwzQistdCXX4MmxxJRU1jvb9vnZkdyvHyd3AoD0CRq8PDoS-fysN6lloMkM8TjD1ukR2kxGqjKfuEJXYaqKws2vQqZIReEhAzZe6oXb_zgJfzndyeYOgxGhQ73zTZLfboDuo26jMVu7WRXK3AZg",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "plus_code": {
+                "compound_code": "3RCF+QR Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RCF+QR"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJieedZYB_mQARhaEjeP68vx8",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "meal_delivery",
+                "meal_takeaway",
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 682,
+            "vicinity": "Rua Corr\u00eaa Dutra, 39 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9312149,
+                    "lng": -43.178445
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9298128197085,
+                        "lng": -43.17711711970849
+                    },
+                    "southwest": {
+                        "lat": -22.9325107802915,
+                        "lng": -43.17981508029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "e7c8fbb70b4488fc9e5307b6f26d3da83a55d5c9",
+            "name": "Casa do P\u00e3o de Queijo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2343,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109208907502943580358\">Carlos Carvalho</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAOT9xBCx5z4vSPV4A14aIvzfK27n_UjVnazBWv5aoqItfv2IAHAs_CzKb7nCpjhdlKU-9p6jty53Z1u9YvUSG2gxeAmjnTuKTV8kP5tm2zn2mF-3k3nJziG6lklzhkYGjEhBMKOQQYqmbJ003eLclMpSCGhS-RA0d0pn8sJfGOZLtZ21TvqihIQ",
+                    "width": 4577
+                }
+            ],
+            "place_id": "ChIJtbmb1Pb6mwARttyGPtRZ250",
+            "plus_code": {
+                "compound_code": "3R9C+GJ Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R9C+GJ"
+            },
+            "price_level": 2,
+            "rating": 3.8,
+            "reference": "ChIJtbmb1Pb6mwARttyGPtRZ250",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "cafe",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "Largo do Machado, 19 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.93213979999999,
+                    "lng": -43.1817107
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9307881697085,
+                        "lng": -43.18036276970851
+                    },
+                    "southwest": {
+                        "lat": -22.9334861302915,
+                        "lng": -43.1830607302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "9db7fd34d847d8414fa2e795d0302f574f565f67",
+            "name": "Boomerang Mix",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117496550650813502592\">Edel Coradi</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAwrwK_9CRSa459YFCPB6Qx7QYVZFLULfd8uvvN8xDrZHA3YDVm-fFUjV3egv3Jev9SY7A8aHNJ6WKBZWidbLT8-Gkn00lRWUXlgJSBdfrjIX3AJjPYkRG6258jE7PxGkUEhCrglc5zvX9G4odT_dPzLj7GhTU8SVxHo7FXH3lz2O5v543kzHugg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJe1AA2d_YmwARZpeM6s5a3UY",
+            "plus_code": {
+                "compound_code": "3R99+48 Laranjeiras, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R99+48"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJe1AA2d_YmwARZpeM6s5a3UY",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 455,
+            "vicinity": "Rua das Laranjeiras, 76 - Laranjeiras, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9276961,
+                    "lng": -43.18368279999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.92638096970849,
+                        "lng": -43.1823057197085
+                    },
+                    "southwest": {
+                        "lat": -22.9290789302915,
+                        "lng": -43.18500368029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "4e43039360ede24966a0139cc62068047dc37cdb",
+            "name": "The Maze",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 810,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102570478113240575582\">The Maze</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAOtQOrudwdK13vxhTTH5FgbyRU1J3pTuMNWljlwdOJnGREED2UXDlj6fF3G0oYV6K-qR-10MHjT_MCSDAAaN4Z6AfwWbY-QpmDAaGOQbHJapxcYxQm8Y8shU9B6oPCemOEhADkqfA4F8zock6EQd3ktW9GhS9r4HAjdhAMThkbcwxH8A_T68y3A",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJuZ1Ic4N_mQARIx6FfT_KSqg",
+            "plus_code": {
+                "compound_code": "3RC8+WG Catete, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RC8+WG"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJuZ1Ic4N_mQARIx6FfT_KSqg",
+            "scope": "GOOGLE",
+            "types": [
+                "art_gallery",
+                "night_club",
+                "lodging",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 699,
+            "vicinity": "Rua Tavares Bastos, 414 - casa 66 - Catete, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9154358,
+                    "lng": -43.1866913
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9140713197085,
+                        "lng": -43.1853097697085
+                    },
+                    "southwest": {
+                        "lat": -22.9167692802915,
+                        "lng": -43.18800773029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "6f1ba53eeb8bd706e51494d6b514d3e6553b7bd5",
+            "name": "Hole Lacraia",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108896694501901672411\">Juan Victor Paz</a>"
+                    ],
+                    "photo_reference": "CmRaAAAARkwFidnf9Jr2pFqbVc9ubDCY7BIk1SGSs00UO_GOQsKc1t1yKzHRxrgxRt0QQAkh7rx6NIwLWNnRgdPcbaxtsrBoPnW_5sgB2cUq6kf_z46Xxj3U8zxKcEs1VuHO750wEhCG1tAvtWGINPa8pIPc271YGhR_2I5cDptJf2ed7ndvt70ITw0HTA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ18fTrHF_mQARGCI0vTNqHHY",
+            "plus_code": {
+                "compound_code": "3RM7+R8 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RM7+R8"
+            },
+            "rating": 4.1,
+            "reference": "ChIJ18fTrHF_mQARGCI0vTNqHHY",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "night_club",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 584,
+            "vicinity": "Rua Andr\u00e9 Cavalcanti, 58 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9133845,
+                    "lng": -43.18132809999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.91195016970849,
+                        "lng": -43.1799596697085
+                    },
+                    "southwest": {
+                        "lat": -22.9146481302915,
+                        "lng": -43.18265763029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "18febe69b4c0da87c3332f5da03d1f8607d1e99e",
+            "name": "Pub Kriok",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 925,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113396947630162410942\">Pub Kriok</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAOXptjRtKdwXYyF3gka728cyTZ6I3IpBWoopGA5_KdNBUor4vqlpAxiIhsBppLU5_Owf4rHJD2SzlRA_Daa8Hmf1ttSruK5NrOkK2m8UjtPKk1SpGjQMlaqCeQsr4jLFkEhB9sBp8h_sfDDbx3OP8udoQGhRKO163IkRuCiUKkDKITx0piAlYIA",
+                    "width": 852
+                }
+            ],
+            "place_id": "ChIJ5euQ6GR_mQAR9ieLho70wxM",
+            "plus_code": {
+                "compound_code": "3RP9+JF Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+JF"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJ5euQ6GR_mQAR9ieLho70wxM",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "night_club",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 856,
+            "vicinity": "Avenida Mem de S\u00e1, 65 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9134117,
+                    "lng": -43.18114569999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9119764697085,
+                        "lng": -43.1797604197085
+                    },
+                    "southwest": {
+                        "lat": -22.91467443029151,
+                        "lng": -43.1824583802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "250c3bfdb44870ccf33c60367029bafa112b06e5",
+            "name": "La Esquina",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 430,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107720368025683916913\">La Esquina</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAERdUsp5aRmQcTps9_k189jcBOOFrIz38XwUlTyAeIRN9C2JAufPIliN4ACr8eO0pcjMvjQQc4r0QRs3SX-pCjr_B2Deq3ncw2LgdRwMeb-u7G9VaqQu1UeW_seWavcBtEhAK15mX-tOU-fmNyN_QEvmEGhTYHgJ1u2uh82_AsouMeRVQvRAGeQ",
+                    "width": 1192
+                }
+            ],
+            "place_id": "ChIJB02F5mR_mQAR03T_xSnK7EA",
+            "plus_code": {
+                "compound_code": "3RP9+JG Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+JG"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJB02F5mR_mQAR03T_xSnK7EA",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "night_club",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 912,
+            "vicinity": "Avenida Mem de S\u00e1, 61 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9146938,
+                    "lng": -43.1855559
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9134177197085,
+                        "lng": -43.18418181970851
+                    },
+                    "southwest": {
+                        "lat": -22.9161156802915,
+                        "lng": -43.18687978029151
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "b87a3afde08fd03dc5941db6f7ea1501568f85ab",
+            "name": "Bern\u00f4",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4128,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117332508571349089355\">\u00c1gnes Vajda</a>"
+                    ],
+                    "photo_reference": "CmRaAAAASvklMuuxUAxbqBxRW3fL2sEyJWvBncHp14lw5VTAFhGlmTAyAMUbQEPgk_iusvd8VJpl8jNp-7Ke5C3HJEe5FnSkuK1qotxjFbEbT9dNn0bShRW0xLA5brU4bUWfCrHZEhDq-nzPdc6esNRwIEJvtp9fGhRsXLAAoinRmOlY04Pa2WbiAzvdRw",
+                    "width": 3096
+                }
+            ],
+            "place_id": "ChIJ1zrYaXB_mQARaKTULZ-pQSo",
+            "plus_code": {
+                "compound_code": "3RP7+4Q Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP7+4Q"
+            },
+            "rating": 5,
+            "reference": "ChIJ1zrYaXB_mQARaKTULZ-pQSo",
+            "scope": "GOOGLE",
+            "types": [
+                "hair_care",
+                "beauty_salon",
+                "night_club",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "Rua Riachuelo, 148 - Loja 2 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9136977,
+                    "lng": -43.1787502
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9123483197085,
+                        "lng": -43.1773987197085
+                    },
+                    "southwest": {
+                        "lat": -22.91504628029151,
+                        "lng": -43.1800966802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "f82ba36139dc753678e614d2477ae0f1261e37f3",
+            "name": "Lapa da baixada",
+            "place_id": "ChIJQSnGFBl_mQARCZPFJM9NuEI",
+            "plus_code": {
+                "compound_code": "3RPC+GF Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RPC+GF"
+            },
+            "reference": "ChIJQSnGFBl_mQARCZPFJM9NuEI",
+            "scope": "GOOGLE",
+            "types": [
+                "night_club",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Travessa do Mosqueira, 222 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9129701,
+                    "lng": -43.18344679999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.91154646970849,
+                        "lng": -43.1820819697085
+                    },
+                    "southwest": {
+                        "lat": -22.9142444302915,
+                        "lng": -43.1847799302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "a8d5ddeb35d533c3f46569d0ecf4f8fa8d115d8e",
+            "name": "Karaok\u00ea Show Bar",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJWzNQdRN_mQARFYFy45gyrQM",
+            "plus_code": {
+                "compound_code": "3RP8+RJ Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP8+RJ"
+            },
+            "rating": 5,
+            "reference": "ChIJWzNQdRN_mQARFYFy45gyrQM",
+            "scope": "GOOGLE",
+            "types": [
+                "night_club",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Avenida Mem de S\u00e1, 103, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.913226,
+                    "lng": -43.181989
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9118084197085,
+                        "lng": -43.1806459197085
+                    },
+                    "southwest": {
+                        "lat": -22.9145063802915,
+                        "lng": -43.1833438802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "6a299f99290d79014be608bd0623bfa67d2443da",
+            "name": "Bar Carioca da Gema",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 962,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116209695474665527739\">Carioca da Gema</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAmWS5CqD_iYkoKqifdSNi9Sv-ggWgi6LJb2JNVRPBCOzqsvJRMIrUJxlHh4A_O622AXd51EQ0-ac7ynez6hwqQMOx3rSmCi4nu8bYGiCB3el6sLHRF0SXECDB35DS9-zvEhAxR-tIn6H_pSIwEh0tml4jGhSGzVEkT8D_cDSqc7X4Z2wEk13T9g",
+                    "width": 2197
+                }
+            ],
+            "place_id": "ChIJX8bjH2V_mQARyXxUXZYaAZc",
+            "plus_code": {
+                "compound_code": "3RP9+P6 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+P6"
+            },
+            "price_level": 2,
+            "rating": 4.6,
+            "reference": "ChIJX8bjH2V_mQARyXxUXZYaAZc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2222,
+            "vicinity": "Avenida Mem de S\u00e1, 79 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9210826,
+                    "lng": -43.1868838
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9196639197085,
+                        "lng": -43.1856464197085
+                    },
+                    "southwest": {
+                        "lat": -22.9223618802915,
+                        "lng": -43.1883443802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "d071b160b83b54023dd69551fcd63931773c36e8",
+            "name": "Bar do Mineiro",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106819143484107683876\">Vinicius Bom</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAbY8PSdsWO0PczWvo9A9wQpt7r16oIVgM0Ggas_W74gP2fNKyqiloybrBGdy8TTNjrL19kP1KIhcXnMo9NpZZdyweP4cUfxCaynh76pHf5WcubuDfD6sbeMR5tDUeBOyFEhD79-1P8V1KGDYFukGqTu5JGhQvGFbUFl61xZY6kliY2ZQXSLnswA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJQ2ZmNXZ_mQARORFUopsZ9lI",
+            "plus_code": {
+                "compound_code": "3RH7+H6 Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RH7+H6"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJQ2ZmNXZ_mQARORFUopsZ9lI",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1812,
+            "vicinity": "Rua Paschoal Carlos Magno, 99 - Santa Teresa, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.93391769999999,
+                    "lng": -43.17745
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.93257351970849,
+                        "lng": -43.1760334197085
+                    },
+                    "southwest": {
+                        "lat": -22.9352714802915,
+                        "lng": -43.1787313802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "436a19ad74c90c66b3bf6e2a0292be02b233dcc4",
+            "name": "Caf\u00e9 Lamas",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1365,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114326007716204883291\">Otto Nassar</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAIWqfhwRPAAnxLx9w-GO-6R73z1GEPhn8yFqqqHaoDmVyrJfvj_4LswfaDh7wMFEUuneWuRDsWs4S9cn0tGSVHhP0CGaaGiaBkryfof6spEQQF7YuKmNiPd8LuAkYmHPiEhBcCjNJrtZEaPUJTGbn5TQPGhRWRAzbDNoO8yySh8SsjwW0rTNUqA",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJF3PBNYZ_mQARMBaTHrBOp90",
+            "plus_code": {
+                "compound_code": "3R8F+C2 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R8F+C2"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJF3PBNYZ_mQARMBaTHrBOp90",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3016,
+            "vicinity": "Rua Marqu\u00eas de Abrantes, 18a - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9160517,
+                    "lng": -43.1770979
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9146572697085,
+                        "lng": -43.1757351197085
+                    },
+                    "southwest": {
+                        "lat": -22.9173552302915,
+                        "lng": -43.1784330802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "3b31302197fe4eb1a7955c26a797a5890bc6bc89",
+            "name": "Beco do Rato",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2948,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108725513056927567799\">Vankar Rhal</a>"
+                    ],
+                    "photo_reference": "CmRZAAAAexVjGwxTXOydOUx2CZ83-fjaOHhUkC2ysfRnkFzf9o0aWfTz4CSLA1ncdYCVCzVqZKqgvaof7CCx6IOfWtp0fjwH0-0wEsVohOO1DLPdqL4GXVKWeQhUDjhZlsYcfGc6EhCE1HvUB4jh3sswAnnf9u_AGhQzMXfQhlZwSgOUPNRKQpCySjnJ7A",
+                    "width": 2948
+                }
+            ],
+            "place_id": "ChIJvZil1WJ_mQARG_qLwxnhhv8",
+            "plus_code": {
+                "compound_code": "3RMF+H5 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RMF+H5"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJvZil1WJ_mQARG_qLwxnhhv8",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2456,
+            "vicinity": "Rua Joaquim Silva, 11, Lapa"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9340054,
+                    "lng": -43.1759478
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9326619197085,
+                        "lng": -43.1746562697085
+                    },
+                    "southwest": {
+                        "lat": -22.9353598802915,
+                        "lng": -43.1773542302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "22b0dec615db004213162aa5cdf792ed51852504",
+            "name": "Restaurante e Bar Garota do Flamengo",
+            "photos": [
+                {
+                    "height": 4608,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106239561420094361981\">Restaurante e Bar Garota do Flamengo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAjGynZq8XWpWsaqqhgfHdWg82lcuKnzSRQddn-4Qy_DN3Gs_kBwg0WpCFeoGOAcEQtJ4IUw1ly2jKExpEQ28zZjy4so2CVj265Pq821_j0IKi5Z7b0SYBhyskje3x5guEEhDkU6LP9m_-RVRukvruJR2IGhThyFKvLdn0tnNzpt5afflOUi6ZkA",
+                    "width": 6912
+                }
+            ],
+            "place_id": "ChIJmyBIk4d_mQARTdcNDrwQLuc",
+            "plus_code": {
+                "compound_code": "3R8F+9J Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R8F+9J"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJmyBIk4d_mQARTdcNDrwQLuc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1255,
+            "vicinity": "Rua Senador Vergueiro, 41a - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9357272,
+                    "lng": -43.1773932
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9343958697085,
+                        "lng": -43.1759438697085
+                    },
+                    "southwest": {
+                        "lat": -22.9370938302915,
+                        "lng": -43.1786418302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "a1a9307e5c92a80730a2e450b3f50cf42c3e4422",
+            "name": "Armaz\u00e9m do Chopp",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100478562089814806967\">Bruno Magalh\u00e3es</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAoZda4rO_-BlL9wVr5rkJ3qmI6tZoNpQ5EuVfdtaYrIpP5Ez7jhPKC7Y9_fW0Xgc6OxXoXqSwXLjTXMlXi3R8e9Et8I0KqdV-d9n2b39jjBrcGSQYHt5hHKUOfyM7URUJEhDvQ2TtdICUdP6mdEGj13V-GhSWapojA-FaO1Rsc4aLR7HDqvktbQ",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJ3_u9gIh_mQARl4yAsTgfInQ",
+            "plus_code": {
+                "compound_code": "3R7F+P2 Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3R7F+P2"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJ3_u9gIh_mQARl4yAsTgfInQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "bar",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 894,
+            "vicinity": "Rua Marqu\u00eas de Abrantes, 66 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9145918,
+                    "lng": -43.1782322
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9131784697085,
+                        "lng": -43.17681571970849
+                    },
+                    "southwest": {
+                        "lat": -22.9158764302915,
+                        "lng": -43.17951368029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "a3b4aeddaf0cdb267b405683242310c6c0912b16",
+            "name": "Bar Ernesto",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 768,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106154359353671151887\">Bar Ernesto</a>"
+                    ],
+                    "photo_reference": "CmRaAAAApFVAd2meaOw3m4RxdCkgOmm5lwr0pUv2WJT_I8j9duAGSt2Bds_2f6n5EcOK9NBo-2rLrI-ObhCMT5DAHkvfDmh_gQNjIqwvK7nNyZEwikR6Uqryoh_8xNRByEf3O5siEhC0gdj4JTbtE2f0xyysfRGyGhRdGxqbjNAXdANrToy82a2g7OSutA",
+                    "width": 1024
+                }
+            ],
+            "place_id": "ChIJuQ_D2Hx_mQARSqTewaFSHJg",
+            "plus_code": {
+                "compound_code": "3RPC+5P Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RPC+5P"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJuQ_D2Hx_mQARSqTewaFSHJg",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 807,
+            "vicinity": "Rua da Lapa, 41, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9247404,
+                    "lng": -43.1729425
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9234233697085,
+                        "lng": -43.1715798197085
+                    },
+                    "southwest": {
+                        "lat": -22.9261213302915,
+                        "lng": -43.1742777802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "7fcea786fa0ae829b9e9ee3b460ccd398698d52a",
+            "name": "Emp\u00f3rio Santa F\u00e9",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101850518955608723358\">Ronaldo Fernandes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAPzdC_s77V4GFLibVM-S83TvhkIy67dZ4h3LgqtoBBitAgPKvnaqyimma67Ee_O7bMITh0S2Cq5-DrnycSfUJ3g4ZcvCoCEqHnXCW4GjtpVLp_O32clg3yb8-YkBhoiiNEhBnZmHApoS2gytzWT8ZC2pqGhR9ECgkZ9q1inkZgr50egR8bPAJ4Q",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "plus_code": {
+                "compound_code": "3RGG+4R Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RGG+4R"
+            },
+            "price_level": 3,
+            "rating": 4.3,
+            "reference": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 510,
+            "vicinity": "Praia do Flamengo, 2 - Flamengo, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9129285,
+                    "lng": -43.18195699999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9116597197085,
+                        "lng": -43.18062541970849
+                    },
+                    "southwest": {
+                        "lat": -22.9143576802915,
+                        "lng": -43.18332338029149
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "288835a551a83f16e6854ad486f8c44dda063c90",
+            "name": "Restaurante Bar Brasil",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1057,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112558871407894045266\">Bruno Mendes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA2cLH4PSpUCagKVXXeG-gcBtMnZPktxdBzhAQrSBhLA_wWhbzEBhvNxY7kd8oiRNe_P4RaHiD06WXhR6CJpFAxxNZQsood_eYzvOaNEhUP4BKJyciS5_M2EVFny-JU-rBEhCO9wQqd5wVbqV2mu0xiDN7GhR5s2VLtx52hLtLtuE1mWn9tJdyYg",
+                    "width": 1079
+                }
+            ],
+            "place_id": "ChIJh0Q2HmV_mQARCJ2UNbdrx2w",
+            "plus_code": {
+                "compound_code": "3RP9+R6 Centro, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RP9+R6"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJh0Q2HmV_mQARCJ2UNbdrx2w",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1084,
+            "vicinity": "Avenida Mem de S\u00e1, 90 - Centro, Rio de Janeiro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -22.9247404,
+                    "lng": -43.1729425
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -22.9234233697085,
+                        "lng": -43.1715798197085
+                    },
+                    "southwest": {
+                        "lat": -22.9261213302915,
+                        "lng": -43.1742777802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "7fcea786fa0ae829b9e9ee3b460ccd398698d52a",
+            "name": "Emp\u00f3rio Santa F\u00e9",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101850518955608723358\">Ronaldo Fernandes</a>"
+                    ],
+                    "photo_reference": "CmRaAAAApZTRw0RYZAv7mi3sBcVhF5RtzC8Zrq_HAC0MXuwZaJT7_osO-QP2lSCOl41y-igB0Aa4IqWOhZLVe8-_zZ7G6g7XaZQtmXFXF9WZCbIi8u0jaLXqK3C45QtRg_8YBECLEhBETCHeoMkaJlpr6qLHiuaQGhQCeBLSGb1p7JtpYdyUBvaAm6w0Pg",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "plus_code": {
+                "compound_code": "3RGG+4R Flamengo, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+                "global_code": "589R3RGG+4R"
+            },
+            "price_level": 3,
+            "rating": 4.3,
+            "reference": "ChIJAeRvCNWBmQARJrWKcWseyR0",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "liquor_store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 510,
+            "vicinity": "Praia do Flamengo, 2 - Flamengo, Rio de Janeiro"
+        }
+    ]
+}
