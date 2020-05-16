@@ -8,7 +8,7 @@ class Export(object):
             data = json.dump(scheduleFormatterDictToJson(storeShiftsDict, 2, 5,entrada.storeName), json_file)
 
         for i in range(0, turnos):
-            with open("csv/"+str(i) + '.csv', 'w', newline='', encoding='utf-8') as csvfile:
+            with open("csv/Quandrante_"+str(quadrante)+"-"+str(i) + '.csv', 'w', newline='', encoding='utf-8') as csvfile:
                 spamwriter = csv.writer(csvfile,
                                         delimiter=',',
                                         quotechar='|',
