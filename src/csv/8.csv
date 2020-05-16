@@ -1,42 +1,546 @@
 Latitude-longitude information,Name 
--25.7464291 -53.0593656,Portal Two Neighbors
--25.750473 -53.0569046,Imobiliaria Cabredo
--25.750725 -53.05821,Imobili�ria Piccolli
--25.7493661 -53.0525683,Magazine Luiza
--25.750231 -53.05488499999999,Matheus Foto Color
--25.7496722 -53.05362479999999,Prefeitura Municipal de Dois Vizinhos
--25.7466446 -53.0546309,O Botic�rio
--25.7422754 -53.05787509999999,Newspaper Beltrao
--25.742385 -53.0666618,Leandro Sementes
--25.7423109 -53.0602526,Pizzaria Capriccio
--25.7524294 -53.0605982,Chevrolet Vale do Igua�u
--25.7462601 -53.0560309,Centro de Integra��o Empresa-Escola do Paran� - Dois Vizinhos
--25.7479123 -53.0552973,Centro
--25.7422137 -53.05514819999999,|Realize Im�veis - Venda, Loca��o e Avalia��o|
--25.743437 -53.055542,Livraria e Papelaria L�pis de Cor
--25.7434667 -53.0563752,Plat� Arquitetura e Engenharia
--25.7473538 -53.0535035,Coutope Cal�ados
--25.7412874 -53.0659219,Olitur Turismo
--25.7511699 -53.06132179999999,EMATER-Empresa Paranaense de Assist�ncia T�cnica e Extens�o Rural
--25.7467894 -53.0545137,Coutop� Cal�ados Center
--25.7439456 -53.0558436,Tomasson Home Center
--25.743444 -53.055691,PeBlue - Pijama Infantil
--25.74381219999999 -53.0611817,Banda Detroit
--25.7488189 -53.0602409,Cultural Center Art and Life
--25.7553428 -53.059791,Somar Pneus Centro Automotivo
--25.7452359 -53.05622259999999,Escrit�rio Delta de Contabilidade
--25.7436164 -53.0558363,Farm�cia Santo Ant�nio FARMAUTIL
--25.7465639 -53.054308,Tele Dois Equipamentos Telefonicos LTDA.
--25.7477364 -53.0528832,Carola Modas
--25.74587 -53.055682,DEZ Telecom
--25.745815 -53.05551,WEBi Solutions - Solu��es para Internet
--25.7485247 -53.05976709999999,F�rum de Dois Vizinhos
--25.7421835 -53.0569151,Sudotec
--25.7465534 -53.05592710000001,REGIONAL CORRETORA DE SEGUROS
--25.7434655 -53.0545836,Construtora Renak
--25.7433871 -53.05590889999999,Latreille e Companhia Ltda
--25.7449776 -53.0600012,CliniBem - Dra Jov�nia Maria Carletto - Dermatologista
--25.7439018 -53.0533606,Oliart Comunica��o Visual Ltda ME
--25.743298 -53.05695960000001,Vivan Corretora de Seguros - Marcos Vivan
--25.7411742 -53.0575224,Sindicato Rural de Engenheiro Beltr�o
--25.7438616 -53.0541365,Carikol
+-22.9320346 -43.1767656,Barreiros Contabilidade Ltda
+-22.9200552 -43.1765508,Confiance – Assessoria Contábil
+-22.91896019999999 -43.1756093,Correta Serviços Contábeis
+-22.917357 -43.177758,Top Planejamento e Consultoria Contábil
+-22.9163468 -43.1778189,Cortec Contabilidade
+-22.9215343 -43.176432,Marello Advogados & Advogadas
+-22.9209189 -43.1770945,Home - AllShore Services
+-22.9241047 -43.1729194,Bem-vindo a ACF Contabilidade
+-22.9315512 -43.1802874,Ministerio da Fazenda Receita Federel CAC Laranjeiras
+-22.9354907 -43.1897828,Escritorio Contábil Maximino
+-22.9307639 -43.1852818,Heliponto Palácio Laranjeiras
+-22.9323454 -43.1812052,PetZilla
+-22.9276961 -43.18368279999999,The Maze
+-22.9202467 -43.1895696,Nau Cultural
+-22.9158279 -43.17665119999999,Espaço Rabisco
+-22.9214938 -43.1747476,|Ateliê Oriente - Escola de fotografia, cinema e artes visuais|
+-22.9203327 -43.1873776,|MODERNISTAS, HOSPEDAGEM E ARTE E ANEXO GALERIA DE ARTE|
+-22.934302 -43.175412,Galeria "A" - sv45Galeria - Flamengo - Rio de Janeiro
+-22.9247603 -43.1764867,Agência Itaú
+-22.927537 -43.177084,Santander ATM
+-22.9281808 -43.17713930000001,Bradesco
+-22.9207085 -43.177641,Bradesco
+-22.9311747 -43.1784245,Santander
+-22.9313241 -43.1783675,Banco24Horas
+-22.9315639 -43.1779324,Extra Supermarket
+-22.9194098 -43.1772514,Banco24Horas
+-22.9326015 -43.1783641,Bradesco Prime
+-22.930021 -43.17788299999999,Empório Macedônia
+-22.9335026 -43.1841697,Pão & Companhia
+-22.9163408 -43.1772672,Lapa Bakery
+-22.936959 -43.1776048,Casa do Pão
+-22.9150198 -43.1885778,House Cookie
+-22.9360825 -43.1756053,Bela Guanabara
+-22.919072 -43.1773032,Panificação Danúbio Azul da Glória
+-22.9248043 -43.17962749999999,Panificação e Confeitaria Flamengo
+-22.9248919 -43.1768657,Super Padaria Palacio
+-22.9174894 -43.1779703,Condor Factoring
+-22.9340726 -43.18636600000001,Bradesco
+-22.9135399 -43.1828048,Santander
+-22.9266814 -43.1767671,Bradesco
+-22.9128752 -43.18353599999999,Bradesco
+-22.9141075 -43.1821261,Caixa Econômica Federal
+-22.9385356 -43.1783297,Agência Itaú
+-22.9199631 -43.1770483,Santander
+-22.9210826 -43.1868838,Bar do Mineiro
+-22.913047 -43.1811313,Choperia Brazooka
+-22.93391769999999 -43.17745,Café Lamas
+-22.916809 -43.177799,TribOz - Brazil-Australia Cultural Center
+-22.9247404 -43.1729425,Empório Santa Fé
+-22.9316667 -43.1791667,Brasa Grill House
+-22.9213695 -43.1862946,Portella Bar e Restaurante - Santa Teresa / RJ
+-22.9283645 -43.1773455,Leila's Coiffeur
+-22.9313915 -43.1787236,Espaço Fênix Beleza & Bem Estar
+-22.9283645 -43.1773455,D'pil Brasil
+-22.931143 -43.178239,Maria Estrela Cabeleireiro
+-22.93118519999999 -43.1782656,Pello Out
+-22.9240866 -43.1813715,Renata Unhas Rio de Janeiro
+-22.9279602 -43.1807701,Ateliê das Unhas Layla Gonçalves
+-22.9264967 -43.176766,Josy's Fashion Hair
+-22.928011 -43.1772439,Space Beauty
+-22.92434099999999 -43.17884189999999,Real Bike
+-22.914258 -43.18255,Bike Lapa
+-22.93149009999999 -43.1787724,Atzilut
+-22.9150888 -43.1878577,Bigbi
+-22.9149496 -43.1881124,Banca Sendas
+-22.9130966 -43.18457009999999,Livraria do CEERJ
+-22.9312045 -43.18098699999999,Livraria Odontomédica Napoleão
+-22.9309646 -43.1774582,Livraria Instante do Leitor
+-22.9318403 -43.1808893,Risque & Rabisque Papelaria e Presentes
+-22.9309494 -43.1775502,Rua do Catete próximo ao 313
+-22.9244778 -43.1726866,Praia do Flamengo próximo ao 2842-3310
+-22.9182009 -43.176789,Avenida Augusto Severo próximo ao 2516
+-22.9136424 -43.1792718,Avenida Mem de Sá próximo ao 23
+-22.9317765 -43.18008589999999,Rei do Mate- Laranjeiras
+-22.9212055 -43.1893997,Esquina de Santa Cafeteria & Pizzaria
+-22.930662 -43.1799887,Café Secreto
+-22.930645 -43.179477,Restaurante Estação Largo do Machado 184
+-22.920341 -43.176966,EXPRESSOTECH - MORABEZA COMERCIO E SERVIÇO DE MÁQUINAS LTDA
+-22.9312149 -43.178445,Casa do Pão de Queijo
+-22.9307023 -43.177104,Cine Café & Bistrô
+-22.9168761 -43.1794923,HUB Hostel
+-22.9283368 -43.1743499,Café e Bar Rio Caimã
+-22.9130011 -43.1843338,Deli Delicia
+-22.9192057 -43.17737549999999,Café e Bar Vistamar
+-22.9352778 -43.1880556,Distac
+-22.9266576 -43.1794721,MKR Automóveis
+-22.9239767 -43.1783108,Vidal Autos
+-22.9344139 -43.1871258,Biany Automóveis
+-22.9241029 -43.1780673,Honda Rota H
+-22.9315667 -43.17943219999999,Confiança Corretagem e Consultoria de Automóveis
+-22.9239381 -43.1873691,ARES MOTOS
+-22.914748 -43.184938,Luva Veículos
+-22.9354264 -43.1880217,Cardoso Consórcio
+-22.9198805 -43.1700842,Movida Aluguel de Carros
+-22.9214994 -43.1870698,Transbordado Turismo
+-22.93313329999999 -43.17637149999999,ELETROCAR
+-22.9202322 -43.1770243,Lubes em Foco
+-22.934271 -43.18189199999999,Tivo
+-22.927616 -43.1792634,Auto Sansone
+-22.919781 -43.193275,JOE HOT CHOPPERS
+-22.9268296 -43.17946269999999,Centro Automotivo Catete
+-22.9384129 -43.1781405,Oficina Colorado
+-22.9256112 -43.1802912,BIOFA MOTOS
+-22.9246955 -43.179194,AuguMac
+-22.9231387 -43.1840238,A. S. ALPHYNE COMÉRCIO E REPRESENTAÇÕES LTDA
+-22.927121 -43.173703,CEIZS
+-22.931186 -43.1798689,Parish Church of Our Lady of Glory
+-22.9207032 -43.1776713,Vicariato Urbano
+-22.9307701 -43.1812428,Igreja Messiânica Mundial do Brasil - Laranjeiras
+-22.9213677 -43.1852838,Primeira Igreja Batista em Santa Teresa
+-22.926993 -43.17927309999999,Igreja Gnóstica
+-22.9275047 -43.1794251,Igreja Evangélica Assembléia de Deus no Leblon Filial Catete
+-22.9239323 -43.1780486,Igreja Evangélica Nova Canaã
+-22.924474 -43.17706500000001,Betânia - Lugar de Ser Feliz - Igreja Cristã Betânia
+-22.9245313 -43.17658670000001,Igreja Nossa Senhora Mãe da Divina Providência
+-22.9279957 -43.1770779,Salão do Reino das Testemunhas de Jeová
+-22.9296307 -43.1793935,Primeira Igreja Batista do Largo do Machado
+-22.9206707 -43.1793678,Igreja Positivista do Brasil
+-22.9318878 -43.1810051,Igreja Internacional da Graça de Deus
+-22.9312363 -43.1814203,Armazém de Dados - IPP
+-22.9350193 -43.1854789,Prefeitura da Cidade do Rio de Janeiro
+-22.9256057 -43.1760376,Rio Prefeitura
+-22.9349528 -43.172416,Teatro de Fantoches e Marionetes Carlos Werneck de Carvalho
+-22.9314569 -43.1787699,Piatã Modas
+-22.9342863 -43.17665189999999,Attelier Ruth Guimarães
+-22.9321842 -43.1814433,Angel's Fashion
+-22.9321861 -43.1814862,TH Lumar
+-22.931427 -43.178706,Sacada
+-22.9308008 -43.17718249999999,Milenna Cimini
+-22.9314569 -43.1787699,Ala Moana
+-22.9320147 -43.1803165,Noia Fashion
+-22.9218217 -43.1772753,By Guisa Confecções
+-22.931536 -43.178598,Chomp Acessórios
+-22.9250519 -43.1819614,Traduzindo Ideias
+-22.9294347 -43.1771796,Lojas Americanas
+-22.932394 -43.18181699999999,Ipiranga - Posto Dom Pedro II
+-22.9317237 -43.1778461,Drogasmil
+-22.9322349 -43.18103490000001,Lojas Americanas
+-22.9322873 -43.1817965,Loja De Conveniência Ipiranga
+-22.933467 -43.176589,Posto Shell - Posto De Lubrif Comodoro Ltda
+-22.9357271 -43.1838405,Shell Select
+-22.9142492 -43.183311,Americanas Express
+-22.9127759 -43.1853746,Ganjah Coffeeshop Lapa
+-22.9314944 -43.1793232,BANCA DE JORNAL LARANJEIRAS 1
+-22.9357402 -43.1838815,Shell Select
+-22.913457 -43.18103999999999,Posto Shell - Posto Catedral Ltda
+-22.937236 -43.1782177,Empório São Roque - Loja Flamengo
+-22.9315074 -43.17876479999999,Dra. Valéria Meireles S. Aranha
+-22.9316857 -43.1799748,Centro Odontológico Laranjeiras
+-22.9288688 -43.17745329999999,Dentistas
+-22.9320585 -43.1769763,Espaço Oral - Odontologia Integral
+-22.93304269999999 -43.17540169999999,Clivo Odontologia
+-22.9295828 -43.17689289999999,Ceden Estética Dentária
+-22.930579 -43.17974900000001,Dra. Marilia Orto
+-22.930324 -43.177656,SEMDORDEDENTE Dr. Roberto Aranha & Dra. Valeria Aranha
+-22.9312976 -43.1814804,24hDentist
+-22.93121 -43.178197,Carioca Institute of Implantology
+-22.9307748 -43.1771802,Mauro Piragibe Jr.
+-22.927819 -43.1795522,Casa & Video
+-22.9126061 -43.1771233,Hermes
+-22.9303914 -43.1753216,Durval Brunelli - Cirurgião Plástico
+-22.932188 -43.1745309,Cordélia Brito
+-22.9284816 -43.1772227,Otosono
+-22.9268479 -43.17377020000001,Saúde Mental Frinea Souza Brandão Psicologa João Paulo Lyra da Silva Medico
+-22.9337309 -43.177568,Clínica dos Pés
+-22.9353778 -43.17735269999999,Quintessência Homeopatia e Manipulação Flamengo
+-22.9278543 -43.1770394,Drogarias RioFarma
+-22.9204494 -43.1770716,DROGARIAS PACHECO
+-22.9336158 -43.1857423,Droga Raia
+-22.916158 -43.177507,Drogaria Brasil
+-22.933629 -43.1859663,Drogaria Cristal
+-22.9150752 -43.1877534,Drogarias Pacheco
+-22.927567 -43.1763963,F.A Chaveiro 24 hrs
+-22.9241287 -43.1928563,serviços de eletricidade
+-22.913476 -43.186654,VX Sistemas Hidráulicos Computadorizados
+-22.9208441 -43.1795315,Vieira Assistência
+-22.9290574 -43.1756957,pintura&eletricidade
+-22.9212234 -43.1867027,c e gosmes eletrica
+-22.932417 -43.18315399999999,Bametal Ltda
+-22.9312858 -43.1755277,|Paulo Eletricista,Bombeiro Gasista e Pintor.|
+-22.928552 -43.177012,Ponto Frio
+-22.9269454 -43.1736051,Trip Informática
+-22.9275243 -43.1775563,Eletronica Lobesu
+-22.9276708 -43.1773738,Oficina de Costura Traz que a Gente Faz
+-22.931258 -43.17702899999999,|iConserto - Apple e Manutenção de Notebooks, tablets e Smarphones em geral|
+-22.9189046 -43.1831963,FLYVID
+-22.9174802 -43.1778664,MSI Informática
+-22.9174894 -43.1779703,Start View Projeções
+-22.9175034 -43.17788480000001,FLK Instrumentação Eletrônica
+-22.9269454 -43.1736051,Consulado Geral da Islândia
+-22.9322964 -43.174741,Consulate General of Japan
+-22.9323916 -43.1745905,Centro Cultural e Informativo do Consulado do Japão
+-22.9134154 -43.17885269999999,Embaixada Piracicabana
+-22.9337418 -43.1798339,DSE
+-22.932035 -43.176766,Doutor Resolve - Reparos e Reformas
+-22.9337461 -43.1798407,Corpo De Bombeiros Militar Do Estado Do Rio De Janiero
+-22.9312715 -43.1782401,Polén das Flores
+-22.9197838 -43.1768735,Flores da Goria
+-22.9333718 -43.1775668,Biele Flowers and Plants
+-22.93064339999999 -43.1788118,Quiosque do Baiano
+-22.930557 -43.178328,Ki-Encanto Flores
+-22.9334867 -43.1848859,Flores Laranjeiras
+-22.93105139999999 -43.1783172,Funerária Santa Casa Rj
+-22.9315639 -43.1779324,Colchões Ortobom (LojaMiraflores)
+-22.9244185 -43.1770586,Mobiliária Real
+-22.9225888 -43.1806613,Mobili Haus Ambientes Planejados
+-22.922428 -43.18071299999999,Roberto Cattan
+-22.924221 -43.1773081,New Móveis Planejados
+-22.9327932 -43.18269960000001,SustenArq
+-22.9334506 -43.1814013,MinD Laranjeiras
+-22.915097 -43.18774699999999,Sonobello
+-22.9284816 -43.1772227,A & M Colecionáveis e Antiguidades - Rio De Janeiro
+-22.913067 -43.177478,Showroom Bortolini Móveis Corporativos - Rio de Janeiro
+-22.927585 -43.1773386,Nelson Empalhador / Estofador
+-22.9357402 -43.1838815,Posto Shell - Posto Palacio Guanabara Ltda
+-22.9300108 -43.1746647,PDV Brasil Combustíveis e lubrificantes Ltda.
+-22.9219022 -43.1725499,CNG station Gloria
+-22.9219195 -43.1721913,Posto Petrobras
+-22.93077 -43.173366,Posto Petrobras
+-22.9225358 -43.1703118,Movida Marina Glória
+-22.9268865 -43.1736198,Instituto de Yoga e Terapia Aurora
+-22.930879 -43.1775059,AMA Psicologia
+-22.930653 -43.1745596,Academia Brasileira de Musica
+-22.924217 -43.17828129999999,CrossFit 40 Degrees
+-22.9287344 -43.1795205,Academia Maxx Up
+-22.930359 -43.1794129,X Pilates
+-22.9305803 -43.1797573,Artpilates
+-22.9305794 -43.1797485,Senior Sport Studio
+-22.929689 -43.177091,Habilitare Studio Pilates
+-22.9296668 -43.17689720000001,Space Clean Physiotherapy Clinic
+-22.9296886 -43.1769085,Physio&Fit
+-22.92788969999999 -43.1752207,Academy Wonder Fit
+-22.9312035 -43.1781734,Plenus Saúde & Bem Estar
+-22.93185279999999 -43.17930579999999,Red Salon Man
+-22.92816 -43.17452439999999,Barbearia Bigode do Portuga
+-22.9314546 -43.1788886,Depilatti
+-22.9332808 -43.1839808,Barbearia Del Prete
+-22.9325394 -43.17778669999999,Pelo Zero Largo do Machado
+-22.9330015 -43.1754351,Bárbara Danielle e Flávia Souza
+-22.9357632 -43.17509370000001,Espaçolaser
+-22.9319476 -43.18123629999999,Silvanio's Hair Design
+-22.9251611 -43.1803191,Barbearia TTk10
+-22.9150888 -43.1878577,Irmãos Papa Ferragens Ltda.
+-22.912963 -43.185193,M Fausto Materiais de Construção LTDA
+-22.9230872 -43.177484,Bartzen Ambiente Planejado
+-22.9267733 -43.17687300000001,Promoções Tem Tudo
+-22.9354109 -43.1868089,Clinical Enio Serra
+-22.9313695 -43.17910809999999,Centro da Saúde
+-22.9329015 -43.1851793,Maternidade Escola da UFRJ
+-22.9329182 -43.175346,Centro Médico E Reabilitação Susive Ltda
+-22.9152595 -43.1816592,Hospital Base Samoc
+-22.9366729 -43.1809021,Centro Médico Paysandu
+-22.914011 -43.1814235,Pneumologia
+-22.914011 -43.1814235,Proctologia
+-22.9245703 -43.1897122,Casa De Saúde Saint Roman
+-22.9200575 -43.1771,CCBR / IBPClin - Instituto Brasil de Pesquisa Clínica
+-22.922099 -43.1798999,Special Care Grupo Intensivista Multidisciplinar
+-22.9263191 -43.1811341,Igreja Universal do Reino de Bass
+-22.9220894 -43.1799436,Hospital Glória D'Or
+-22.9217999 -43.1761714,Positivo Corretora Seguros
+-22.9158899 -43.1821132,Samoc Saúde
+-22.9122935 -43.17701569999999,Bradesco Seguros
+-22.9218007 -43.17616839999999,Protebem - Associação de Proteção de Veículos
+-22.930446 -43.17741400000001,Estimulação Magnética Transcraniana
+-22.9314569 -43.1787699,Bizzo Adm e Corretagem de Seguros
+-22.9205605 -43.17534980000001,SEGNA CONSULTORIA EM SEGUROS
+-22.93149009999999 -43.1787724,Dangel Joalheiros
+-22.9320929 -43.18037289999999,Lulu Bijoux
+-22.9218572 -43.1761866,TupiniKingdom
+-22.9283645 -43.1773455,Pink Biju
+-22.9319198 -43.1800323,by Beth Viana
+-22.9342913 -43.1771535,Lilux
+-22.9175295 -43.1741872,Enjoy TREND
+-22.9376554 -43.17755829999999,Miallegra
+-22.9295757 -43.1778,Alô Catete Marco Jóias
+-22.9218572 -43.1761866,Leticia Raupp Joias
+-22.9314 -43.178708,Novo Millenio Jóias
+-22.9314 -43.17870599999999,Bia Moha
+-22.9183811 -43.1813503,BN Serviços
+-22.9194182 -43.1771638,Laundro Mat
+-22.9180534 -43.18798009999999,Lavanderia Lave e Seque
+-22.9353998 -43.177329,5àsec
+-22.9357606 -43.1892254,LAVAMAX LAVANDERIA
+-22.9163652 -43.188379,Lavanderia Fátima
+-22.920008 -43.177031,Industrial Laundry Laundry Fj
+-22.9259746 -43.1780381,Xôo Ácaro! Lavagem de Sofá e Impermeabilização
+-22.9205328 -43.18267489999999,Ecco Lavagem e Impermeabilização de Sofá
+-22.9240431 -43.1731269,Loeser
+-22.93149009999999 -43.1787724,Kataoka Imóveis
+-22.9304845 -43.17954389999999,Prof. Josias Frota Advogado
+-22.930805 -43.177088,Arechavala Advogados
+-22.9292852 -43.1751717,Espaço Cultural Correia Lima
+-22.91878759999999 -43.177327,RPJ Advogados
+-22.912472 -43.1780554,F&R Advogados
+-22.920101 -43.1771963,Nilo Batista & Advogados Associados
+-22.9160176 -43.1770806,|Miranda, Pedro|
+-22.9240866 -43.1813715,Biblioteca Comunitária Santo Amaro
+-22.9286017 -43.1776548,VinoArt
+-22.9313685 -43.1788035,Gioconda Tabacaria Empório
+-22.9326862 -43.1827907,Wine & Point
+-22.914452 -43.179573,Distribuidora NT &FB
+-22.9140892 -43.1789824,Parada Legal
+-22.914929 -43.1869078,leas mesas ecadeiras aluguel
+-22.9349702 -43.18513290000001,General Public Defender's Office of Rio de Janeiro State
+-22.9269454 -43.1736051,Uranus Fundação de Seguridade Social
+-22.9343499 -43.174754,STX Desenvolvimento Imobiliário
+-22.934356 -43.17473460000001,Rever Urbano
+-22.9349702 -43.18513290000001,IV Região Administrativa da Prefeitura
+-22.9375224 -43.1836548,Governo do Estado do Rio de Janeiro
+-22.927545 -43.176247,Consertos 24 Horas
+-22.9318462 -43.1799188,CHAVEIRO IZAIAS
+-22.9147239 -43.1885366,San Remo Ltda
+-22.9274721 -43.1774297,Bazar e Cutelaria S.O.S do Catete
+-22.9245594 -43.1771143,CHAVEIRO DOM JOÃO
+-22.9236383 -43.1768422,Chaveiro Curvello 24 Horas
+-22.9326654 -43.17872879999999,Chaveiro Israel 24 Horas
+-22.9347531 -43.1770054,Chaveiro Tamoios
+-22.9145728 -43.18824180000001,Sapataria La Câmera
+-22.9271198 -43.17616460000001,Windsor Flórida Hotel
+-22.9221732 -43.17445839999999,Hotel Golden Park Aeroporto Rio de Janeiro
+-22.9151738 -43.18750259999999,Hotel Monte Alegre
+-22.9168573 -43.1816198,Rio Hostel & Suítes
+-22.9174232 -43.18208689999999,Terra Brasilis Hostel
+-22.925266 -43.173735,Hotel Inglês
+-22.9205602 -43.1795404,Kariok Hostel
+-22.9145681 -43.182605,Books Hostel
+-22.925981 -43.1778532,Hostel República
+-22.91638 -43.1833103,Bossa in Rio Hostel
+-22.9328683 -43.1762828,Hotel Barão do Flamengo
+-22.9193745 -43.17821379999999,Grégora Arte... Café
+-22.9332028 -43.17573,Intihuasi
+-22.9292177 -43.17946730000001,Pizza do Rão
+-22.9283805 -43.17654629999999,Alimento
+-22.9212256 -43.1852224,Sushi Sim !
+-22.93183 -43.1789777,Vista boa lanches
+-22.9328693 -43.1832765,Hoje tem Curry! - Comida Indiana
+-22.924951 -43.1900386,Devorarte Food Truck
+-22.9317814 -43.1792924,Big Mix
+-22.9295339 -43.17777419999999,Lanches Bicopa
+-22.9247054 -43.1769075,Super Galeto
+-22.930344 -43.178097,Cia da Empada Café
+-22.9202942 -43.1769374,Glória Ling
+-22.93078 -43.177174,Rolé
+-22.9315074 -43.17876479999999,Megamatte
+-22.93213979999999 -43.1817107,Boomerang Mix
+-22.935333 -43.1753679,Loja Sentando a Pua
+-22.92877379999999 -43.1770371,contato
+-22.9326654 -43.17872879999999,Meu Pai Mudanças
+-22.9320346 -43.1767656,Rodrigo Mudanças
+-22.9331554 -43.1772145,|Mudanças 24 horas em Flamengo RJ - Mudanças interestaduais, Mudanças residenciais em Flamengo RJ|
+-22.9307164 -43.1887614,Martins Morais Fretes & Mudanças
+-22.9177428 -43.1876962,M'Baraka
+-22.9141404 -43.1786584,MIS - Museum of Image and Sound
+-22.9300346 -43.1764946,Oi Futuro Flamengo
+-22.9133845 -43.18132809999999,Pub Kriok
+-22.9178701 -43.1825209,Parque das Ruínas
+-22.9307993 -43.1785694,Square Largo do Machado
+-22.9258299 -43.174085,Jardim Histórico Museu da República
+-22.919425 -43.17646329999999,Parque De Onoro Gurgel RJ
+-22.9213087 -43.1736569,Estatua de Baden-Powell
+-22.9284308 -43.1779324,Cidade Nova Park
+-22.9280059 -43.1766815,Usa Park Estacionamentos
+-22.9297496 -43.1748786,Estapar estacionamentos
+-22.9327289 -43.177235,Estacionamento Victoria Park
+-22.9152905 -43.1786917,Rio Antigo Park
+-22.9148492 -43.1771302,Estapar Estacionamentos
+-22.9158422 -43.1880716,Estacionamento Fátima
+-22.9279196 -43.1765703,Catetepark
+-22.9384902 -43.1780821,Estacionamento Oliveira Ltda
+-22.9278934 -43.1770564,Garagem Ribeiro
+-22.9312421 -43.18157529999999,Garagem Azevedo
+-22.92535 -43.17938189999999,B.L.13
+-22.9262947 -43.17917949999999,Bento Lisboa
+-22.931035 -43.175425,Animais & Algo Mais
+-22.9280057 -43.17547769999999,Mundo da Bicharada
+-22.9252376 -43.1780777,Pet Pertence
+-22.9269444 -43.1786111,Pet Store
+-22.92290239999999 -43.177332,Pet Shop Pet Repeat
+-22.9220323 -43.1749074,Mee and Au Pet Shop
+-22.9346633 -43.18814689999999,Pet Market
+-22.9328426 -43.1803993,Pet Food
+-22.9238859 -43.1779823,Pet Shop Rio Minas
+-22.929202 -43.175137,Pet MAR
+-22.9192923 -43.178124,Bicharada da Glória
+-22.9338344 -43.1795673,|Cat Sitter - Zona Sul || RJ|
+-22.93016829999999 -43.17831080000001,Bioquimia Farmácia de Manipulação
+-22.9304821 -43.17907710000001,Citifarma
+-22.921464 -43.185725,Pharmácia Santa Teresa
+-22.9316145 -43.1778246,Drogaria Extra
+-22.9297547 -43.1759017,Solla Posturologia
+-22.9174894 -43.1779703,Consultório de Fisioterapia Dra. Ericka Valentin
+-22.929875 -43.175911,Icaro Badenes - Osteopathy & Acupuncture
+-22.9313419 -43.178709,Balance
+-22.931348 -43.178731,Dra. Renata da Cunha Novaes
+-22.9307748 -43.17717999999999,Matheus Costantini - Fisioterapia e Método Feldenkrais
+-22.931305 -43.17847439999999,|Dra. Angelica Barbieri, Fisioterapeuta|
+-22.9313058 -43.1784744,Postural - Leandra De Sant'Anna
+-22.9320585 -43.1769763,Juliana Rizzo
+-22.9142481 -43.18145289999999,CLÍNICA MANDEL - CENTRO DE TRATAMENTO DA DOR
+-22.9275913 -43.1763568,Tec Catete
+-22.9213949 -43.192915,João batista serviços
+-22.9125 -43.1819444,Delegacia da Criança e do Adolescente Vítima
+-22.92830259999999 -43.1840442,Police Special Operations Battalion
+-22.9222585 -43.1766381,Public Order Unit
+-22.9243309 -43.1872043,7th Police Station
+-22.9214861 -43.18623839999999,Polícia Militar
+-22.9314529 -43.1790007,Correios
+-22.92117439999999 -43.1759369,EMBRAESP-Empresa Brasileira Estudos Patrimônio S/C Ltda
+-22.9140891 -43.18839250000001,Agência de Correios Fátima
+-22.91561089999999 -43.1776648,Correios
+-22.9177542 -43.1772898,Municipal school Deodoro
+-22.9201706 -43.189359,Instituto Nossa Senhora do Monte Calvário
+-22.9339076 -43.1758112,Imóveis Kasanova
+-22.932188 -43.1745309,Coutinho Imobiliária
+-22.9269454 -43.1736051,Sociedade Brasileira de Administração em Oftalmologia
+-22.9284816 -43.1772227,AP Castilho Imóveis
+-22.9196264 -43.1781594,JL & Filho Imóveis
+-22.925004 -43.1814288,BALDÔ SUÍTES
+-22.926607 -43.1791094,New Home Real Estate
+-22.9287344 -43.1795205,Venda e compra Quartier Carioca
+-22.9275243 -43.1775563,B & G Empreendimentos Imobiliários
+-22.93194 -43.1769858,JF ADMINISTRAÇÃO IMOBILIÁRIA
+-22.9164323 -43.17936949999999,Selarón Apartments
+-22.9340483 -43.1842688,Temporada Express
+-22.933242 -43.175525,Samurai San Restaurante Japonês
+-22.9323584 -43.1805467,Grão Integral
+-22.9341698 -43.1757702,Oklahoma
+-22.9307748 -43.17717999999999,Parmê
+-22.917489 -43.17796999999999,Bom Gosto
+-22.9292428 -43.1795069,Mestre Kami
+-22.9228196 -43.18185150000001,Escola Municipal Maria Leopoldina
+-22.9254985 -43.1761482,Municipal school Vital Brazil
+-22.9230688 -43.1767973,CIEP Tancredo Neves
+-22.9268979 -43.1794181,Espaço de Dança Maurício Wetzel
+-22.9225888 -43.1806613,IDOT
+-22.9213019 -43.1813734,Instituto Pastoral Sao Cosme E Damiao Do Rio De Janeiro
+-22.9207014 -43.1811301,Escola de Capoeira Angola Renascer
+-22.9207085 -43.17764089999999,Escola Mater Ecclesiae
+-22.9314888 -43.18199259999999,Aurya Pires
+-22.929125 -43.1772341,Termine seus Estudos
+-22.9283362 -43.177327,Pedarte
+-22.9314773 -43.18137,Novo Pé
+-22.92834209999999 -43.17736780000001,Havaianas
+-22.9284846 -43.1772272,Mr.Cat
+-22.9302179 -43.1780731,Gambier
+-22.9314113 -43.17886579999999,Sonho dos Pés
+-22.9318848 -43.1792512,Sampés Calçados
+-22.9337534 -43.17751430000001,SamPés Calçados
+-22.9376261 -43.1775473,Havaianas
+-22.9221936 -43.17740269999999,SamPés Calçados
+-22.928632 -43.1773285,Pontapé Family Shoes
+-22.9292793 -43.1771993,Sonho dos Pés
+-22.9296912 -43.1769195,Pés Sem Dor
+-22.9216568 -43.1829688,Hotel Canino
+-22.9312976 -43.17878109999999,Galeria Condor
+-22.9313156 -43.17839629999999,Galeria Extra Largo do Machado
+-22.9283645 -43.1773455,Luxo Bijuterias
+-22.9321498 -43.1803809,Alternativa Carioca Laranjeiras
+-22.9318764 -43.1778799,Minha Praiaa (Pratas e Acessórios)
+-22.93193 -43.1754512,Galeria Machado de Assis
+-22.9168443 -43.1764412,Mercado de Pulgas - Praça Paris - Feira Livre da Glória
+-22.9204626 -43.1696498,Grupo Andrade - volvo penta
+-22.9360543 -43.1769699,Shopping Flamix
+-22.92378 -43.176542,Sauna Carioca
+-22.9297547 -43.1759017,Spa Renovar
+-22.931528 -43.177901,Espaço de Terapias Aromas & Sinergias
+-22.914374 -43.178733,Selina Lapa Rio de Janeiro
+-22.9239562 -43.1776996,Massagem relaxante Jean Maia
+-22.9278716 -43.1772068,Espaço Holístico Transcendência
+-22.927708 -43.1765892,Centro de Lazer
+-22.9279128 -43.175131,Termas Catete
+-22.9296998 -43.17584979999999,Estética Chris Campelo
+-22.9313058 -43.1784744,Drª Priscilla Vicente
+-22.9215836 -43.17477,Espaço Mercurio
+-22.9195456 -43.17714540000001,Spa das Sobrançelhas Unidade Gloria 1
+-22.931989 -43.1772763,Narayan Massoterapias
+-22.9368681 -43.18441809999999,Estádio Manoel Schwartz
+-22.914031 -43.17886499999999,Garagem Lapa
+-22.9146938 -43.1855559,Disk agua e gelo
+-22.9138972 -43.1868769,Água rj
+-22.9130959 -43.18623660000001,Transportadora Fátima
+-22.9295095 -43.1776046,Armarinho Izabel
+-22.914417 -43.177072,Óticas do Povo
+-22.9358892 -43.17505679999999,Original Tattoo Studio
+-22.9205585 -43.17648639999999,Glória
+-22.9310085 -43.1781665,Largo do Machado
+-22.9314383 -43.1767097,Hortifruti
+-22.9291982 -43.1768162,Big Market
+-22.9244546 -43.1874335,Big Market Supermercados
+-22.9336449 -43.1804871,|Supermercado Zona Sul - Laranjeiras, Rua Esteves Júnior|
+-22.9369406 -43.1756758,Pão de Açúcar
+-22.9335971 -43.1862485,Princesa Supermercados - Laranjeiras
+-22.937999 -43.176066,Princesa Supermercados - Flamengo
+-22.931569 -43.181531,Sinagoga Beit - Aron
+-22.9282489 -43.1771372,Catete Express
+-22.9309254 -43.1798351,Táxi Gago Coutinho
+-22.922361 -43.1799419,Sto. Amaro Táxi
+-22.9285226 -43.1792648,Rio Quartier Táxi
+-22.9196893 -43.1790244,Auto Glória Táxi
+-22.930667 -43.1880813,Táxi Pereira da Silva
+-22.9344406 -43.18041059999999,Táxi São Salvador
+-22.9332155 -43.1749495,Barão Taxi
+-22.9360152 -43.1809403,TÁXI IPIRANGA
+-22.9124164 -43.1806335,Fundição Progresso
+-22.923889 -43.1866443,Wet Mouse Lookout
+-22.9188185 -43.1828897,Mirante do Curvelo
+-22.91882 -43.1832201,Largo do Curvelo
+-22.9184689 -43.1771219,Chafariz da Glória
+-22.9223469 -43.1721842,Palmeiras talipot em flor
+-22.9166241 -43.1734423,Monumento Nacional aos Mortos da Segunda Guerra Mundial
+-22.9268418 -43.1734147,Praia do Flamengo próximo ao 151
+-22.9310227 -43.1787876,Largo Do Machado próximo ao 1
+-22.9245539 -43.17911530000001,Rua Pedro Américo próximo ao 204
+-22.9274832 -43.1793535,Rua Bento Lisboa próximo ao 80
+-22.9234314 -43.1770114,Rua Antônio Mendes Campos próximo ao 75-90
+-22.9290849 -43.1794393,Rua Bento Lisboa próximo ao 133-137
+-22.9266481 -43.1765352,Rua do Catete próximo ao 170-172
+-22.9209135 -43.18473349999999,Rua Almirante Alexandrino próximo ao 306
+-22.93149009999999 -43.1787724,Casa Franca Turismo e Câmbio
+-22.9297499 -43.177594,Qualité Turismo
+-22.9337556 -43.1827751,Rios de Historia Tour
+-22.9253395 -43.1781013,I Love England Intercâmbio
+-22.9283559 -43.1775415,CVC
+-22.9315074 -43.17876479999999,Time Brazil Operadora
+-22.9315074 -43.17876479999999,Nick Viagens & Turismo
+-22.9315272 -43.1788068,DANTUR CÂMBIO E TURISMO
+-22.9174543 -43.1778947,Saveiros Tour Navegação
+-22.9332067 -43.18472999999999,FTM Eventos E Turismo
+-22.9282325 -43.1714197,ROC - Canoa Havaiana (Va'a)
+-22.9154225 -43.1781755,Unigranrio Campus Lapa
+-22.9313815 -43.17887899999999,Ieda Ribeiro Casting Agency actors and models
+-22.926861 -43.173763,Simulation - Jogo de Negócios
+-22.929655 -43.1892992,B&C Cenários e Equipamentos
+-22.9165898 -43.1909465,ONG ECOA - TEATRO SOCIAL
+-22.9276692 -43.1773598,Escola de Teatro ETLA
+-22.9218029 -43.177294,CEFTEM - Centro de Estudos e Formação em Teatro Musical
+-22.9174894 -43.1779703,Universalis Rio de Janeiro
+-22.93121319999999 -43.17825399999999,Veterinária Flamengo
+-22.9321534 -43.18191399999999,Clinica Veterinaria vet care
+-22.92768959999999 -43.1793534,Bicho Bão
+-22.9209422 -43.1801415,Veterinária em domicílio RJ - Dra. Neusa Amboni
+-22.9281513 -43.1744447,Bicho Amigo
+-22.932163 -43.181843,M.V.Marcello Miranda
+-22.9339647 -43.1803106,Consulta Veterinária em domicílio
+-22.9174584 -43.18804799999999,Pet da Praça

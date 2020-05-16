@@ -17,7 +17,7 @@ class StoreSchedulingProblem:
 
         # list of stores:
         self.entrada = Entrada()
-        with open('utils/stores.json', 'r', encoding='utf-8') as json_file:
+        with open('stores.json', 'r', encoding='utf-8') as json_file:
             self.stores = json.load(json_file)
         # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 

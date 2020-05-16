@@ -11,6 +11,7 @@ class Entrada(object):
         self.points = self.extractPoints()
         self.types = self.extractTypes()
         self.grafo = self.makeGraph(self.points)
+        print(len(self.points))
 
     def extractPoints(self):
         points = {}
