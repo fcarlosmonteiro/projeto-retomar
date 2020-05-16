@@ -9,6 +9,7 @@ class Entrada(object):
         self.storeName = {}
         self.storeList()
         self.points = self.extractPoints()
+        self.types = self.extractTypes()
         self.grafo = self.makeGraph(self.points)
 
     def extractPoints(self):
@@ -20,6 +21,16 @@ class Entrada(object):
                 id = places['place_id']
                 points[id] = location
         return points
+
+    def extractTypes(self):
+        types = {}
+        with open('nearby.json', 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            for places in data['results']:
+                typesList = places['types']
+                id = places['place_id']
+                types[id] = typesList
+        return types
 
     def storeList(self):
         stores = []
