@@ -30,7 +30,7 @@ class StoreSchedulingProblem:
 
         # min and max number of stores allowed for each shift - morning, evening, night:
         store_total = len(self.stores)
-        self.shiftMin = [50, 50]
+        self.shiftMin = [store_total-20, store_total-20]
         self.shiftMax = [store_total, store_total]
 
         # max shifts per week allowed for each stores
@@ -241,7 +241,7 @@ class StoreSchedulingProblem:
 # testing the class:
 def main():
     # create a problem instance:
-    stores = StoreSchedulingProblem(20)
+    stores = StoreSchedulingProblem(10)
 
     randomSolution = np.random.randint(2, size=len(stores))
     print("Random Solution = ")
