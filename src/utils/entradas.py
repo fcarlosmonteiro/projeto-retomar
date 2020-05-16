@@ -66,7 +66,8 @@ class Entrada(object):
                 if (index_v > index_u):
                     distance = self.calculateDistance(points[key_u],
                                                       points[key_v])
-                    arrestas.append((key_u, key_v, distance))
+                    if(distance < 0.01):
+                        arrestas.append((key_u, key_v, distance))
         return Grafo(arrestas)
 
 
