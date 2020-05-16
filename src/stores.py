@@ -109,11 +109,11 @@ class StoreSchedulingProblem:
         for i in range(0, 9):
             for storeShifts in storeShiftsDict:
 
-                #isEssential = self.isEssential(self.entrada.types[storeShifts])
-                #if not isEssential:
-                if storeShiftsDict[storeShifts][i]:
-                    violations += self.checkNeighborhood(
-                        i, storeShiftsDict, storeShifts)
+                isEssential = self.isEssential(self.entrada.types[storeShifts])
+                if not isEssential:
+                    if storeShiftsDict[storeShifts][i]:
+                        violations += self.checkNeighborhood(
+                            i, storeShiftsDict, storeShifts)
         return violations
 
     def checkNeighborhood(self, index, storeShiftsDict, storeShifts):
@@ -133,12 +133,12 @@ class StoreSchedulingProblem:
         # iterate over the shifts of each store:
         for storeShifts in storeShiftsDict:
 
-            #isEssential = self.isEssential(self.entrada.types[storeShifts])
-            #if not isEssential:
+            isEssential = self.isEssential(self.entrada.types[storeShifts])
+            if not isEssential:
                 # look for two cosecutive '1's:
-            for shift1, shift2 in zip(storeShiftsDict[storeShifts], storeShiftsDict[storeShifts][1:]):
-                if shift1 == 0 and shift2 == 0:
-                    violations += 1
+                for shift1, shift2 in zip(storeShiftsDict[storeShifts], storeShiftsDict[storeShifts][1:]):
+                    if shift1 == 0 and shift2 == 0:
+                        violations += 1
         return violations
 
     def countShiftsPerWeekViolations(self, storeShiftsDict):
