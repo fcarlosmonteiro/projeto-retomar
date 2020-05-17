@@ -4,13 +4,13 @@
 
 ## Informações gerais
 
-O projeto retomar consiste na aplicação de algoritmos da inteligência artificial para geração de escalonamento de horários para estabelecimentos comerciais.
+O projeto **Retomar** consiste na aplicação de algoritmos da inteligência artificial para geração de escalonamento de horários para estabelecimentos comerciais.
 
 Este projeto visa atender exclusivamente as autoridades responsáveis em criar ações para o recuperar a economia das cidades brasileiras pós covid-19.
 
-O Retomar apoia a quarentena e o distanciamento social. Portanto, o uso da ferramenta está condicionada a medidas governamentais de flexibilização da quarentena ou após a contenção do corona vírus.
+**O Retomar apoia a quarentena e o distanciamento social**, portanto, o uso da ferramenta está condicionada a medidas governamentais de flexibilização da quarentena ou após a contenção do corona vírus.
 
-A ferramenta utiliza um algoritmo genético para produzir um escalonamento de horários considerando principalmente o distanciamento social, fazendo que com mesmo poś covid, seja possível minimizar novos casos da doença e sem que comerciantes e a comunidade sofram com a perda da economia. 
+O sistema utiliza um algoritmo genético para produzir um escalonamento de horários considerando principalmente o distanciamento social, fazendo que com mesmo poś covid, seja possível minimizar novos casos da doença e sem que comerciantes e a comunidade sofram com a perda da economia. 
 
 # Time
 
