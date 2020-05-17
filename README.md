@@ -12,6 +12,6 @@ A ferramenta utiliza um algoritmo genético para produzir um escalonamento de ho
 
 # Time
 
-| [<img src="https://avatars2.githubusercontent.com/u/8319539?s=460&v=4" width=115><br><sub>@fcarlosmonteiro</sub>](https://github.com/fcarlosmonteiro) |  [<img src="https://avatars3.githubusercontent.com/u/42361930?s=460&v=4" width="115"><br><sub>@JailsonPanizzon</sub>](https://github.com/JailsonPanizzon)] | [ <img src="https://avatars0.githubusercontent.com/u/26147019?s=460&v=4" width=115><br><sub>@tekpixo</sub>](https://github.com/tekpixo) | [<img src="https://avatars0.githubusercontent.com/u/33067827?s=460&v=4" width=115><br><sub>@ricardobalbinot</sub>](https://github.com/ricardobalbinot) |
+| [<img src="https://avatars2.githubusercontent.com/u/8319539?s=460&v=4" width=115><br><sub>@fcarlosmonteiro</sub>] (https://github.com/fcarlosmonteiro) |  [<img src="https://avatars3.githubusercontent.com/u/42361930?s=460&v=4" width="115"><br><sub>@JailsonPanizzon</sub>](https://github.com/JailsonPanizzon)] | [<img src="https://avatars0.githubusercontent.com/u/26147019?s=460&v=4" width=115><br><sub>@tekpixo</sub>](https://github.com/tekpixo) | [<img src="https://avatars0.githubusercontent.com/u/33067827?s=460&v=4" width=115><br><sub>@ricardobalbinot</sub>](https://github.com/ricardobalbinot) |
 | :---: | :---: | :---: |
 
