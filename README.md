@@ -1,5 +1,7 @@
 <h1 align="center">Projeto Retomar https://loving-brown-ef4f21.netlify.app/</h1>
 
+<div align="center"><img src="./sandbox/logo/retomar.jpg" /></div>
+
 ## Informações gerais
 
 O projeto retomar consiste na aplicação de algoritmos da inteligência artificial para geração de escalonamento de horários para estabelecimentos comerciais.
