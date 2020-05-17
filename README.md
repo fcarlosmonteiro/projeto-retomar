@@ -1,10 +1,10 @@
-# Projeto Retomar
+# Retomar Project
 
 We develop a genetic algorithm for the store scheduling problem
 
 # Team
 
-Analista de Requisitos: Alinne
+Requirements Analyst: Alinne
 
 Dev-Backend: FCarlos
 
