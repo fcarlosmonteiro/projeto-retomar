@@ -9,7 +9,7 @@ class StoreSchedulingProblem:
     """This class encapsulates the Stores Scheduling problem
     """
 
-    def __init__(self, hardConstraintPenalty, quarteirao=0):
+    def __init__(self, hardConstraintPenalty, quarteirao=3):
         """
         :param hardConstraintPenalty: the penalty factor for a hard-constraint violation
         """
