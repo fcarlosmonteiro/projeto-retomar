@@ -100,7 +100,7 @@ types = [
 results = []
 
 for type_search in types:
-    key = "AIzaSyAc-DGRkW-kHTIcLivA7NLAFgRExkTAL_8"
+    key = "GOOGLE-API"
     location = "-22.925382,-43.180547"
     radius = "1500"
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+location+"&type="+type_search+"&radius="+radius+"&key="+key
