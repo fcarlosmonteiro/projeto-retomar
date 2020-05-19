@@ -1,6 +1,6 @@
 <h1 align="center">Projeto Retomar https://retomar.netlify.app/</h1>
 
-<div align="center"><img src="./sandbox/logo/retomar.jpg" /></div>
+<div align="center"><img src="./backend/sandbox/logo/retomar.jpg" /></div>
 
 ## Informações gerais
 
