@@ -139,6 +139,7 @@ resultJson["results"]=[]
 for r in results:
     for p in r:
         resultJson["results"].append(p)
+        
 # Dois vizinhos
 # with open("results-dv.json", "w") as res_file:
 #     data = json.dump(resultJson, res_file)
