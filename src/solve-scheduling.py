@@ -4,6 +4,7 @@ from deap import tools
 
 import random
 import numpy
+import time
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -63,6 +64,7 @@ toolbox.register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
 
 # Genetic Algorithm flow:
 def main():
+    start_time = time.time()
 
     # create initial population (generation 0):
     population = toolbox.populationCreator(n=POPULATION_SIZE)
@@ -79,8 +81,10 @@ def main():
     population, logbook = elitism.eaSimpleWithElitism(population, toolbox, cxpb=P_CROSSOVER, mutpb=P_MUTATION,
                                                       ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
 
+    time_execution = time.time() - start_time
     # print best solution found:
     best = hof.items[0]
+    print("-- Time execution", time_execution)
     #print("-- Best Individual = ", best)
     print("-- Best Fitness = ", best.fitness.values[0])
     print()

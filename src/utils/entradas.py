@@ -1,6 +1,7 @@
 import json
 import math
 from collections import defaultdict
+import LocalConfig
 R = 6373.0
 initialLat = -22.925382
 initialLong = -43.180547
@@ -40,7 +41,7 @@ class Entrada(object):
 
     def extractPoints(self):
         points = {}
-        with open('nearby.json', 'r', encoding='utf-8') as json_file:
+        with open('nearby'+local+'.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             for places in data['results']:
                 location = places['geometry']['location']
@@ -50,7 +51,7 @@ class Entrada(object):
 
     def extractTypes(self):
         types = {}
-        with open('nearby.json', 'r', encoding='utf-8') as json_file:
+        with open('nearby'+local+'.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             for places in data['results']:
                 typesList = places['types']
@@ -60,7 +61,7 @@ class Entrada(object):
 
     def storeList(self, points):
         stores = []
-        with open('nearby.json', 'r', encoding='utf-8') as json_file:
+        with open('nearby'+local+'.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             results = data['results']
             for places in points:
@@ -69,7 +70,7 @@ class Entrada(object):
                     if places == i["place_id"]:
                         self.storeName[places] = i['name']
 
-        with open("stores.json", "w") as stores_file:
+        with open("stores"+local+".json", "w") as stores_file:
             data = json.dump(stores, stores_file)
 
     def calculateDistance(self, origin, destination):
@@ -142,15 +143,15 @@ class Grafo(object):
 def addTypes():
     full_result = []
     for i in range(0,4):
-        with open("../results/Quadrante_"+str(i)+".json", "r", encoding='utf-8') as resultado_file:
+        with open("../results"+local+"/Quadrante_"+str(i)+".json", "r", encoding='utf-8') as resultado_file:
             data_res = json.load(resultado_file)
             for data in data_res:
-                with open('nearby.json', 'r', encoding='utf-8') as json_file:
+                with open('nearby'+local+'.json', 'r', encoding='utf-8') as json_file:
                     data_entrada = json.load(json_file)
                     for places in data_entrada["results"]:
                         if data["storeId"] == places["place_id"]:
                             data["types"] = places["types"]
                             full_result.append(data)
                             break
-    with open('schedule.json', 'w', encoding='utf-8') as json_file:
+    with open('schedule'+local+'.json', 'w', encoding='utf-8') as json_file:
         data = json.dump(full_result, json_file)

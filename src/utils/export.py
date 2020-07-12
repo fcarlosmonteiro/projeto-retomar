@@ -1,10 +1,10 @@
 import csv
 from .formatter import scheduleFormatterDictToJson
 import json
-
+from ..LocalConfig import local
 class Export(object):
     def __init__(self, storeShiftsDict, entrada, turnos, quadrante=0):
-        with open("results/Quadrante_"+str(quadrante) + '.json', 'w', encoding='utf-8') as json_file:
+        with open("results"+local+"/Quadrante_"+str(quadrante) + '.json', 'w', encoding='utf-8') as json_file:
             data = json.dump(scheduleFormatterDictToJson(storeShiftsDict, 2, 5,entrada.storeName), json_file)
 
         for i in range(0, turnos):

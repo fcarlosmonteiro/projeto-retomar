@@ -1,6 +1,7 @@
 import requests 
 import json
 from API_Key import api_key
+from ..LocalConfig import local
 
 types = [
 "accounting",
@@ -104,13 +105,14 @@ results = []
 for type_search in types:
     key = api_key
     # Dois vizinhos
-    location = "-25.746946,-53.055844"
-
+    if local == '-dv':
+        location = "-25.746946,-53.055844"
+    elif local == '-st':
     # Santo André - Colômbia
-    # location = "-25.746946,-53.055844"
-
-    # Catete
-    # location = "-22.925382,-43.180547"
+        location = "NOT FOund" 
+    #Catete
+    else:
+        location = "-22.925382,-43.180547"
     radius = "1500"
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+location+"&type="+type_search+"&radius="+radius+"&key="+key
     print("==================================================================================================")
@@ -140,14 +142,6 @@ for r in results:
     for p in r:
         resultJson["results"].append(p)
         
-# Dois vizinhos
-# with open("results-dv.json", "w") as res_file:
-#     data = json.dump(resultJson, res_file)
 
-# Santo André - Colômbia
-# with open("results-st.json", "w") as res_file:
-#     data = json.dump(resultJson, res_file)
-
-#Catete
-# with open("results.json", "w") as res_file:
-#     data = json.dump(resultJson, res_file)
+with open("results"+local+".json", "w") as res_file:
+    data = json.dump(resultJson, res_file)
