@@ -104,7 +104,11 @@ results = []
 for type_search in types:
     key = api_key
     # Dois vizinhos
-    location = "-25.746946, -53.055844"
+    location = "-25.746946,-53.055844"
+
+    # Santo André - Colômbia
+    # location = "-25.746946,-53.055844"
+
     # Catete
     # location = "-22.925382,-43.180547"
     radius = "1500"
@@ -135,5 +139,14 @@ resultJson["results"]=[]
 for r in results:
     for p in r:
         resultJson["results"].append(p)
-with open("results-dv.json", "w") as res_file:
-    data = json.dump(resultJson, res_file)
+# Dois vizinhos
+# with open("results-dv.json", "w") as res_file:
+#     data = json.dump(resultJson, res_file)
+
+# Santo André - Colômbia
+# with open("results-st.json", "w") as res_file:
+#     data = json.dump(resultJson, res_file)
+
+#Catete
+# with open("results.json", "w") as res_file:
+#     data = json.dump(resultJson, res_file)
