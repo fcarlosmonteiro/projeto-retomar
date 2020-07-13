@@ -1,0 +1,1 @@
+-- Time execution = 6.019554853439331-- Best Fitness = 1610.0

@@ -164,4 +164,4 @@ def addTypes():
                             break
     with open('schedule'+LocalConfig.local+'.json', 'w', encoding='utf-8') as json_file:
         data = json.dump(full_result, json_file)
-e = Entrada()
+# e = Entrada()

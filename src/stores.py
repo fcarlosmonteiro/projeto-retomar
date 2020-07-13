@@ -1,8 +1,9 @@
 import numpy as np
 import math
 import json
-from utils.entradas import Entrada
+from utils import Entrada
 from utils.export import Export
+import LocalConfig
 
 
 class StoreSchedulingProblem:
@@ -18,7 +19,7 @@ class StoreSchedulingProblem:
 
         # list of stores:
         self.entrada = Entrada(self.quarteirao)
-        with open('stores'+local+'.json', 'r', encoding='utf-8') as json_file:
+        with open('stores'+LocalConfig.local+'.json', 'r', encoding='utf-8') as json_file:
             self.stores = json.load(json_file)
         # self.stores = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 
