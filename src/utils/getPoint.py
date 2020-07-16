@@ -1,7 +1,7 @@
 import requests 
 import json
 from API_Key import api_key
-from ..LocalConfig import local
+import LocalConfig
 
 types = [
 "accounting",
@@ -105,11 +105,11 @@ results = []
 for type_search in types:
     key = api_key
     # Dois vizinhos
-    if local == '-dv':
+    if LocalConfig.local == '-dv':
         location = "-25.746946,-53.055844"
-    elif local == '-st':
+    elif LocalConfig.local == '-st':
     # Santo André - Colômbia
-        location = "NOT FOund" 
+        location = "12.582391,-81.692133" 
     #Catete
     else:
         location = "-22.925382,-43.180547"
@@ -143,5 +143,5 @@ for r in results:
         resultJson["results"].append(p)
         
 
-with open("results"+local+".json", "w") as res_file:
+with open("results"+LocalConfig.local+".json", "w") as res_file:
     data = json.dump(resultJson, res_file)

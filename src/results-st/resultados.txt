@@ -1,0 +1,85 @@
+Execução = 0
+
+   -- Quadrante = 0
+       -- Time execution = 4.8942108154296875
+       -- Best Fitness = 8180.0
+
+   -- Quadrante = 1
+       -- Time execution = 1.088042974472046
+       -- Best Fitness = 1990.0
+
+   -- Quadrante = 2
+       -- Time execution = 2.996293544769287
+       -- Best Fitness = 4020.0
+
+   -- Quadrante = 3
+       -- Time execution = 0.930227518081665
+       -- Best Fitness = 1110.0
+Execução = 1
+
+   -- Quadrante = 0
+       -- Time execution = 5.0704896450042725
+       -- Best Fitness = 8350.0
+
+   -- Quadrante = 1
+       -- Time execution = 1.0732178688049316
+       -- Best Fitness = 2020.0
+
+   -- Quadrante = 2
+       -- Time execution = 3.042072296142578
+       -- Best Fitness = 4010.0
+
+   -- Quadrante = 3
+       -- Time execution = 0.9173943996429443
+       -- Best Fitness = 1160.0
+Execução = 2
+
+   -- Quadrante = 0
+       -- Time execution = 5.079782724380493
+       -- Best Fitness = 8120.0
+
+   -- Quadrante = 1
+       -- Time execution = 1.1050686836242676
+       -- Best Fitness = 1990.0
+
+   -- Quadrante = 2
+       -- Time execution = 3.0021820068359375
+       -- Best Fitness = 4060.0
+
+   -- Quadrante = 3
+       -- Time execution = 0.9675016403198242
+       -- Best Fitness = 1080.0
+Execução = 3
+
+   -- Quadrante = 0
+       -- Time execution = 5.052881240844727
+       -- Best Fitness = 8190.0
+
+   -- Quadrante = 1
+       -- Time execution = 1.135695219039917
+       -- Best Fitness = 2000.0
+
+   -- Quadrante = 2
+       -- Time execution = 3.078197717666626
+       -- Best Fitness = 4020.0
+
+   -- Quadrante = 3
+       -- Time execution = 0.9653873443603516
+       -- Best Fitness = 1050.0
+Execução = 4
+
+   -- Quadrante = 0
+       -- Time execution = 5.156934976577759
+       -- Best Fitness = 8310.0
+
+   -- Quadrante = 1
+       -- Time execution = 1.0755953788757324
+       -- Best Fitness = 1980.0
+
+   -- Quadrante = 2
+       -- Time execution = 3.1139609813690186
+       -- Best Fitness = 4050.0
+
+   -- Quadrante = 3
+       -- Time execution = 1.0732169151306152
+       -- Best Fitness = 1110.0

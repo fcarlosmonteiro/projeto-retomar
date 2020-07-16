@@ -1,3 +1,4 @@
 pandas
 deap
 seaborn
+requests

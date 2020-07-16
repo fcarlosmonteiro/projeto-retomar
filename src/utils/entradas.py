@@ -8,8 +8,8 @@ if LocalConfig.local == '-dv':
     initialLat = -25.746946
     initialLong = -53.055844
 elif LocalConfig.local == '-st':
-    initialLat = -22.925382
-    initialLong = -43.180547
+    initialLat = 12.582391
+    initialLong = -81.692133
 else:
     initialLat = -22.925382
     initialLong = -43.180547
