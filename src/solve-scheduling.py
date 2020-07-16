@@ -51,13 +51,13 @@ toolbox[3].register("zeroOrOne", random.randint, 0, 1)
 
 # create the individual operator to fill up an Individual instance:
 toolbox[0].register("individualCreator", tools.initRepeat,
-                 creator.Individual, toolbox[0].zeroOrOne, len(nsp))
+                 creator.Individual, toolbox[0].zeroOrOne, len(nsp[0]))
 toolbox[1].register("individualCreator", tools.initRepeat,
-                 creator.Individual, toolbox[1].zeroOrOne, len(nsp))
+                 creator.Individual, toolbox[1].zeroOrOne, len(nsp[1]))
 toolbox[2].register("individualCreator", tools.initRepeat,
-                 creator.Individual, toolbox[2].zeroOrOne, len(nsp))
+                 creator.Individual, toolbox[2].zeroOrOne, len(nsp[2]))
 toolbox[3].register("individualCreator", tools.initRepeat,
-                 creator.Individual, toolbox[3].zeroOrOne, len(nsp))                
+                 creator.Individual, toolbox[3].zeroOrOne, len(nsp[3]))                
 # create the population operator to generate a list of individuals:
 toolbox[0].register("populationCreator", tools.initRepeat,
                  list, toolbox[0].individualCreator)
@@ -85,19 +85,19 @@ toolbox[0].register("evaluate", getCost0)
 # genetic operators:
 toolbox[0].register("select", tools.selTournament, tournsize=5)
 toolbox[0].register("mate", tools.cxTwoPoint)
-toolbox[0].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+toolbox[0].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp[0]))
 
 toolbox[1].register("select", tools.selTournament, tournsize=5)
 toolbox[1].register("mate", tools.cxTwoPoint)
-toolbox[1].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+toolbox[1].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp[1]))
 
 toolbox[2].register("select", tools.selTournament, tournsize=5)
 toolbox[2].register("mate", tools.cxTwoPoint)
-toolbox[2].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+toolbox[2].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp[2]))
 
 toolbox[3].register("select", tools.selTournament, tournsize=5)
 toolbox[3].register("mate", tools.cxTwoPoint)
-toolbox[3].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+toolbox[3].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp[3]))
 
 
 # Genetic Algorithm flow:
@@ -127,7 +127,7 @@ def main(quadrante):
     print("-- Best Fitness = ", best.fitness.values[0])
     print()
     print("-- Schedule = ")
-    nsp.printScheduleInfo(best)
+    nsp[quadrante].printScheduleInfo(best)
     arquivo = open('results'+LocalConfig.local+'/resultados.txt', 'w')
     arquivo.write("-- Time execution = "+ str(time_execution))
     arquivo.write("\n-- Best Fitness = "+ str(best.fitness.values[0]))
