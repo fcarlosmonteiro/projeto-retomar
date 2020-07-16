@@ -27,10 +27,15 @@ HALL_OF_FAME_SIZE = 30
 RANDOM_SEED = 10
 random.seed(RANDOM_SEED)
 
-toolbox = base.Toolbox()
+toolbox = [base.Toolbox(),base.Toolbox(),base.Toolbox(),base.Toolbox()]
 
 # create the store scheduling problem instance to be used:
-nsp = stores.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY)
+nsp = [
+    stores.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY,0),
+    stores.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY,1),
+    stores.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY,2),
+    stores.StoreSchedulingProblem(HARD_CONSTRAINT_PENALTY,3)
+]
 
 # define a single objective, maximizing fitness strategy:
 creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
@@ -39,36 +44,68 @@ creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
 creator.create("Individual", list, fitness=creator.FitnessMin)
 
 # create an operator that randomly returns 0 or 1:
-toolbox.register("zeroOrOne", random.randint, 0, 1)
+toolbox[0].register("zeroOrOne", random.randint, 0, 1)
+toolbox[1].register("zeroOrOne", random.randint, 0, 1)
+toolbox[2].register("zeroOrOne", random.randint, 0, 1)
+toolbox[3].register("zeroOrOne", random.randint, 0, 1)
 
 # create the individual operator to fill up an Individual instance:
-toolbox.register("individualCreator", tools.initRepeat,
-                 creator.Individual, toolbox.zeroOrOne, len(nsp))
-
+toolbox[0].register("individualCreator", tools.initRepeat,
+                 creator.Individual, toolbox[0].zeroOrOne, len(nsp))
+toolbox[1].register("individualCreator", tools.initRepeat,
+                 creator.Individual, toolbox[1].zeroOrOne, len(nsp))
+toolbox[2].register("individualCreator", tools.initRepeat,
+                 creator.Individual, toolbox[2].zeroOrOne, len(nsp))
+toolbox[3].register("individualCreator", tools.initRepeat,
+                 creator.Individual, toolbox[3].zeroOrOne, len(nsp))                
 # create the population operator to generate a list of individuals:
-toolbox.register("populationCreator", tools.initRepeat,
-                 list, toolbox.individualCreator)
-
-
+toolbox[0].register("populationCreator", tools.initRepeat,
+                 list, toolbox[0].individualCreator)
+toolbox[1].register("populationCreator", tools.initRepeat,
+                 list, toolbox[1].individualCreator)
+toolbox[2].register("populationCreator", tools.initRepeat,
+                 list, toolbox[2].individualCreator)
+toolbox[3].register("populationCreator", tools.initRepeat,
+                 list, toolbox[3].individualCreator)
 # fitness calculation
-def getCost(individual):
-    return nsp.getCost(individual),  # return a tuple
+def getCost0(individual):
+    return nsp[0].getCost(individual),  # return a tuple
+def getCost1(individual):
+    return nsp[1].getCost(individual),  # return a tuple
+def getCost2(individual):
+    return nsp[2].getCost(individual),  # return a tuple
+def getCost3(individual):
+    return nsp[3].getCost(individual),  # return a tuple
 
-
-toolbox.register("evaluate", getCost)
+toolbox[3].register("evaluate", getCost3)
+toolbox[2].register("evaluate", getCost2)
+toolbox[1].register("evaluate", getCost1)
+toolbox[0].register("evaluate", getCost0)
 
 # genetic operators:
-toolbox.register("select", tools.selTournament, tournsize=5)
-toolbox.register("mate", tools.cxTwoPoint)
-toolbox.register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+toolbox[0].register("select", tools.selTournament, tournsize=5)
+toolbox[0].register("mate", tools.cxTwoPoint)
+toolbox[0].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+
+toolbox[1].register("select", tools.selTournament, tournsize=5)
+toolbox[1].register("mate", tools.cxTwoPoint)
+toolbox[1].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+
+toolbox[2].register("select", tools.selTournament, tournsize=5)
+toolbox[2].register("mate", tools.cxTwoPoint)
+toolbox[2].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
+
+toolbox[3].register("select", tools.selTournament, tournsize=5)
+toolbox[3].register("mate", tools.cxTwoPoint)
+toolbox[3].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp))
 
 
 # Genetic Algorithm flow:
-def main():
+def main(quadrante):
     start_time = time.time()
 
     # create initial population (generation 0):
-    population = toolbox.populationCreator(n=POPULATION_SIZE)
+    population = toolbox[quadrante].populationCreator(n=POPULATION_SIZE)
 
     # prepare the statistics object:
     stats = tools.Statistics(lambda ind: ind.fitness.values)
@@ -79,7 +116,7 @@ def main():
     hof = tools.HallOfFame(HALL_OF_FAME_SIZE)
 
     # perform the Genetic Algorithm flow with hof feature added:
-    population, logbook = elitism.eaSimpleWithElitism(population, toolbox, cxpb=P_CROSSOVER, mutpb=P_MUTATION,
+    population, logbook = elitism.eaSimpleWithElitism(population, toolbox[quadrante], cxpb=P_CROSSOVER, mutpb=P_MUTATION,
                                                       ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
 
     time_execution = time.time() - start_time
@@ -109,4 +146,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(0)

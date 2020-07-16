@@ -60,6 +60,7 @@ class StoreSchedulingProblem:
         """
 
         if len(schedule) != self.__len__():
+            print("===================================================> ",  len(schedule))
             raise ValueError("size of schedule list should be equal to ",
                              self.__len__())
 
