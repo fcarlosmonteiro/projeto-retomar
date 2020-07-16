@@ -2,13 +2,19 @@ import csv
 from .formatter import scheduleFormatterDictToJson
 import json
 import LocalConfig
-class Export(object):
-    def __init__(self, storeShiftsDict, entrada, turnos, quadrante=0):
-        with open("results"+LocalConfig.local+"/Quadrante_"+str(quadrante) + '.json', 'w', encoding='utf-8') as json_file:
-            data = json.dump(scheduleFormatterDictToJson(storeShiftsDict, 2, 5,entrada.storeName), json_file)
+import os.path
 
+
+class Export(object):
+    def __init__(self, storeShiftsDict, entrada, turnos, quadrante=0, execution=1):
+        if not os.path.isdir("results"+LocalConfig.local+"/execution"+str(execution)):
+            os.makedirs("results"+LocalConfig.local+"/execution"+str(execution))
+        with open("results"+LocalConfig.local+"/execution"+str(execution)+"/Quadrante_"+str(quadrante) + '.json', 'w', encoding='utf-8') as json_file:
+            data = json.dump(scheduleFormatterDictToJson(storeShiftsDict, 2, 5,entrada.storeName), json_file)
+        if not os.path.isdir("results"+LocalConfig.local+"/execution"+str(execution)+"/csv"):
+            os.makedirs("results"+LocalConfig.local+"/execution"+str(execution)+"/csv")
         for i in range(0, turnos):
-            with open("csv/Quandrante_"+str(quadrante)+"-"+str(i) + '.csv', 'w', newline='', encoding='utf-8') as csvfile:
+            with open("results"+LocalConfig.local+"/execution"+str(execution)+"/csv/Quandrante_"+str(quadrante)+"-"+str(i) + '.csv', 'w', newline='', encoding='utf-8') as csvfile:
                 spamwriter = csv.writer(csvfile,
                                         delimiter=',',
                                         quotechar='|',

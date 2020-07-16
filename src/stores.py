@@ -60,7 +60,6 @@ class StoreSchedulingProblem:
         """
 
         if len(schedule) != self.__len__():
-            print("===================================================> ",  len(schedule))
             raise ValueError("size of schedule list should be equal to ",
                              self.__len__())
 
@@ -208,7 +207,7 @@ class StoreSchedulingProblem:
 
         return violations
 
-    def printScheduleInfo(self, schedule):
+    def printScheduleInfo(self, schedule, execution):
         """
         Prints the schedule and violations details
         :param schedule: a list of binary values describing the given schedule
@@ -219,7 +218,7 @@ class StoreSchedulingProblem:
         for store in storeShiftsDict:  # all shifts of a single store
             print(store, ":", storeShiftsDict[store])
 
-        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek,self.quarteirao)
+        Export(storeShiftsDict, self.entrada, self.shiftsPerWeek,self.quarteirao, execution)
 
         print("Shifts Distance Violations = ",
               self.countDistanceViolations(storeShiftsDict

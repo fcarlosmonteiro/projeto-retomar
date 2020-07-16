@@ -20,7 +20,7 @@ HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violati
 POPULATION_SIZE = 300
 P_CROSSOVER = 0.9  # probability for crossover
 P_MUTATION = 0.3   # probability for mutating an individual
-MAX_GENERATIONS = 10
+MAX_GENERATIONS = 2
 HALL_OF_FAME_SIZE = 30
 
 # set the random seed:
@@ -101,7 +101,7 @@ toolbox[3].register("mutate", tools.mutFlipBit, indpb=1.0/len(nsp[3]))
 
 
 # Genetic Algorithm flow:
-def main(quadrante):
+def main(quadrante, execution):
     start_time = time.time()
 
     # create initial population (generation 0):
@@ -127,10 +127,17 @@ def main(quadrante):
     print("-- Best Fitness = ", best.fitness.values[0])
     print()
     print("-- Schedule = ")
-    nsp[quadrante].printScheduleInfo(best)
-    arquivo = open('results'+LocalConfig.local+'/resultados.txt', 'w')
-    arquivo.write("-- Time execution = "+ str(time_execution))
-    arquivo.write("\n-- Best Fitness = "+ str(best.fitness.values[0]))
+    nsp[quadrante].printScheduleInfo(best, execution)
+    if(execution == 0 and quadrante == 0):
+        arquivo = open('results'+LocalConfig.local+'/resultados.txt', 'w')
+    else:
+        arquivo = open('results'+LocalConfig.local+'/resultados.txt', 'a')
+    if(quadrante == 0):
+        arquivo.write("Execução = "+ str(execution)+'\n')
+
+    arquivo.write("\n   -- Quadrante = "+ str(quadrante))
+    arquivo.write("\n       -- Time execution = "+ str(time_execution))
+    arquivo.write("\n       -- Best Fitness = "+ str(best.fitness.values[0])+'\n')
     arquivo.close()
     # extract statistics:
     minFitnessValues, meanFitnessValues = logbook.select("min", "avg")
@@ -146,4 +153,6 @@ def main(quadrante):
 
 
 if __name__ == "__main__":
-    main(0)
+    for execution in range(5):
+        for quadrante in range(4):
+            main(quadrante,execution)
