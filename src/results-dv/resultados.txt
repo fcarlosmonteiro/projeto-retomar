@@ -1,85 +1,85 @@
 Execução = 0
 
    -- Quadrante = 0
-       -- Time execution = 3.090113401412964
-       -- Best Fitness = 4580.0
+       -- Time execution = 829.4207174777985
+       -- Best Fitness = 1160.0
 
    -- Quadrante = 1
-       -- Time execution = 2.1374948024749756
-       -- Best Fitness = 2830.0
+       -- Time execution = 576.3014438152313
+       -- Best Fitness = 740.0
 
    -- Quadrante = 2
-       -- Time execution = 2.937864303588867
-       -- Best Fitness = 3320.0
+       -- Time execution = 809.6166155338287
+       -- Best Fitness = 750.0
 
    -- Quadrante = 3
-       -- Time execution = 1.9800944328308105
-       -- Best Fitness = 2240.0
+       -- Time execution = 512.9481203556061
+       -- Best Fitness = 470.0
 Execução = 1
 
    -- Quadrante = 0
-       -- Time execution = 3.105720043182373
-       -- Best Fitness = 4510.0
+       -- Time execution = 853.5160174369812
+       -- Best Fitness = 1150.0
 
    -- Quadrante = 1
-       -- Time execution = 2.0787482261657715
-       -- Best Fitness = 2940.0
+       -- Time execution = 575.8553504943848
+       -- Best Fitness = 820.0
 
    -- Quadrante = 2
-       -- Time execution = 2.9774959087371826
-       -- Best Fitness = 3340.0
+       -- Time execution = 808.6183423995972
+       -- Best Fitness = 760.0
 
    -- Quadrante = 3
-       -- Time execution = 1.938718318939209
-       -- Best Fitness = 2070.0
+       -- Time execution = 535.8895046710968
+       -- Best Fitness = 400.0
 Execução = 2
 
    -- Quadrante = 0
-       -- Time execution = 3.032136917114258
-       -- Best Fitness = 4510.0
+       -- Time execution = 851.40953373909
+       -- Best Fitness = 1130.0
 
    -- Quadrante = 1
-       -- Time execution = 2.0289437770843506
-       -- Best Fitness = 2900.0
+       -- Time execution = 577.7732639312744
+       -- Best Fitness = 770.0
 
    -- Quadrante = 2
-       -- Time execution = 2.8996706008911133
-       -- Best Fitness = 3330.0
+       -- Time execution = 820.9655015468597
+       -- Best Fitness = 750.0
 
    -- Quadrante = 3
-       -- Time execution = 1.9564902782440186
-       -- Best Fitness = 2130.0
+       -- Time execution = 546.3167490959167
+       -- Best Fitness = 480.0
 Execução = 3
 
    -- Quadrante = 0
-       -- Time execution = 3.166670083999634
-       -- Best Fitness = 4510.0
+       -- Time execution = 869.3977415561676
+       -- Best Fitness = 1230.0
 
    -- Quadrante = 1
-       -- Time execution = 2.084815263748169
-       -- Best Fitness = 2920.0
+       -- Time execution = 582.0084896087646
+       -- Best Fitness = 790.0
 
    -- Quadrante = 2
-       -- Time execution = 2.897956132888794
-       -- Best Fitness = 3370.0
+       -- Time execution = 821.9253318309784
+       -- Best Fitness = 760.0
 
    -- Quadrante = 3
-       -- Time execution = 1.9493484497070312
-       -- Best Fitness = 2180.0
+       -- Time execution = 540.4709475040436
+       -- Best Fitness = 480.0
 Execução = 4
 
    -- Quadrante = 0
-       -- Time execution = 3.1256070137023926
-       -- Best Fitness = 4610.0
+       -- Time execution = 853.1946473121643
+       -- Best Fitness = 1060.0
 
    -- Quadrante = 1
-       -- Time execution = 2.068723440170288
-       -- Best Fitness = 2880.0
+       -- Time execution = 566.8716952800751
+       -- Best Fitness = 840.0
 
    -- Quadrante = 2
-       -- Time execution = 2.890137195587158
-       -- Best Fitness = 3310.0
+       -- Time execution = 808.953462600708
+       -- Best Fitness = 780.0
 
    -- Quadrante = 3
-       -- Time execution = 1.9209113121032715
-       -- Best Fitness = 2110.0
+       -- Time execution = 534.138888835907
+       -- Best Fitness = 490.0

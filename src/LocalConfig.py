@@ -1,1 +1,1 @@
-local = '-st'
+local = '-dv'
