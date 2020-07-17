@@ -221,9 +221,7 @@ class StoreSchedulingProblem:
         Export(storeShiftsDict, self.entrada, self.shiftsPerWeek,self.quarteirao, execution)
 
         print("Shifts Distance Violations = ",
-              self.countDistanceViolations(storeShiftsDict
-
-                                           ))
+              self.countDistanceViolations(storeShiftsDict))
         print()
 
         print("Consecutive shift violations = ",

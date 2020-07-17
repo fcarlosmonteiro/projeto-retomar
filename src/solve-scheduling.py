@@ -20,7 +20,7 @@ HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violati
 POPULATION_SIZE = 300
 P_CROSSOVER = 0.9  # probability for crossover
 P_MUTATION = 0.3   # probability for mutating an individual
-MAX_GENERATIONS = 1000
+MAX_GENERATIONS = 100
 HALL_OF_FAME_SIZE = 30
 
 # set the random seed:
@@ -137,7 +137,10 @@ def main(quadrante, execution):
 
     arquivo.write("\n   -- Quadrante = "+ str(quadrante))
     arquivo.write("\n       -- Time execution = "+ str(time_execution))
-    arquivo.write("\n       -- Best Fitness = "+ str(best.fitness.values[0])+'\n')
+    arquivo.write("\n       -- Best Fitness = "+ str(best.fitness.values[0]))
+    arquivo.write("\n       -- Shifts Distance Violations = "+ str(nsp[quadrante].countDistanceViolations(nsp[quadrante].getStoreShifts(best))))
+    arquivo.write("\n       -- Consecutive shift violations = "+ str(nsp[quadrante].countConsecutiveShiftViolations(nsp[quadrante].getStoreShifts(best)))+'\n')
+
     arquivo.close()
     # extract statistics:
     minFitnessValues, meanFitnessValues = logbook.select("min", "avg")
@@ -153,6 +156,6 @@ def main(quadrante, execution):
 
 
 if __name__ == "__main__":
-    for execution in range(5):
-        for quadrante in range(4):
+    for execution in range(1):
+        for quadrante in range(1):
             main(quadrante,execution)
