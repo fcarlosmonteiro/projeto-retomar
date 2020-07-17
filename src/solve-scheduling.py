@@ -1,6 +1,8 @@
 from deap import base
 from deap import creator
 from deap import tools
+import csv
+
 
 import random
 import numpy
@@ -17,11 +19,11 @@ import LocalConfig
 HARD_CONSTRAINT_PENALTY = 10  # the penalty factor for a hard-constraint violation
 
 # Genetic Algorithm constants:
-POPULATION_SIZE = 300
+POPULATION_SIZE = 200
 P_CROSSOVER = 0.9  # probability for crossover
 P_MUTATION = 0.3   # probability for mutating an individual
-MAX_GENERATIONS = 100
-HALL_OF_FAME_SIZE = 30
+MAX_GENERATIONS = 10
+HALL_OF_FAME_SIZE = 20
 
 # set the random seed:
 RANDOM_SEED = 10
@@ -114,16 +116,35 @@ def main(quadrante, execution):
 
     # define the hall-of-fame object:
     hof = tools.HallOfFame(HALL_OF_FAME_SIZE)
+    csv_fie_name = 'results'+LocalConfig.local+'/execution'+str(execution)+'/resultados-'+str(execution)+'.csv'
+    if(quadrante == 0):
+        with open(csv_fie_name,  'w', newline='', encoding='utf-8') as csvfile:
+            spamwriter = csv.writer(csvfile,
+                                        delimiter=',',
+                                        quotechar='|',
+                                        quoting=csv.QUOTE_MINIMAL)
+            spamwriter.writerow(["Quadrante "+str(quadrante)])
+            spamwriter.writerow(["Generation","Nevals","Min", "Avg","Shift distance violations", "Consecutive shift violations"])
+    else:
+        with open(csv_fie_name,  'a', newline='', encoding='utf-8') as csvfile:
+            spamwriter = csv.writer(csvfile,
+                                        delimiter=',',
+                                        quotechar='|',
+                                        quoting=csv.QUOTE_MINIMAL)
+            spamwriter.writerow([])
+            spamwriter.writerow(["Quadrante "+str(quadrante)])
+            spamwriter.writerow(["Generation","Nevals","Min", "Avg","Shift distance violations", "Consecutive shift violations"])
+
 
     # perform the Genetic Algorithm flow with hof feature added:
-    population, logbook = elitism.eaSimpleWithElitism(population, toolbox[quadrante], cxpb=P_CROSSOVER, mutpb=P_MUTATION,
-                                                      ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True)
+    population, logbook = elitism.eaSimpleWithElitism(nsp[quadrante], population, toolbox[quadrante], cxpb=P_CROSSOVER, mutpb=P_MUTATION,
+                                                      ngen=MAX_GENERATIONS, stats=stats, halloffame=hof, verbose=True, file_name = csv_fie_name, hof_size = HALL_OF_FAME_SIZE)
 
     time_execution = time.time() - start_time
     # print best solution found:
     best = hof.items[0]
     print("-- Time execution", time_execution)
-    #print("-- Best Individual = ", best)
+    # print("-- Best Individual = ", best)
     print("-- Best Fitness = ", best.fitness.values[0])
     print()
     print("-- Schedule = ")
@@ -156,6 +177,6 @@ def main(quadrante, execution):
 
 
 if __name__ == "__main__":
-    for execution in range(1):
-        for quadrante in range(1):
+    for execution in range(5):
+        for quadrante in range(4):
             main(quadrante,execution)

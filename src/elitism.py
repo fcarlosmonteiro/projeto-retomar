@@ -1,9 +1,10 @@
 from deap import tools
 from deap import algorithms
+import csv
 
 
-def eaSimpleWithElitism(population, toolbox, cxpb, mutpb, ngen, stats=None,
-                        halloffame=None, verbose=__debug__):
+def eaSimpleWithElitism(nsp, population, toolbox, cxpb, mutpb, ngen, stats=None,
+                        halloffame=None, verbose=__debug__, file_name = '', hof_size = None):
     """This algorithm is similar to DEAP eaSimple() algorithm, with the modification that
     halloffame is used to implement an elitism mechanism. The individuals contained in the
     halloffame are directly injected into the next generation and are not subject to the
@@ -43,7 +44,8 @@ def eaSimpleWithElitism(population, toolbox, cxpb, mutpb, ngen, stats=None,
         fitnesses = toolbox.map(toolbox.evaluate, invalid_ind)
         for ind, fit in zip(invalid_ind, fitnesses):
             ind.fitness.values = fit
-
+        hof_aux = tools.HallOfFame(hof_size)
+        hof_aux.update(offspring)
         # add the best back to population:
         offspring.extend(halloffame.items)
 
@@ -52,11 +54,23 @@ def eaSimpleWithElitism(population, toolbox, cxpb, mutpb, ngen, stats=None,
 
         # Replace the current population by the offspring
         population[:] = offspring
-
         # Append the current generation statistics to the logbook
         record = stats.compile(population) if stats else {}
         logbook.record(gen=gen, nevals=len(invalid_ind), **record)
         if verbose:
             print(logbook.stream)
+        with open(file_name, 'a', newline='', encoding='utf-8') as csvfile:
+            spamwriter = csv.writer(csvfile,
+                                    delimiter=',',
+                                    quotechar='|',
+                                    quoting=csv.QUOTE_MINIMAL)
+            spamwriter.writerow([
+                gen,
+                len(invalid_ind),
+                record['min'],
+                record['avg'],
+                nsp.countDistanceViolations(nsp.getStoreShifts(hof_aux.items[0])),
+                nsp.countConsecutiveShiftViolations(nsp.getStoreShifts(hof_aux.items[0]))
+                 ])
 
     return population, logbook
