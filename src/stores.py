@@ -139,7 +139,7 @@ class StoreSchedulingProblem:
             if not isEssential:
                 # look for two cosecutive '1's:
                 for shift1, shift2 in zip(storeShiftsDict[storeShifts], storeShiftsDict[storeShifts][1:]):
-                    if shift1 == 0 and shift2 == 0:
+                    if shift1 == 1 and shift2 == 1:
                         violations += 1
         return violations
 
