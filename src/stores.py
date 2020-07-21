@@ -77,6 +77,7 @@ class StoreSchedulingProblem:
         #   storeShiftsDict)
         shiftDistanceViolations = self.countDistanceViolations(storeShiftsDict)
         # calculate the cost of the violations:
+        # hardContstraintViolations = shiftDistanceViolations
         hardContstraintViolations = shiftDistanceViolations + consecutiveShiftViolations
        # softContstraintViolations = shiftPreferenceViolations
 
