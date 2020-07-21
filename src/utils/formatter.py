@@ -7,6 +7,7 @@ def scheduleFormatterDictToJson(storeShiftsDict, shiftsAmount, daysAmount,storeN
             storeSchedule = {
                 'storeId': store,
                 'store': storeNameDict[store],
+                'openShiftPerWeek': storeShiftsDict[store].count(1),
                 'schedule': [{
                     'monday': storeShiftsDict[store][0:2],
                     'tuesday': storeShiftsDict[store][2:4],
@@ -22,6 +23,7 @@ def scheduleFormatterDictToJson(storeShiftsDict, shiftsAmount, daysAmount,storeN
             storeSchedule = {
                 'storeId': store,
                 'store': storeNameDict[store],
+                'openShiftPerWeek': storeShiftsDict[store].count(1),
                 'schedule': [{
                     'monday': storeShiftsDict[store][0:2],
                     'tuesday': storeShiftsDict[store][2:4],
