@@ -32,7 +32,7 @@ class StoreSchedulingProblem:
 
         # min and max number of stores allowed for each shift - morning, evening, night:
         store_total = len(self.stores)
-        self.shiftMin = [store_total-20, store_total-20]
+        self.shiftMin = [int(store_total*0.8), int(store_total*0.8)]
         self.shiftMax = [store_total, store_total]
 
         # max shifts per week allowed for each stores
@@ -140,7 +140,7 @@ class StoreSchedulingProblem:
             if not isEssential:
                 # look for two cosecutive '1's:
                 for shift1, shift2 in zip(storeShiftsDict[storeShifts], storeShiftsDict[storeShifts][1:]):
-                    if shift1 == 0 and shift2 == 0:
+                    if shift1 == 1 and shift2 == 1:
                         violations += 1
         return violations
 
