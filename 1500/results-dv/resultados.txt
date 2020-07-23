@@ -1,0 +1,125 @@
+Execução = 0
+
+   -- Quadrante = 0
+       -- Time execution = 456.84266924858093
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 263
+
+   -- Quadrante = 1
+       -- Time execution = 308.9156539440155
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 174
+
+   -- Quadrante = 2
+       -- Time execution = 428.02406644821167
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 241
+
+   -- Quadrante = 3
+       -- Time execution = 276.41412329673767
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 157
+Execução = 1
+
+   -- Quadrante = 0
+       -- Time execution = 459.2306818962097
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 229
+
+   -- Quadrante = 1
+       -- Time execution = 292.0673797130585
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 154
+
+   -- Quadrante = 2
+       -- Time execution = 423.7108714580536
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 264
+
+   -- Quadrante = 3
+       -- Time execution = 270.08818197250366
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 137
+Execução = 2
+
+   -- Quadrante = 0
+       -- Time execution = 492.6947226524353
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 239
+
+   -- Quadrante = 1
+       -- Time execution = 368.12899899482727
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 168
+
+   -- Quadrante = 2
+       -- Time execution = 512.0849504470825
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 227
+
+   -- Quadrante = 3
+       -- Time execution = 510.25521206855774
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 182
+Execução = 3
+
+   -- Quadrante = 0
+       -- Time execution = 1513.643867969513
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 252
+
+   -- Quadrante = 1
+       -- Time execution = 936.1083588600159
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 149
+
+   -- Quadrante = 2
+       -- Time execution = 1265.6409196853638
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 219
+
+   -- Quadrante = 3
+       -- Time execution = 913.9369733333588
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 184
+Execução = 4
+
+   -- Quadrante = 0
+       -- Time execution = 548.9432518482208
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 243
+
+   -- Quadrante = 1
+       -- Time execution = 377.9558193683624
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 154
+
+   -- Quadrante = 2
+       -- Time execution = 557.5774111747742
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 223
+
+   -- Quadrante = 3
+       -- Time execution = 326.02351999282837
+       -- Best Fitness = 0.0
+       -- Shifts Distance Violations = 0
+       -- Consecutive shift violations = 159
