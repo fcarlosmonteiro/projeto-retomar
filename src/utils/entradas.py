@@ -149,7 +149,7 @@ class Grafo(object):
     def __getitem__(self, v):
         return self.adj[v]
 
-def addTypes():
+def addTypesAndJoinQuadrants():
     full_result = []
     for i in range(0,4):
         with open("../results"+LocalConfig.local+"/Quadrante_"+str(i)+".json", "r", encoding='utf-8') as resultado_file:
