@@ -46,7 +46,32 @@ function Home() {
   const [inputError, setInputError] = useState('');
   const history = useHistory();
 
-  const cidadesEscalonadas = [{ idEstado: 1, dsCidade: 'Rio de Janeiro, RJ' }];
+  const cidadesEscalonadas = [
+    { 
+      idEstado: 1,
+      idCidade: 1, 
+      dsCidade: 'Dois Vizinhos, PR, Brasil ',
+      listBairro:[
+        { id: 1, dsBairro: 'Centro'}
+      ] 
+    },
+    { 
+      idEstado: 2,
+      idCidade: 2,
+      dsCidade: 'San Andrés, SC, Colômbia',
+      listBairro:[
+        { id: 1, dsBairro: 'Playa Spratt Bight'}
+      ] 
+    },
+    { 
+      idEstado: 3,
+      idCidade: 3,
+      dsCidade: 'Rio de Janeiro, RJ, Brasil',
+      listBairro:[
+        { id: 1, dsBairro: 'Catete'}
+      ] 
+    }
+  ];
 
   function handleSelecionaCidade(event) {
     event.preventDefault();
@@ -55,7 +80,7 @@ function Home() {
       setInputError('Informe a cidade desejada');
     } else {
       setInputError('');
-      history.push('/bairro');
+      history.push('/bairro', {cidade:cidade});
     }
   }
 

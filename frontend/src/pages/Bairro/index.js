@@ -47,7 +47,7 @@ function Bairro() {
   const [inputError, setInputError] = useState('');
   const history = useHistory();
 
-  const bairrosEscalonados = [{ id: 1, dsBairro: 'Catete' }];
+  const bairrosEscalonados = history.location.state.cidade.listBairro;
 
   function handleSelecionaBairro(event) {
     event.preventDefault();
@@ -56,7 +56,7 @@ function Bairro() {
       setInputError('Informe o bairro desejado');
     } else {
       setInputError('');
-      history.push('/horarios');
+      history.push('/horarios', {cidade:history.location.state.cidade, bairro:bairro});
     }
   }
 
@@ -88,7 +88,7 @@ function Bairro() {
               <div>
                 <span className="circle-green">•</span>
                 <div>
-                  <strong>Rio de Janeiro</strong>
+                <strong>{history.location.state.cidade.dsCidade}</strong>
                   <Link to="/">Alterar cidade</Link>
                 </div>
               </div>

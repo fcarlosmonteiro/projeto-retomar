@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
@@ -18,6 +18,8 @@ import {
 
 import Logo from '../../images/retomar-svg.svg';
 import scheduleJSON from '../../schedule/schedule.json';
+import scheduleJSON_DV from '../../schedule/schedule-dv.json';
+import scheduleJSON_ST from '../../schedule/schedule-st.json';
 
 const darkTheme = createMuiTheme({
   overrides: {
@@ -45,6 +47,11 @@ const darkTheme = createMuiTheme({
 
 function Horarios() {
   const [categoria, setCategoria] = useState('');
+  const history = useHistory();
+  const cidadeSelecionada = history.location.state.cidade;
+  const bairroSelecionado = history.location.state.bairro;
+
+
 
   const categoriasEstabelecimentos = [
     {
@@ -272,7 +279,13 @@ function Horarios() {
   }
 
   function buildEstabelecimentosList() {
-    return scheduleJSON.map(store => {
+    let scheduleSELECTED = scheduleJSON
+    if (cidadeSelecionada.idCidade === 1){
+      scheduleSELECTED = scheduleJSON_DV
+    }else if(cidadeSelecionada.idCidade === 2){
+      scheduleSELECTED = scheduleJSON_ST
+    }
+    return scheduleSELECTED.map(store => {
       const categoriasStore = translateCategorias(store.types);
       const categoriasText = categoriasStore.map((m, index) =>
         categoriasStore.length - 1 !== index
@@ -351,7 +364,7 @@ function Horarios() {
               <ItemGuia>
                 <span className="circle-green">•</span>
                 <div>
-                  <strong>Rio de Janeiro</strong>
+                <strong>{cidadeSelecionada.dsCidade}</strong>
                   <Link to="/">Alterar cidade</Link>
                 </div>
               </ItemGuia>
@@ -361,8 +374,11 @@ function Horarios() {
               <ItemGuia>
                 <span className="circle-green">•</span>
                 <div>
-                  <strong>Bairro Catete</strong>
-                  <Link to="/bairro">Alterar bairro</Link>
+                <strong>{bairroSelecionado.dsBairro}</strong>
+                  <Link to={{
+                    pathname: "/bairro",
+                    state:  {cidade:cidadeSelecionada} 
+                  }}>Alterar bairro</Link>
                 </div>
               </ItemGuia>
             </Col>
